@@ -5,8 +5,21 @@
     <link>https://taeoh416.github.io/polymarket-scanner/</link>
     <description>주간 일평균 대비 3배 이상 거래량이 급증한 마켓</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 25 Nov 2026 02:51:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 12:44:10 +0000</lastBuildDate>
     <atom:link href="https://taeoh416.github.io/polymarket-scanner/surge.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[급등 +11%p | 53%→64%] B200 average rental price in June 2027? [Above $8.00] ($109K/24h)</title>
+      <link>https://polymarket.com/event/b200-average-rental-price-in-june-2027</link>
+      <guid isPermaLink="false">pm:1445756:movers:20261125</guid>
+      <pubDate>Wed, 25 Nov 2026 12:44:10 +0000</pubDate>
+      <category>확률 급변</category>
+      <category>자금 쏠림</category>
+      <category>매크로·테크</category>
+      <category>AI</category>
+      <category>B200</category>
+      <category>Ornn</category>
+      <description>&lt;p&gt;&lt;strong&gt;트랙:&lt;/strong&gt; 확률 급변, 자금 쏠림, 매크로·테크 · &lt;strong&gt;Score:&lt;/strong&gt; 125.4 · &lt;strong&gt;판세 반전:&lt;/strong&gt; 아니오&lt;/p&gt;&lt;p&gt;&lt;strong&gt;확률 요약 (Above $8.00):&lt;/strong&gt; 현재 &lt;strong&gt;64.5%&lt;/strong&gt; | 6h - | 24h +11.0%p | 7d -&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Above $1.50: &lt;strong&gt;95.5%&lt;/strong&gt; (-1.8%p)&lt;/li&gt;&lt;li&gt;Above $3.00: &lt;strong&gt;91.5%&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;Above $5.00: &lt;strong&gt;81.5%&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;Above $8.00 ★: &lt;strong&gt;64.5%&lt;/strong&gt; (+11.0%p)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;자금 흐름:&lt;/strong&gt; 24h 거래량 $109K (7일 일평균 대비 6.9x) · 유동성 $358K · 미결제약정 $66K · 댓글 0&lt;/p&gt;&lt;p&gt;&lt;strong&gt;일정:&lt;/strong&gt; 개설 2026-11-23 12:02 KST · 마감 2027-07-01 12:59 KST&lt;/p&gt;&lt;p&gt;&lt;strong&gt;태그:&lt;/strong&gt; AI, B200, Ornn, Tech, NVIDIA, Compute&lt;/p&gt;&lt;p&gt;&lt;strong&gt;마켓 기준 요약:&lt;/strong&gt; This market will resolve to &amp;quot;Yes&amp;quot; if the average Ornn B200 index value in June 2027 is above the specified price. Otherwise, this market will resolve to &amp;quot;No&amp;quot;. The average Ornn B200 index value in June 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B200 index dated within June 2027, as published by Ornn, rounded to the nearest cent. A daily settled value is considered finalized once…&lt;/p&gt;&lt;p&gt;&lt;a href="https://polymarket.com/event/b200-average-rental-price-in-june-2027"&gt;Polymarket 원문 링크&lt;/a&gt; &lt;small&gt;(참고: 한국 IP에서는 451 지역 제한으로 원문 페이지가 열리지 않을 수 있습니다)&lt;/small&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>[급등 +7%p | 21%→28%] Jensen Huang out as NVIDIA CEO again by...? [December 31, 2027] ($433K/24h)</title>
       <link>https://polymarket.com/event/jensen-huang-out-as-nvidia-ceo-again-byptptpt</link>
