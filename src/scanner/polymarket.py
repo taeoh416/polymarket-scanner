@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import gzip
 import http.client
 import json
 import time
@@ -17,6 +18,12 @@ class PolymarketFetchError(RuntimeError):
     """Raised when Gamma API cannot be queried reliably."""
 
 
+def decode_response_bytes(raw: bytes, content_encoding: str | None) -> str:
+    if (content_encoding or "").lower() == "gzip" or raw[:2] == b"\x1f\x8b":
+        raw = gzip.decompress(raw)
+    return raw.decode("utf-8")
+
+
 def _http_get_json(url: str, timeout_sec: int, max_retries: int) -> Any:
     last_err: Exception | None = None
     for attempt in range(max_retries):
@@ -25,11 +32,12 @@ def _http_get_json(url: str, timeout_sec: int, max_retries: int) -> Any:
             headers={
                 "User-Agent": USER_AGENT,
                 "Accept": "application/json, */*",
+                "Accept-Encoding": "gzip",
             },
         )
         try:
             with urllib.request.urlopen(req, timeout=timeout_sec) as resp:
-                body = resp.read().decode("utf-8")
+                body = decode_response_bytes(resp.read(), resp.headers.get("Content-Encoding"))
                 return json.loads(body)
         except urllib.error.HTTPError as exc:
             err_body = ""

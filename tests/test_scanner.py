@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import gzip
 import json
 import tempfile
 import unittest
@@ -9,6 +10,7 @@ from pathlib import Path
 
 from scanner.config import ScannerConfig
 from scanner.engine import evaluate_events, select_items_to_emit
+from scanner.polymarket import decode_response_bytes
 from scanner.publisher import publish_outputs
 from scanner.run import run_scan
 from scanner.store import StateStore
@@ -325,6 +327,13 @@ class ScannerEngineTests(unittest.TestCase):
             html_out = (out_dir / "index.html").read_text(encoding="utf-8")
             self.assertIn("Polymarket 세상물정 스캐너", html_out)
             self.assertIn("긴급 시그널", html_out)
+
+    def test_gzip_response_decoding(self) -> None:
+        raw = json.dumps({"events": [{"id": "1"}]}).encode("utf-8")
+        compressed = gzip.compress(raw)
+        self.assertEqual(decode_response_bytes(compressed, "gzip"), raw.decode("utf-8"))
+        self.assertEqual(decode_response_bytes(compressed, None), raw.decode("utf-8"))
+        self.assertEqual(decode_response_bytes(raw, None), raw.decode("utf-8"))
 
 
 if __name__ == "__main__":
