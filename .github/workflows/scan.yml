@@ -1,0 +1,79 @@
+name: Scan Polymarket & Publish RSS
+
+on:
+  schedule:
+    # Runs every hour at :15 UTC (07:15 / 19:15 KST ready ahead of 07:30 / 20:00 KST briefings)
+    - cron: "15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: polymarket-scanner-publish
+  cancel-in-progress: false
+
+jobs:
+  scan-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code (main)
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run unit tests
+        run: PYTHONPATH=src python3 -m unittest discover -s tests -v
+
+      - name: Fetch existing gh-pages state
+        shell: bash
+        run: |
+          mkdir -p dist
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git fetch --depth=1 origin gh-pages:refs/remotes/origin/gh-pages
+            git archive origin/gh-pages | tar -x -C dist
+          fi
+
+      - name: Run Polymarket scanner
+        shell: bash
+        run: |
+          BASE_URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}"
+          PYTHONPATH=src python3 -m scanner.run \
+            --config config/scanner.json \
+            --state-dir dist/_state \
+            --out-dir dist \
+            --base-url "${BASE_URL}" \
+            --soft-fail
+
+      - name: Publish dist/ to gh-pages branch
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          TMP_DIR="$(mktemp -d)"
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git worktree add "${TMP_DIR}" origin/gh-pages
+            cd "${TMP_DIR}"
+            git checkout -B gh-pages
+          else
+            git worktree add --detach "${TMP_DIR}"
+            cd "${TMP_DIR}"
+            git checkout --orphan gh-pages
+          fi
+
+          # Clean previous files (except .git) and copy fresh dist/
+          find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+          cp -R "${GITHUB_WORKSPACE}/dist/." .
+
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+            exit 0
+          fi
+
+          git commit -m "chore: update Polymarket feeds ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          git push origin gh-pages
