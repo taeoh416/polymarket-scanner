@@ -125,6 +125,7 @@ class EvaluatedSignal:
     score: float
     is_urgent: bool
     urgent_reasons: list[str]
+    series_key: str | None = None
     all_market_prices: dict[str, float] = field(default_factory=dict)
 
     def to_item_dict(
@@ -588,6 +589,17 @@ def evaluate_events(
         clean_desc = re.sub(r"\s+", " ", raw_desc)
         excerpt = (clean_desc[:420] + "…") if len(clean_desc) > 420 else clean_desc
 
+        series_key: str | None = None
+        raw_series = ev.get("series")
+        if isinstance(raw_series, list) and raw_series and isinstance(raw_series[0], dict):
+            s_id = raw_series[0].get("slug") or raw_series[0].get("id")
+            if s_id:
+                series_key = f"series:{s_id}"
+        if series_key is None:
+            m_gpu = re.match(r"(?i)^((?:h100|h200|b200|b300|a100|gb200)\s+average\s+rental\s+price)", title)
+            if m_gpu:
+                series_key = f"gpu:{m_gpu.group(1).lower()}"
+
         signals.append(
             EvaluatedSignal(
                 event_id=ev_id,
@@ -614,12 +626,32 @@ def evaluate_events(
                 score=score,
                 is_urgent=is_urgent,
                 urgent_reasons=urgent_reasons,
+                series_key=series_key,
                 all_market_prices=market_prices,
             )
         )
 
     signals.sort(key=lambda s: (s.is_urgent, s.score, s.volume_24h), reverse=True)
+
+    # Deduplicate recurring series strips (e.g., 8 monthly GPU rental contracts -> keep top N)
+    max_per_series = int(cfg.publishing.get("max_per_series", 0) or 0)
+    if max_per_series > 0:
+        series_counts: dict[str, int] = {}
+        deduped: list[EvaluatedSignal] = []
+        for sig in signals:
+            if sig.series_key:
+                cnt = series_counts.get(sig.series_key, 0)
+                if cnt >= max_per_series:
+                    stats["excluded_series_duplicate"] = (
+                        stats.get("excluded_series_duplicate", 0) + 1
+                    )
+                    continue
+                series_counts[sig.series_key] = cnt + 1
+            deduped.append(sig)
+        signals = deduped
+
     stats["candidate_signals"] = len(signals)
+    stats["urgent_candidates"] = sum(1 for s in signals if s.is_urgent)
     return signals, stats
 
 

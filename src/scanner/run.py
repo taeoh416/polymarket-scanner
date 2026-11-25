@@ -61,6 +61,13 @@ def run_scan(
     pcfg = cfg.publishing
     store.prune_snapshots(ts, retention_hours=float(pcfg["snapshot_retention_hours"]))
     store.prune_published(ts, retention_days=float(pcfg["history_retention_days"]))
+    # Drop historical items that match newly added exclude rules
+    store.history = [
+        item
+        for item in store.history
+        if not ({str(t).strip().lower() for t in item.get("tags", [])} & cfg.exclude_tags)
+        and not any(rx.search(str(item.get("title", ""))) for rx in cfg.exclude_title_regexes)
+    ]
     history = store.merge_history(
         new_items=newly_emitted,
         now_ts=ts,

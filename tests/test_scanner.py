@@ -335,6 +335,102 @@ class ScannerEngineTests(unittest.TestCase):
         self.assertEqual(decode_response_bytes(compressed, None), raw.decode("utf-8"))
         self.assertEqual(decode_response_bytes(raw, None), raw.decode("utf-8"))
 
+    def test_weather_crypto_prices_and_series_dedup(self) -> None:
+        events = [
+            {
+                "id": "weather-1",
+                "slug": "moscow-temp-nov-25",
+                "title": "Highest temperature in Moscow on November 25?",
+                "active": True,
+                "closed": False,
+                "createdAt": _iso(self.now - timedelta(hours=5)),
+                "volume24hr": 40000,
+                "liquidity": 25000,
+                "tags": [{"slug": "weather", "label": "Weather"}],
+                "markets": [
+                    {
+                        "id": "m-w1",
+                        "question": "-1C",
+                        "outcomes": '["Yes", "No"]',
+                        "outcomePrices": '["0.70", "0.30"]',
+                        "oneDayPriceChange": 0.30,
+                        "spread": 0.01,
+                    }
+                ],
+            },
+            {
+                "id": "btc-hit-1",
+                "slug": "what-price-will-bitcoin-hit-nov",
+                "title": "What price will Bitcoin hit November 23-29?",
+                "active": True,
+                "closed": False,
+                "volume24hr": 500000,
+                "liquidity": 120000,
+                "tags": [{"slug": "crypto-prices", "label": "Crypto Prices"}],
+                "markets": [
+                    {
+                        "id": "m-b1",
+                        "question": "62000",
+                        "outcomes": '["Yes", "No"]',
+                        "outcomePrices": '["0.42", "0.58"]',
+                        "oneDayPriceChange": -0.20,
+                        "spread": 0.01,
+                    }
+                ],
+            },
+            {
+                "id": "gpu-jan",
+                "slug": "b300-jan-2027",
+                "title": "B300 average rental price in January 2027?",
+                "active": True,
+                "closed": False,
+                "createdAt": _iso(self.now - timedelta(hours=10)),
+                "volume24hr": 200000,
+                "volume1wk": 200000,
+                "liquidity": 60000,
+                "tags": [{"slug": "ai", "label": "AI"}],
+                "markets": [
+                    {
+                        "id": "m-g1",
+                        "question": "Above $13",
+                        "outcomes": '["Yes", "No"]',
+                        "outcomePrices": '["0.55", "0.45"]',
+                        "oneDayPriceChange": 0.14,
+                        "spread": 0.01,
+                    }
+                ],
+            },
+            {
+                "id": "gpu-feb",
+                "slug": "b300-feb-2027",
+                "title": "B300 average rental price in February 2027?",
+                "active": True,
+                "closed": False,
+                "createdAt": _iso(self.now - timedelta(hours=10)),
+                "volume24hr": 50000,
+                "volume1wk": 50000,
+                "liquidity": 30000,
+                "tags": [{"slug": "ai", "label": "AI"}],
+                "markets": [
+                    {
+                        "id": "m-g2",
+                        "question": "Above $14",
+                        "outcomes": '["Yes", "No"]',
+                        "outcomePrices": '["0.40", "0.60"]',
+                        "oneDayPriceChange": 0.10,
+                        "spread": 0.01,
+                    }
+                ],
+            },
+        ]
+        with tempfile.TemporaryDirectory() as tmp:
+            store = StateStore(Path(tmp))
+            signals, stats = evaluate_events(events, store, self.cfg, self.now_ts)
+            self.assertEqual(stats["excluded_noise"], 2)
+            self.assertEqual(stats.get("excluded_series_duplicate"), 1)
+            self.assertEqual(len(signals), 1)
+            self.assertEqual(signals[0].event_id, "gpu-jan")
+
 
 if __name__ == "__main__":
     unittest.main()
