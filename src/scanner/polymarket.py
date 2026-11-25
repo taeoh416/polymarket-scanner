@@ -10,7 +10,7 @@ from typing import Any
 
 from scanner.config import ScannerConfig
 
-USER_AGENT = "polymarket-scanner/1.0 (+https://github.com/taeoh416/polymarket-scanner)"
+USER_AGENT = "Mozilla/5.0 (compatible; PolymarketDigestFeed/1.0)"
 
 
 class PolymarketFetchError(RuntimeError):
@@ -24,7 +24,7 @@ def _http_get_json(url: str, timeout_sec: int, max_retries: int) -> Any:
             url,
             headers={
                 "User-Agent": USER_AGENT,
-                "Accept": "application/json",
+                "Accept": "application/json, */*",
             },
         )
         try:
@@ -32,11 +32,18 @@ def _http_get_json(url: str, timeout_sec: int, max_retries: int) -> Any:
                 body = resp.read().decode("utf-8")
                 return json.loads(body)
         except urllib.error.HTTPError as exc:
+            err_body = ""
+            try:
+                err_body = exc.read().decode("utf-8", "replace")[:200]
+            except OSError:
+                pass
             # 4xx (other than 429) should not be retried blindly
             if exc.code == 422:
                 raise
             if 400 <= exc.code < 500 and exc.code != 429:
-                raise PolymarketFetchError(f"HTTP {exc.code} for {url}") from exc
+                raise PolymarketFetchError(
+                    f"HTTP {exc.code} for {url} body={err_body!r}"
+                ) from exc
             last_err = exc
         except (
             urllib.error.URLError,
