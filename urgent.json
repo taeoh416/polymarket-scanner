@@ -1,0 +1,516 @@
+{
+  "updated_at_utc": "2026-11-25T02:49:22.793085+00:00",
+  "updated_at_kst": "2026-11-25T11:49:22.793085+09:00",
+  "has_urgent": true,
+  "urgent_count": 7,
+  "window_hours": 14,
+  "signals": [
+    {
+      "guid": "pm:1432092:movers:20261125",
+      "event_id": "1432092",
+      "slug": "anthropic-closes-below-ipo-price-by",
+      "title": "Anthropic closes below IPO price ($83) by...?",
+      "headline": "[급등 +65%p | 35%→100% · 판세반전 · 긴급] Anthropic closes below IPO price ($83) by...? [November 25] ($360K/24h)",
+      "url": "https://polymarket.com/event/anthropic-closes-below-ipo-price-by",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795574962,
+      "published_at": "2026-11-25T02:49:22.793085+00:00",
+      "score": 425.9,
+      "tracks": [
+        "movers",
+        "surge",
+        "macro-tech"
+      ],
+      "is_urgent": true,
+      "urgent_reasons": [
+        "확률 급변 충격",
+        "대형 마켓 50% 판세 반전"
+      ],
+      "is_flip": true,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "7208791",
+      "primary_label": "November 25",
+      "outcome_label": "Yes",
+      "price": 0.9995,
+      "delta_1h": null,
+      "delta_6h": null,
+      "delta_24h": 0.6495,
+      "delta_7d": null,
+      "top_outcomes": [
+        {
+          "label": "December 15",
+          "price": 0.9995,
+          "delta_24h": 0.3445,
+          "is_primary": false
+        },
+        {
+          "label": "December 31",
+          "price": 0.9995,
+          "delta_24h": 0.2195,
+          "is_primary": false
+        },
+        {
+          "label": "March 31",
+          "price": 0.9995,
+          "delta_24h": 0.152,
+          "is_primary": false
+        },
+        {
+          "label": "November 25",
+          "price": 0.9995,
+          "delta_24h": 0.6495,
+          "is_primary": true
+        }
+      ],
+      "volume_24h": 360410.67,
+      "volume_1wk": 721498.76,
+      "spike_ratio": 3.5,
+      "liquidity": 203878.32,
+      "open_interest": 235176.57,
+      "comment_count": 23,
+      "created_at": "2026-11-20T15:16:56.252495Z",
+      "end_date": "2027-04-01T03:59:00Z",
+      "age_hours": 107.5,
+      "tags": [
+        "AI",
+        "IPO",
+        "IPOs",
+        "Claude",
+        "Stocks",
+        "Finance"
+      ],
+      "description_excerpt": "This market will resolve to \"Yes\" if Anthropic's Class A common stock (Nasdaq: ANT) has an official closing price below $83.00, its initial public offering (IPO) price, on any trading day between market creation and the listed date (ET), inclusive. Otherwise, this market will resolve to \"No\". Anthropic's IPO priced at $83.00 per share of Class A common stock on November 18, 2026, as shown on the cover of its final pr…"
+    },
+    {
+      "guid": "pm:1372280:movers:20261125",
+      "event_id": "1372280",
+      "slug": "jensen-huang-admits-to-another-affair-by-december-31",
+      "title": "Jensen Huang admits to another affair with a woman by December 31?",
+      "headline": "[급등 +43%p | 57%→100% · 긴급] Jensen Huang admits to another affair with a woman by December 31? ($597K/24h)",
+      "url": "https://polymarket.com/event/jensen-huang-admits-to-another-affair-by-december-31",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795574962,
+      "published_at": "2026-11-25T02:49:22.793085+00:00",
+      "score": 316.2,
+      "tracks": [
+        "movers",
+        "surge",
+        "macro-tech"
+      ],
+      "is_urgent": true,
+      "urgent_reasons": [
+        "확률 급변 충격",
+        "대규모 자금 쏠림"
+      ],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": false,
+      "primary_market_id": "6989178",
+      "primary_label": "Jensen Huang admits to another affair with a woman by December 31?",
+      "outcome_label": "Yes",
+      "price": 0.9985,
+      "delta_1h": -0.0005,
+      "delta_6h": null,
+      "delta_24h": 0.4285,
+      "delta_7d": 0.7635,
+      "top_outcomes": [
+        {
+          "label": "Yes",
+          "price": 0.9985,
+          "delta_24h": 0.4285,
+          "is_primary": true
+        },
+        {
+          "label": "No",
+          "price": 0.0015,
+          "delta_24h": null,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 597023.76,
+      "volume_1wk": 709369.54,
+      "spike_ratio": 5.89,
+      "liquidity": 242622.68,
+      "open_interest": 263840.09,
+      "comment_count": 69,
+      "created_at": "2026-11-12T15:17:44.236714Z",
+      "end_date": "2027-01-01T04:59:00Z",
+      "age_hours": 299.5,
+      "tags": [
+        "AI",
+        "Tech",
+        "NVIDIA",
+        "Culture",
+        "Finance",
+        "Celebrities"
+      ],
+      "description_excerpt": "On November 8, 2026, Jensen Huang sent a message to NVIDIA employees in which he stated “I was unfaithful to my wife.” The message did not name the woman involved. News reports have identified that woman as Alice Huang. This market will resolve to “Yes” if, between market creation and December 31, 2026, 11:59 PM ET, Jensen Huang publicly acknowledges a romantic or sexual relationship outside his marriage with a woman…"
+    },
+    {
+      "guid": "pm:1375151:movers:20261125",
+      "event_id": "1375151",
+      "slug": "how-many-jensen-huang-affairs-will-be-reported-by-december-31",
+      "title": "How many Jensen Huang affairs will be reported by December 31?",
+      "headline": "[급락 -42%p | 42%→0% · 긴급] How many Jensen Huang affairs will be reported by December 31? [3] ($237K/24h)",
+      "url": "https://polymarket.com/event/how-many-jensen-huang-affairs-will-be-reported-by-december-31",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795574962,
+      "published_at": "2026-11-25T02:49:22.793085+00:00",
+      "score": 287.8,
+      "tracks": [
+        "movers",
+        "surge",
+        "macro-tech"
+      ],
+      "is_urgent": true,
+      "urgent_reasons": [
+        "확률 급변 충격"
+      ],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "6999515",
+      "primary_label": "3",
+      "outcome_label": "Yes",
+      "price": 0.0015,
+      "delta_1h": null,
+      "delta_6h": null,
+      "delta_24h": -0.4235,
+      "delta_7d": -0.6035,
+      "top_outcomes": [
+        {
+          "label": "4",
+          "price": 0.635,
+          "delta_24h": 0.39,
+          "is_primary": false
+        },
+        {
+          "label": "5",
+          "price": 0.14,
+          "delta_24h": -0.045,
+          "is_primary": false
+        },
+        {
+          "label": "7+",
+          "price": 0.1095,
+          "delta_24h": 0.0305,
+          "is_primary": false
+        },
+        {
+          "label": "3",
+          "price": 0.0015,
+          "delta_24h": -0.4235,
+          "is_primary": true
+        }
+      ],
+      "volume_24h": 236890.63,
+      "volume_1wk": 319879.62,
+      "spike_ratio": 5.18,
+      "liquidity": 238663.41,
+      "open_interest": 181342.67,
+      "comment_count": 35,
+      "created_at": "2026-11-12T22:35:29.728725Z",
+      "end_date": "2027-01-01T04:59:00Z",
+      "age_hours": 292.2,
+      "tags": [
+        "AI",
+        "Tech",
+        "NVIDIA",
+        "Culture",
+        "Finance",
+        "Celebrities"
+      ],
+      "description_excerpt": "On November 8, 2026, Jensen Huang acknowledged in a message to NVIDIA employees that he had been unfaithful to his wife; news reports have identified the woman involved as Alice Huang. On November 11, 2026, The New York Times reported that Huang had also had an affair with Kimberly Powell, NVIDIA’s vice president of healthcare; Huang, Powell and NVIDIA have not confirmed that report. On November 12, 2026, Reuters rep…"
+    },
+    {
+      "guid": "pm:1374088:movers:20261125",
+      "event_id": "1374088",
+      "slug": "fourth-jensen-huang-affair-reported-by-december-31",
+      "title": "Fourth Jensen Huang affair reported by...?",
+      "headline": "[급등 +23%p | 77%→100% · 긴급] Fourth Jensen Huang affair reported by...? [November 30] ($976K/24h)",
+      "url": "https://polymarket.com/event/fourth-jensen-huang-affair-reported-by-december-31",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795574962,
+      "published_at": "2026-11-25T02:49:22.793085+00:00",
+      "score": 201.9,
+      "tracks": [
+        "movers",
+        "surge",
+        "macro-tech"
+      ],
+      "is_urgent": true,
+      "urgent_reasons": [
+        "확률 급변 충격",
+        "대규모 자금 쏠림"
+      ],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "7158208",
+      "primary_label": "November 30",
+      "outcome_label": "Yes",
+      "price": 0.9985,
+      "delta_1h": -0.001,
+      "delta_6h": null,
+      "delta_24h": 0.2335,
+      "delta_7d": null,
+      "top_outcomes": [
+        {
+          "label": "December 31",
+          "price": 0.9995,
+          "delta_24h": 0.2245,
+          "is_primary": false
+        },
+        {
+          "label": "November 30",
+          "price": 0.9985,
+          "delta_24h": 0.2335,
+          "is_primary": true
+        }
+      ],
+      "volume_24h": 976051.11,
+      "volume_1wk": 1279871.23,
+      "spike_ratio": 5.34,
+      "liquidity": 338097.63,
+      "open_interest": 697301.9,
+      "comment_count": 0,
+      "created_at": "2026-11-12T20:51:10.997213Z",
+      "end_date": "2027-01-01T04:59:00Z",
+      "age_hours": 294.0,
+      "tags": [
+        "AI",
+        "Tech",
+        "NVIDIA",
+        "Culture",
+        "Finance",
+        "Celebrities"
+      ],
+      "description_excerpt": "On November 8, 2026, Jensen Huang acknowledged in a message to NVIDIA employees that he had been unfaithful to his wife; news reports have identified the woman involved as Alice Huang. On November 11, 2026, The New York Times reported that Huang had also had an affair with Kimberly Powell, NVIDIA’s vice president of healthcare; Huang, Powell and NVIDIA have not confirmed that report. On November 12, 2026, Reuters rep…"
+    },
+    {
+      "guid": "pm:1446094:movers:20261125",
+      "event_id": "1446094",
+      "slug": "what-price-will-bitcoin-hit-november-23-29-2026",
+      "title": "What price will Bitcoin hit November 23-29?",
+      "headline": "[급락 -19%p | 61%→42% · 판세반전 · 긴급] What price will Bitcoin hit November 23-29? [↑ 62,000] ($279K/24h)",
+      "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-november-23-29-2026",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795574962,
+      "published_at": "2026-11-25T02:49:22.793085+00:00",
+      "score": 170.5,
+      "tracks": [
+        "movers",
+        "surge",
+        "new-hot"
+      ],
+      "is_urgent": true,
+      "urgent_reasons": [
+        "확률 급변 충격",
+        "대형 마켓 50% 판세 반전"
+      ],
+      "is_flip": true,
+      "is_focus": false,
+      "is_multi_market": true,
+      "primary_market_id": "7289327",
+      "primary_label": "↑ 62,000",
+      "outcome_label": "Yes",
+      "price": 0.425,
+      "delta_1h": -0.01,
+      "delta_6h": null,
+      "delta_24h": -0.19,
+      "delta_7d": null,
+      "top_outcomes": [
+        {
+          "label": "↓ 58,000",
+          "price": 0.695,
+          "delta_24h": 0.12,
+          "is_primary": false
+        },
+        {
+          "label": "↑ 62,000",
+          "price": 0.425,
+          "delta_24h": -0.19,
+          "is_primary": true
+        },
+        {
+          "label": "↓ 56,000",
+          "price": 0.375,
+          "delta_24h": 0.03,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 279207.85,
+      "volume_1wk": 600409.4,
+      "spike_ratio": 3.26,
+      "liquidity": 768675.05,
+      "open_interest": 301806.36,
+      "comment_count": 0,
+      "created_at": "2026-11-23T05:00:01.454628Z",
+      "end_date": "2026-11-30T05:00:00Z",
+      "age_hours": 45.8,
+      "tags": [
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New",
+        "Bitcoin",
+        "Weekly"
+      ],
+      "description_excerpt": "What price will Bitcoin hit November 23-29?"
+    },
+    {
+      "guid": "pm:1445760:movers:20261125",
+      "event_id": "1445760",
+      "slug": "h100-average-rental-price-in-january-2027",
+      "title": "H100 average rental price in January 2027?",
+      "headline": "[급등 +14%p | 54%→68% · 긴급] H100 average rental price in January 2027? [Above $2.80] ($633K/24h)",
+      "url": "https://polymarket.com/event/h100-average-rental-price-in-january-2027",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795574962,
+      "published_at": "2026-11-25T02:49:22.793085+00:00",
+      "score": 166.2,
+      "tracks": [
+        "movers",
+        "surge",
+        "new-hot",
+        "macro-tech"
+      ],
+      "is_urgent": true,
+      "urgent_reasons": [
+        "대규모 자금 쏠림"
+      ],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "7278006",
+      "primary_label": "Above $2.80",
+      "outcome_label": "Yes",
+      "price": 0.685,
+      "delta_1h": null,
+      "delta_6h": null,
+      "delta_24h": 0.14,
+      "delta_7d": null,
+      "top_outcomes": [
+        {
+          "label": "Above $1.50",
+          "price": 0.9545,
+          "delta_24h": -0.0205,
+          "is_primary": false
+        },
+        {
+          "label": "Above $2.10",
+          "price": 0.915,
+          "delta_24h": 0.03,
+          "is_primary": false
+        },
+        {
+          "label": "Above $2.30",
+          "price": 0.885,
+          "delta_24h": 0.04,
+          "is_primary": false
+        },
+        {
+          "label": "Above $2.80",
+          "price": 0.685,
+          "delta_24h": 0.14,
+          "is_primary": true
+        }
+      ],
+      "volume_24h": 632518.56,
+      "volume_1wk": 659857.93,
+      "spike_ratio": 6.71,
+      "liquidity": 933163.84,
+      "open_interest": 168562.11,
+      "comment_count": 0,
+      "created_at": "2026-11-23T03:03:37.457847Z",
+      "end_date": "2027-02-01T04:59:00Z",
+      "age_hours": 47.8,
+      "tags": [
+        "AI",
+        "H100",
+        "Ornn",
+        "Tech",
+        "NVIDIA",
+        "Compute"
+      ],
+      "description_excerpt": "This market will resolve to \"Yes\" if the average Ornn H100 index value in January 2027 is above the specified price. Otherwise, this market will resolve to \"No\". The average Ornn H100 index value in January 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-H100 index dated within January 2027, as published by Ornn, rounded to the nearest cent. A daily settled value is considered final…"
+    },
+    {
+      "guid": "pm:1292829:movers:20261125",
+      "event_id": "1292829",
+      "slug": "what-price-will-bitcoin-hit-in-november-2026",
+      "title": "What price will Bitcoin hit in November?",
+      "headline": "[급락 -20%p | 60%→40% · 판세반전 · 긴급] What price will Bitcoin hit in November? [↑ 62,500] ($929K/24h)",
+      "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-november-2026",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795574962,
+      "published_at": "2026-11-25T02:49:22.793085+00:00",
+      "score": 148.5,
+      "tracks": [
+        "movers"
+      ],
+      "is_urgent": true,
+      "urgent_reasons": [
+        "확률 급변 충격",
+        "대형 마켓 50% 판세 반전"
+      ],
+      "is_flip": true,
+      "is_focus": false,
+      "is_multi_market": true,
+      "primary_market_id": "7288834",
+      "primary_label": "↑ 62,500",
+      "outcome_label": "Yes",
+      "price": 0.395,
+      "delta_1h": null,
+      "delta_6h": null,
+      "delta_24h": -0.2,
+      "delta_7d": null,
+      "top_outcomes": [
+        {
+          "label": "↓ 57,500",
+          "price": 0.635,
+          "delta_24h": 0.105,
+          "is_primary": false
+        },
+        {
+          "label": "↑ 62,500",
+          "price": 0.395,
+          "delta_24h": -0.2,
+          "is_primary": true
+        },
+        {
+          "label": "↓ 55,000",
+          "price": 0.306,
+          "delta_24h": 0.013,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 929141.58,
+      "volume_1wk": 4839729.11,
+      "spike_ratio": 1.34,
+      "liquidity": 2038124.76,
+      "open_interest": 2821708.9,
+      "comment_count": 0,
+      "created_at": "2026-11-01T05:07:00.753656Z",
+      "end_date": "2026-12-01T05:00:00Z",
+      "age_hours": 573.7,
+      "tags": [
+        "Bitcoin",
+        "Monthly",
+        "Hit Price",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring"
+      ],
+      "description_excerpt": "What price will Bitcoin hit in November?"
+    }
+  ]
+}
