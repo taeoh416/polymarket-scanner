@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updated_at_utc": "2026-11-27T08:18:16.874982+00:00",
-  "updated_at_kst": "2026-11-27T17:18:16.874982+09:00",
+  "updated_at_utc": "2026-11-27T18:54:27.616894+00:00",
+  "updated_at_kst": "2026-11-28T03:54:27.616894+09:00",
   "fetch": {
     "volume_query": {
       "endpoint": "/events/keyset",
@@ -18,26 +18,26 @@
       "warnings": []
     },
     "raw_total": 800,
-    "unique_events": 797
+    "unique_events": 790
   },
   "eval": {
-    "input_events": 797,
-    "excluded_noise": 554,
-    "excluded_low_liquidity_or_volume": 88,
+    "input_events": 790,
+    "excluded_noise": 595,
+    "excluded_low_liquidity_or_volume": 33,
     "excluded_no_open_markets": 0,
-    "excluded_high_spread": 1,
-    "excluded_settled_stagnant": 21,
-    "tracked_snapshots": 243,
-    "candidate_signals": 46,
+    "excluded_high_spread": 2,
+    "excluded_settled_stagnant": 24,
+    "tracked_snapshots": 195,
+    "candidate_signals": 45,
     "urgent_candidates": 0,
-    "excluded_series_duplicate": 13
+    "excluded_series_duplicate": 15
   },
   "newly_emitted": 15,
   "feed_counts": {
     "all.xml": 50,
-    "movers.xml": 36,
-    "surge.xml": 19,
-    "new-hot.xml": 17,
+    "movers.xml": 39,
+    "surge.xml": 23,
+    "new-hot.xml": 20,
     "macro-tech.xml": 50
   },
   "urgent_count": 0
