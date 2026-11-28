@@ -1,8 +1,442 @@
 {
-  "updated_at_utc": "2026-11-28T01:56:12.880259+00:00",
-  "updated_at_kst": "2026-11-28T10:56:12.880259+09:00",
-  "has_urgent": false,
-  "urgent_count": 0,
+  "updated_at_utc": "2026-11-28T10:18:02.299006+00:00",
+  "updated_at_kst": "2026-11-28T19:18:02.299006+09:00",
+  "has_urgent": true,
+  "urgent_count": 6,
   "window_hours": 14,
-  "signals": []
+  "signals": [
+    {
+      "guid": "pm:848407:movers:upd:2026112810",
+      "event_id": "848407",
+      "slug": "taichung-mayor-election-winner-20260813125857400",
+      "title": "Taichung Mayor Election Winner",
+      "headline": "[UPDATE · 급락 -75%p | 78%→3% · 판세반전 · 긴급] Taichung Mayor Election Winner [Johnny Chiang] ($489K/24h)",
+      "url": "https://polymarket.com/event/taichung-mayor-election-winner-20260813125857400",
+      "is_update": true,
+      "prev_published_price": 0.735,
+      "published_ts": 1795861082,
+      "published_at": "2026-11-28T10:18:02.299006+00:00",
+      "score": 515.8,
+      "tracks": [
+        "movers",
+        "surge",
+        "macro-tech"
+      ],
+      "is_urgent": true,
+      "urgent_reasons": [
+        "확률 급변 충격",
+        "대형 마켓 50% 판세 반전"
+      ],
+      "is_flip": true,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "3581388",
+      "primary_label": "Johnny Chiang",
+      "outcome_label": "Yes",
+      "price": 0.034,
+      "delta_1h": 0.002,
+      "delta_6h": -0.701,
+      "delta_24h": -0.751,
+      "delta_7d": -0.766,
+      "top_outcomes": [
+        {
+          "label": "Ho Hsin-chun",
+          "price": 0.966,
+          "delta_24h": 0.7505,
+          "is_primary": false
+        },
+        {
+          "label": "Johnny Chiang",
+          "price": 0.034,
+          "delta_24h": -0.751,
+          "is_primary": true
+        },
+        {
+          "label": "Yang Chiung-ying",
+          "price": 0.0005,
+          "delta_24h": 0.0,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 489116.27,
+      "volume_1wk": 627204.69,
+      "spike_ratio": 5.46,
+      "liquidity": 200595.1,
+      "open_interest": 331023.71,
+      "comment_count": 9,
+      "created_at": "2026-08-14T12:50:05.909686Z",
+      "end_date": "2026-11-29T04:59:00Z",
+      "age_hours": 2541.5,
+      "tags": [
+        "Taiwan",
+        "Politics",
+        "Elections",
+        "Main Election",
+        "Global Elections",
+        "Taiwan Elections"
+      ],
+      "description_excerpt": "Taiwanese local elections are scheduled to be held on November 28, 2026. This market will resolve according to the candidate who becomes the next Mayor of Taichung as a result of this election. Temporary, interim, or placeholder Mayors appointed before the election will not be considered. If the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resol…"
+    },
+    {
+      "guid": "pm:848347:movers:20261128",
+      "event_id": "848347",
+      "slug": "new-taipei-mayor-election-winner-20260813125857200",
+      "title": "New Taipei Mayor Election Winner",
+      "headline": "[급등 +57%p | 39%→96% · 판세반전 · 긴급] New Taipei Mayor Election Winner [Lee Shu-chuan] ($920K/24h)",
+      "url": "https://polymarket.com/event/new-taipei-mayor-election-winner-20260813125857200",
+      "is_update": false,
+      "prev_published_price": 0.39,
+      "published_ts": 1795861082,
+      "published_at": "2026-11-28T10:18:02.299006+00:00",
+      "score": 437.9,
+      "tracks": [
+        "movers",
+        "surge",
+        "macro-tech"
+      ],
+      "is_urgent": true,
+      "urgent_reasons": [
+        "확률 급변 충격",
+        "대형 마켓 50% 판세 반전",
+        "대규모 자금 쏠림"
+      ],
+      "is_flip": true,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "3580994",
+      "primary_label": "Lee Shu-chuan",
+      "outcome_label": "Yes",
+      "price": 0.96,
+      "delta_1h": 0.0075,
+      "delta_6h": 0.6,
+      "delta_24h": 0.57,
+      "delta_7d": 0.545,
+      "top_outcomes": [
+        {
+          "label": "Lee Shu-chuan",
+          "price": 0.96,
+          "delta_24h": 0.57,
+          "is_primary": true
+        },
+        {
+          "label": "Su Chiao-hui",
+          "price": 0.0405,
+          "delta_24h": -0.5845,
+          "is_primary": false
+        },
+        {
+          "label": "Huang Kuo-chang",
+          "price": 0.0005,
+          "delta_24h": 0.0,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 920350.43,
+      "volume_1wk": 1354358.78,
+      "spike_ratio": 4.76,
+      "liquidity": 291568.96,
+      "open_interest": 758137.47,
+      "comment_count": 26,
+      "created_at": "2026-08-14T12:27:07.777739Z",
+      "end_date": "2026-11-29T04:59:00Z",
+      "age_hours": 2541.8,
+      "tags": [
+        "Taiwan",
+        "Politics",
+        "Elections",
+        "Main Election",
+        "Global Elections",
+        "Taiwan Elections"
+      ],
+      "description_excerpt": "Taiwanese local elections are scheduled to be held on November 28, 2026. This market will resolve according to the candidate who becomes the next Mayor of New Taipei as a result of this election. Temporary, interim, or placeholder Mayors appointed before the election will not be considered. If the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will res…"
+    },
+    {
+      "guid": "pm:1367484:movers:upd:2026112810",
+      "event_id": "1367484",
+      "slug": "2026-taipei-mayoral-election-margin-of-victory-20261103233704870",
+      "title": "2026 Taipei Mayoral Election: Margin of Victory",
+      "headline": "[UPDATE · 급등 +57%p | 21%→78% · 판세반전 · 긴급] 2026 Taipei Mayoral Election: Margin of Victory [Chiang Wan-an 4-8%] ($204K/24h)",
+      "url": "https://polymarket.com/event/2026-taipei-mayoral-election-margin-of-victory-20261103233704870",
+      "is_update": true,
+      "prev_published_price": 0.245,
+      "published_ts": 1795861082,
+      "published_at": "2026-11-28T10:18:02.299006+00:00",
+      "score": 355.2,
+      "tracks": [
+        "movers",
+        "macro-tech"
+      ],
+      "is_urgent": true,
+      "urgent_reasons": [
+        "확률 급변 충격"
+      ],
+      "is_flip": true,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "6976258",
+      "primary_label": "Chiang Wan-an 4-8%",
+      "outcome_label": "Yes",
+      "price": 0.775,
+      "delta_1h": 0.205,
+      "delta_6h": 0.565,
+      "delta_24h": 0.57,
+      "delta_7d": 0.56,
+      "top_outcomes": [
+        {
+          "label": "Chiang Wan-an 4-8%",
+          "price": 0.775,
+          "delta_24h": 0.57,
+          "is_primary": true
+        },
+        {
+          "label": "Chiang Wan-an 8-12%",
+          "price": 0.12,
+          "delta_24h": 0.03,
+          "is_primary": false
+        },
+        {
+          "label": "Chiang Wan-an <4%",
+          "price": 0.0465,
+          "delta_24h": -0.1985,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 204189.25,
+      "volume_1wk": 581479.76,
+      "spike_ratio": 2.46,
+      "liquidity": 477645.35,
+      "open_interest": 375817.7,
+      "comment_count": 14,
+      "created_at": "2026-11-11T23:19:19.443419Z",
+      "end_date": "2026-11-29T04:59:00Z",
+      "age_hours": 395.0,
+      "tags": [
+        "Taiwan",
+        "Politics",
+        "Elections",
+        "Global Elections",
+        "Taiwan Elections"
+      ],
+      "description_excerpt": "The 2026 Taipei mayoral election is scheduled to take place on November 28, 2026, to elect the next mayor of Taipei. This market will resolve according to the margin of victory between the top two candidates in the specified election. For the purpose of this market, the “margin of victory” is defined as the absolute difference between the percentages of valid votes received by the first-place and second-place candida…"
+    },
+    {
+      "guid": "pm:848341:movers:upd:2026112810",
+      "event_id": "848341",
+      "slug": "taipei-mayor-election-winner-20260813125857100",
+      "title": "Taipei Mayor Election Winner",
+      "headline": "[UPDATE · 급등 +40%p | 59%→99% · 긴급] Taipei Mayor Election Winner [Chiang Wan-an] ($4.0M/24h)",
+      "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100",
+      "is_update": true,
+      "prev_published_price": 0.56,
+      "published_ts": 1795861082,
+      "published_at": "2026-11-28T10:18:02.299006+00:00",
+      "score": 331.8,
+      "tracks": [
+        "movers",
+        "surge",
+        "macro-tech"
+      ],
+      "is_urgent": true,
+      "urgent_reasons": [
+        "확률 급변 충격",
+        "대규모 자금 쏠림"
+      ],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "3580932",
+      "primary_label": "Chiang Wan-an",
+      "outcome_label": "Yes",
+      "price": 0.987,
+      "delta_1h": 0.001,
+      "delta_6h": 0.427,
+      "delta_24h": 0.402,
+      "delta_7d": 0.332,
+      "top_outcomes": [
+        {
+          "label": "Chiang Wan-an",
+          "price": 0.987,
+          "delta_24h": 0.402,
+          "is_primary": true
+        },
+        {
+          "label": "Puma Shen",
+          "price": 0.0145,
+          "delta_24h": -0.41,
+          "is_primary": false
+        },
+        {
+          "label": "Kuo Hsi",
+          "price": 0.0005,
+          "delta_24h": 0.0,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 3953224.35,
+      "volume_1wk": 6366995.36,
+      "spike_ratio": 4.35,
+      "liquidity": 980202.79,
+      "open_interest": 4927905.91,
+      "comment_count": 600,
+      "created_at": "2026-08-14T12:24:28.93129Z",
+      "end_date": "2026-11-29T04:59:00Z",
+      "age_hours": 2541.9,
+      "tags": [
+        "Taiwan",
+        "Politics",
+        "Elections",
+        "Main Election",
+        "Global Elections",
+        "Taiwan Elections"
+      ],
+      "description_excerpt": "Taiwanese local elections are scheduled to be held on November 28, 2026. This market will resolve according to the candidate who becomes the next Mayor of Taipei as a result of this election. Temporary, interim, or placeholder Mayors appointed before the election will not be considered. If the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resolve…"
+    },
+    {
+      "guid": "pm:848409:movers:20261128",
+      "event_id": "848409",
+      "slug": "kaohsiung-mayor-election-winner-20260813125857600",
+      "title": "Kaohsiung Mayor Election Winner",
+      "headline": "[급락 -21%p | 21%→0% · 긴급] Kaohsiung Mayor Election Winner [Ko Chih-en] ($239K/24h)",
+      "url": "https://polymarket.com/event/kaohsiung-mayor-election-winner-20260813125857600",
+      "is_update": false,
+      "prev_published_price": 0.795,
+      "published_ts": 1795861082,
+      "published_at": "2026-11-28T10:18:02.299006+00:00",
+      "score": 161.6,
+      "tracks": [
+        "movers",
+        "surge",
+        "macro-tech"
+      ],
+      "is_urgent": true,
+      "urgent_reasons": [
+        "확률 급변 충격"
+      ],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "3581449",
+      "primary_label": "Ko Chih-en",
+      "outcome_label": "Yes",
+      "price": 0.0005,
+      "delta_1h": -0.006,
+      "delta_6h": -0.221,
+      "delta_24h": -0.2065,
+      "delta_7d": -0.1695,
+      "top_outcomes": [
+        {
+          "label": "Lai Jui-lung",
+          "price": 0.9935,
+          "delta_24h": 0.1985,
+          "is_primary": false
+        },
+        {
+          "label": "Ko Chih-en",
+          "price": 0.0005,
+          "delta_24h": -0.2065,
+          "is_primary": true
+        },
+        {
+          "label": "Lin Tai-hua",
+          "price": 0.0005,
+          "delta_24h": 0.0,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 238931.18,
+      "volume_1wk": 448362.94,
+      "spike_ratio": 3.73,
+      "liquidity": 402615.27,
+      "open_interest": 326570.95,
+      "comment_count": 7,
+      "created_at": "2026-08-14T12:51:19.650947Z",
+      "end_date": "2026-11-28T23:59:00Z",
+      "age_hours": 2541.4,
+      "tags": [
+        "Taiwan",
+        "Politics",
+        "Elections",
+        "Main Election",
+        "Global Elections",
+        "Taiwan Elections"
+      ],
+      "description_excerpt": "Taiwanese local elections are scheduled to be held on November 28, 2026. This market will resolve according to the candidate who becomes the next Mayor of Kaohsiung as a result of this election. Temporary, interim, or placeholder Mayors appointed before the election will not be considered. If the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will reso…"
+    },
+    {
+      "guid": "pm:1461523:surge:upd:2026112810",
+      "event_id": "1461523",
+      "slug": "h200-average-rental-price-in-december-2026",
+      "title": "H200 average rental price in December 2026?",
+      "headline": "[UPDATE · 급등 +10%p | 47%→57% · 판세반전 · 긴급] H200 average rental price in December 2026? [Above $6.50] ($305K/24h)",
+      "url": "https://polymarket.com/event/h200-average-rental-price-in-december-2026",
+      "is_update": true,
+      "prev_published_price": 0.545,
+      "published_ts": 1795861082,
+      "published_at": "2026-11-28T10:18:02.299006+00:00",
+      "score": 142.6,
+      "tracks": [
+        "surge",
+        "macro-tech"
+      ],
+      "is_urgent": true,
+      "urgent_reasons": [
+        "대형 마켓 50% 판세 반전"
+      ],
+      "is_flip": true,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "7362305",
+      "primary_label": "Above $6.50",
+      "outcome_label": "Yes",
+      "price": 0.575,
+      "delta_1h": null,
+      "delta_6h": 0.05,
+      "delta_24h": 0.1,
+      "delta_7d": null,
+      "top_outcomes": [
+        {
+          "label": "Above $5.25",
+          "price": 0.935,
+          "delta_24h": 0.0,
+          "is_primary": false
+        },
+        {
+          "label": "Above $5.00",
+          "price": 0.935,
+          "delta_24h": -0.01,
+          "is_primary": false
+        },
+        {
+          "label": "Above $5.50",
+          "price": 0.895,
+          "delta_24h": 0.0,
+          "is_primary": false
+        },
+        {
+          "label": "Above $6.50",
+          "price": 0.575,
+          "delta_24h": 0.1,
+          "is_primary": true
+        }
+      ],
+      "volume_24h": 304769.39,
+      "volume_1wk": 395305.41,
+      "spike_ratio": 5.4,
+      "liquidity": 532385.35,
+      "open_interest": 71746.5,
+      "comment_count": 0,
+      "created_at": "2026-11-26T02:27:03.963165Z",
+      "end_date": "2027-01-01T04:59:00Z",
+      "age_hours": 55.8,
+      "tags": [
+        "AI",
+        "H200",
+        "Ornn",
+        "Tech",
+        "NVIDIA",
+        "Compute"
+      ],
+      "description_excerpt": "This market will resolve to \"Yes\" if the average Ornn H200 index value in December 2026 is above the specified price. Otherwise, this market will resolve to \"No\". The average Ornn H200 index value in December 2026 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-H200 index dated within December 2026, as published by Ornn, rounded to the nearest cent. A daily settled value is considered fi…"
+    }
+  ]
 }
