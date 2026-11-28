@@ -3,40 +3,101 @@
   "title": "Polymarket 세상물정 스캐너",
   "home_page_url": "https://taeoh416.github.io/polymarket-scanner/",
   "feed_url": "https://taeoh416.github.io/polymarket-scanner/feed.json",
-  "updated_at_utc": "2026-11-27T18:54:27.616894+00:00",
-  "updated_at_kst": "2026-11-28T03:54:27.616894+09:00",
+  "updated_at_utc": "2026-11-28T01:56:12.880259+00:00",
+  "updated_at_kst": "2026-11-28T10:56:12.880259+09:00",
   "stats": {
-    "input_events": 790,
-    "excluded_noise": 595,
-    "excluded_low_liquidity_or_volume": 33,
+    "input_events": 795,
+    "excluded_noise": 571,
+    "excluded_low_liquidity_or_volume": 59,
     "excluded_no_open_markets": 0,
-    "excluded_high_spread": 2,
+    "excluded_high_spread": 1,
     "excluded_settled_stagnant": 24,
-    "tracked_snapshots": 195,
-    "candidate_signals": 45,
+    "tracked_snapshots": 224,
+    "candidate_signals": 44,
     "urgent_candidates": 0,
-    "excluded_series_duplicate": 15,
+    "excluded_series_duplicate": 14,
     "newly_emitted_this_run": 15,
-    "history_total": 124,
+    "history_total": 139,
     "urgent_active_count": 0
   },
   "urgent_signals": [],
   "live_top_signals": [
     {
+      "guid": "live:872338",
+      "event_id": "872338",
+      "slug": "will-russia-capture-the-royal-cafe-alex-in-kostyantynivka-byptptpt",
+      "title": "Will Russia capture the Royal Café Alex in Kostyantynivka by...?",
+      "headline": "[급등 +96%p | 2%→98% · 판세반전] Will Russia capture the Royal Café Alex in Kostyantynivka by...? [November 30] ($45K/24h)",
+      "url": "https://polymarket.com/event/will-russia-capture-the-royal-cafe-alex-in-kostyantynivka-byptptpt",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 539.3,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": true,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "5234720",
+      "primary_label": "November 30",
+      "outcome_label": "Yes",
+      "price": 0.9835,
+      "delta_1h": null,
+      "delta_6h": 0.2375,
+      "delta_24h": 0.955,
+      "delta_7d": 0.946,
+      "top_outcomes": [
+        {
+          "label": "December 31",
+          "price": 0.994,
+          "delta_24h": 0.864,
+          "is_primary": false
+        },
+        {
+          "label": "March 31, 2027",
+          "price": 0.992,
+          "delta_24h": 0.472,
+          "is_primary": false
+        },
+        {
+          "label": "November 30",
+          "price": 0.9835,
+          "delta_24h": 0.955,
+          "is_primary": true
+        }
+      ],
+      "volume_24h": 44956.19,
+      "volume_1wk": 52374.92,
+      "spike_ratio": 6.01,
+      "liquidity": 78409.58,
+      "open_interest": 71493.79,
+      "comment_count": 0,
+      "created_at": "2026-08-18T19:45:34.15411Z",
+      "end_date": "2027-01-01T04:59:00Z",
+      "age_hours": 2430.2,
+      "tags": [
+        "Geopolitics",
+        "Ukraine Map"
+      ],
+      "description_excerpt": "This market will resolve to “Yes” if, according to the ISW map, Russia captures the building at 48.538085° N, 37.688345° E in Kostyantynivka, Donetsk Oblast, between market creation and the specified date, 11:59 PM ET. The building will be considered captured if any part of the buildings grey area is shaded under a below specified layer on the ISW map (https://storymaps.arcgis.com/stories/36a7f6a6f5a9448496de641cf64b…"
+    },
+    {
       "guid": "live:1382473",
       "event_id": "1382473",
       "slug": "what-technical-failure-caused-the-faas-nationwide-ground-stop",
       "title": "What technical failure caused the FAA's nationwide ground stop?",
-      "headline": "[급락 -66%p | 88%→22% · 판세반전] What technical failure caused the FAA's nationwide ground stop? [Software or configuration error] ($212K/24h)",
+      "headline": "[급락 -37%p | 57%→20% · 판세반전] What technical failure caused the FAA's nationwide ground stop? [Software or configuration error] ($36K/24h)",
       "url": "https://polymarket.com/event/what-technical-failure-caused-the-faas-nationwide-ground-stop",
       "is_update": false,
       "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 446.7,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 204.2,
       "tracks": [
-        "movers",
-        "surge",
         "macro-tech"
       ],
       "is_urgent": false,
@@ -47,40 +108,40 @@
       "primary_market_id": "7023983",
       "primary_label": "Software or configuration error",
       "outcome_label": "Yes",
-      "price": 0.2155,
-      "delta_1h": -0.001,
-      "delta_6h": null,
-      "delta_24h": -0.6645,
-      "delta_7d": -0.5245,
+      "price": 0.1995,
+      "delta_1h": 0.013,
+      "delta_6h": -0.016,
+      "delta_24h": -0.371,
+      "delta_7d": -0.4855,
       "top_outcomes": [
         {
           "label": "Software or configuration error",
-          "price": 0.2155,
-          "delta_24h": -0.6645,
+          "price": 0.1995,
+          "delta_24h": -0.371,
           "is_primary": true
         },
         {
-          "label": "EMP",
-          "price": 0.03,
-          "delta_24h": 0.02,
+          "label": "Cable cut or physical damage",
+          "price": 0.0115,
+          "delta_24h": -0.0925,
           "is_primary": false
         },
         {
           "label": "SMART AI system",
-          "price": 0.013,
-          "delta_24h": -0.001,
+          "price": 0.0115,
+          "delta_24h": -0.0025,
           "is_primary": false
         }
       ],
-      "volume_24h": 211758.56,
-      "volume_1wk": 254715.48,
-      "spike_ratio": 5.82,
-      "liquidity": 45108.81,
-      "open_interest": 127413.8,
-      "comment_count": 47,
+      "volume_24h": 36336.64,
+      "volume_1wk": 261219.43,
+      "spike_ratio": 0.97,
+      "liquidity": 66178.23,
+      "open_interest": 127628.13,
+      "comment_count": 49,
       "created_at": "2026-11-13T22:27:34.417632Z",
       "end_date": "2026-12-01T04:59:00Z",
-      "age_hours": 332.4,
+      "age_hours": 339.5,
       "tags": [
         "FAA",
         "Tech",
@@ -92,159 +153,18 @@
       "description_excerpt": "This market will resolve according to the cause or causes to which the U.S. government officially attributes the FAA's nationwide ground stop on November 13, 2026, between market creation and November 30, 2026, 11:59 PM ET. Each market will resolve to \"Yes\" if the U.S. government officially attributes the ground stop to the listed cause within this timeframe. Otherwise, this market will resolve to \"No\". More than one…"
     },
     {
-      "guid": "live:1407035",
-      "event_id": "1407035",
-      "slug": "donald-trump-of-truth-social-posts-november-20-november-27-2026",
-      "title": "Donald Trump # Truth Social posts November 20 - November 27, 2026?",
-      "headline": "[급등 +39%p | 61%→100%] Donald Trump # Truth Social posts November 20 - November 27, 2026? [100-119] ($45K/24h)",
-      "url": "https://polymarket.com/event/donald-trump-of-truth-social-posts-november-20-november-27-2026",
+      "guid": "live:1412255",
+      "event_id": "1412255",
+      "slug": "section-232-rate-on-canadian-primary-aluminum",
+      "title": "Canadian unwrought aluminum duty rate on December 31, 2027?",
+      "headline": "[급등 +13%p | 49%→62% · 판세반전] Canadian unwrought aluminum duty rate on December 31, 2027? [>40-50%] ($47K/24h)",
+      "url": "https://polymarket.com/event/section-232-rate-on-canadian-primary-aluminum",
       "is_update": false,
       "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 212.1,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 153.5,
       "tracks": [
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "7109743",
-      "primary_label": "100-119",
-      "outcome_label": "Yes",
-      "price": 0.9995,
-      "delta_1h": null,
-      "delta_6h": null,
-      "delta_24h": 0.3945,
-      "delta_7d": 0.8645,
-      "top_outcomes": [
-        {
-          "label": "100-119",
-          "price": 0.9995,
-          "delta_24h": 0.3945,
-          "is_primary": true
-        },
-        {
-          "label": "120-139",
-          "price": 0.0005,
-          "delta_24h": -0.1475,
-          "is_primary": false
-        },
-        {
-          "label": "140-159",
-          "price": 0.0005,
-          "delta_24h": -0.031,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 45001.2,
-      "volume_1wk": 123925.83,
-      "spike_ratio": 2.54,
-      "liquidity": 30454.09,
-      "open_interest": 23120.49,
-      "comment_count": 0,
-      "created_at": "2026-11-17T05:00:01.005175Z",
-      "end_date": "2026-11-27T17:00:00Z",
-      "age_hours": 253.9,
-      "tags": [
-        "Politics",
-        "Trump",
-        "Tweet Markets",
-        "Recurring"
-      ],
-      "description_excerpt": "This market will resolve according to the number of times Donald Trump (@realDonaldTrump), posts on Truth Social between November 20, 12:00 PM ET and November 27, 2026, 12:00 PM ET. For the purposes of this market, only main feed posts, quote posts and reposts will count. Replies will NOT count towards the total - however, replies which are recorded on the main feed will be counted by the tracker. Deleted posts will …"
-    },
-    {
-      "guid": "live:1460803",
-      "event_id": "1460803",
-      "slug": "which-ai-companies-get-a-credit-downgrade-before-2028",
-      "title": "Which AI companies get a credit downgrade before 2028?",
-      "headline": "[급락 -29%p | 50%→21%] Which AI companies get a credit downgrade before 2028? [Microsoft] ($17K/24h)",
-      "url": "https://polymarket.com/event/which-ai-companies-get-a-credit-downgrade-before-2028",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 207.7,
-      "tracks": [
-        "new-hot"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "7359105",
-      "primary_label": "Microsoft",
-      "outcome_label": "Yes",
-      "price": 0.21,
-      "delta_1h": null,
-      "delta_6h": null,
-      "delta_24h": -0.29,
-      "delta_7d": null,
-      "top_outcomes": [
-        {
-          "label": "Meta",
-          "price": 0.71,
-          "delta_24h": 0.21,
-          "is_primary": false
-        },
-        {
-          "label": "NVIDIA",
-          "price": 0.595,
-          "delta_24h": 0.1,
-          "is_primary": false
-        },
-        {
-          "label": "Oracle",
-          "price": 0.535,
-          "delta_24h": 0.015,
-          "is_primary": false
-        },
-        {
-          "label": "Microsoft",
-          "price": 0.21,
-          "delta_24h": -0.29,
-          "is_primary": true
-        }
-      ],
-      "volume_24h": 17062.62,
-      "volume_1wk": 17062.62,
-      "spike_ratio": 7.0,
-      "liquidity": 66955.16,
-      "open_interest": 5901.75,
-      "comment_count": 0,
-      "created_at": "2026-11-25T23:00:06.343446Z",
-      "end_date": "2028-01-01T04:59:00Z",
-      "age_hours": 43.9,
-      "tags": [
-        "AI",
-        "KPI",
-        "Tech",
-        "Economy",
-        "Finance",
-        "Big Tech"
-      ],
-      "description_excerpt": "This market will resolve to \"Yes\" if S&P Global Ratings, Moody's Ratings, or Fitch Ratings publishes a rating action lowering its long-term credit rating for the company named in this market's question by one or more notches between market creation and December 31, 2027, 11:59 PM ET. Otherwise, this market will resolve to \"No\". A qualifying downgrade by any one of the three agencies is enough for a \"Yes\" resolution. …"
-    },
-    {
-      "guid": "live:1461523",
-      "event_id": "1461523",
-      "slug": "h200-average-rental-price-in-december-2026",
-      "title": "H200 average rental price in December 2026?",
-      "headline": "[급등 +10%p | 45%→55% · 판세반전] H200 average rental price in December 2026? [Above $6.50] ($110K/24h)",
-      "url": "https://polymarket.com/event/h200-average-rental-price-in-december-2026",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 143.3,
-      "tracks": [
-        "movers",
-        "surge",
-        "new-hot",
         "macro-tech"
       ],
       "is_urgent": false,
@@ -252,13 +172,283 @@
       "is_flip": true,
       "is_focus": true,
       "is_multi_market": true,
-      "primary_market_id": "7362305",
-      "primary_label": "Above $6.50",
+      "primary_market_id": "7126288",
+      "primary_label": ">40-50%",
       "outcome_label": "Yes",
-      "price": 0.545,
-      "delta_1h": 0.05,
-      "delta_6h": null,
-      "delta_24h": 0.1,
+      "price": 0.615,
+      "delta_1h": 0.02,
+      "delta_6h": 0.225,
+      "delta_24h": 0.13,
+      "delta_7d": 0.13,
+      "top_outcomes": [
+        {
+          "label": ">40-50%",
+          "price": 0.615,
+          "delta_24h": 0.13,
+          "is_primary": true
+        },
+        {
+          "label": ">20-40%",
+          "price": 0.22,
+          "delta_24h": 0.005,
+          "is_primary": false
+        },
+        {
+          "label": "Other",
+          "price": 0.075,
+          "delta_24h": -0.0115,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 47067.22,
+      "volume_1wk": 155893.16,
+      "spike_ratio": 2.11,
+      "liquidity": 38809.6,
+      "open_interest": 11026.0,
+      "comment_count": 1,
+      "created_at": "2026-11-17T21:33:40.10535Z",
+      "end_date": "2027-12-31T05:01:00Z",
+      "age_hours": 244.4,
+      "tags": [
+        "Canada",
+        "Economy",
+        "Tariffs",
+        "Politics",
+        "Trade War",
+        "US Canada Trade War"
+      ],
+      "description_excerpt": "This market will resolve according to the Section 232 duty rate applicable to Canadian unwrought aluminum as of 12:01 AM ET on December 31, 2027. “Canadian unwrought aluminum” refers to unwrought aluminum not alloyed (HTSUS subheading 7601.10), that is a product of Canada and for which Canada is both the country of smelt and the country of most recent cast. Only the rate applicable generally to Canadian unwrought alu…"
+    },
+    {
+      "guid": "live:879909",
+      "event_id": "879909",
+      "slug": "victoria-parliamentary-election-3rd-place",
+      "title": "Victoria Parliamentary Election: 3rd Place",
+      "headline": "[급등 +15%p | 41%→56% · 판세반전] Victoria Parliamentary Election: 3rd Place [Greens] ($31K/24h)",
+      "url": "https://polymarket.com/event/victoria-parliamentary-election-3rd-place",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 147.6,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": true,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "3740666",
+      "primary_label": "Greens",
+      "outcome_label": "Yes",
+      "price": 0.558,
+      "delta_1h": -0.0655,
+      "delta_6h": -0.044,
+      "delta_24h": 0.1455,
+      "delta_7d": 0.248,
+      "top_outcomes": [
+        {
+          "label": "Greens",
+          "price": 0.558,
+          "delta_24h": 0.1455,
+          "is_primary": true
+        },
+        {
+          "label": "One Nation",
+          "price": 0.42,
+          "delta_24h": -0.025,
+          "is_primary": false
+        },
+        {
+          "label": "Labor",
+          "price": 0.0385,
+          "delta_24h": -0.0985,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 31293.93,
+      "volume_1wk": 44427.1,
+      "spike_ratio": 4.93,
+      "liquidity": 266616.93,
+      "open_interest": 27764.22,
+      "comment_count": 1,
+      "created_at": "2026-08-20T09:36:07.285144Z",
+      "end_date": "2026-11-29T04:59:00Z",
+      "age_hours": 2392.3,
+      "tags": [
+        "Politics",
+        "Australia",
+        "Elections",
+        "Global Elections",
+        "International Election Props",
+        "Victoria Election"
+      ],
+      "description_excerpt": "The 2026 Victorian state election is currently scheduled to be held on 28 November 2026 to elect members of the 61st Parliament of Victoria. This market will resolve to \"Yes\" according to which party or coalition wins the third-most seats in the Legislative Assembly (Victoria's lower house) as a result of the next Victorian state election. If the results of this election are not known definitively by March 31, 2027, …"
+    },
+    {
+      "guid": "live:1450711",
+      "event_id": "1450711",
+      "slug": "world-happiness-report-2027-last-country",
+      "title": "World Happiness Report 2027: last country",
+      "headline": "[급등 +26%p | 57%→83%] World Happiness Report 2027: last country [Afghanistan] ($30K/24h)",
+      "url": "https://polymarket.com/event/world-happiness-report-2027-last-country",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 143.0,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "7299949",
+      "primary_label": "Afghanistan",
+      "outcome_label": "Yes",
+      "price": 0.83,
+      "delta_1h": 0.01,
+      "delta_6h": 0.055,
+      "delta_24h": 0.265,
+      "delta_7d": null,
+      "top_outcomes": [
+        {
+          "label": "Afghanistan",
+          "price": 0.83,
+          "delta_24h": 0.265,
+          "is_primary": true
+        },
+        {
+          "label": "Sierra Leone",
+          "price": 0.08,
+          "delta_24h": -0.0885,
+          "is_primary": false
+        },
+        {
+          "label": "Zimbabwe",
+          "price": 0.0275,
+          "delta_24h": -0.114,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 30176.32,
+      "volume_1wk": 96482.07,
+      "spike_ratio": 2.19,
+      "liquidity": 108898.84,
+      "open_interest": 21412.25,
+      "comment_count": 14,
+      "created_at": "2026-11-24T02:20:37.109916Z",
+      "end_date": "2027-04-01T03:59:00Z",
+      "age_hours": 95.6,
+      "tags": [
+        "World",
+        "Global",
+        "Culture",
+        "rankings"
+      ],
+      "description_excerpt": "This market will resolve according to the country that finishes in last place in the World Happiness Report 2027 ranking of countries by life evaluations (in the World Happiness Report 2026, this ranking was published as \"Figure 2.1: Country rankings by life evaluations. Gallup World Poll (2023–2025)\"). The World Happiness Report 2027 is expected to be published in March 2027. Countries will be ranked according to th…"
+    },
+    {
+      "guid": "live:655483",
+      "event_id": "655483",
+      "slug": "next-prime-minister-of-serbia-20260629223938642",
+      "title": "Next Prime Minister of Serbia?",
+      "headline": "[급락 -10%p | 67%→57% · 판세반전] Next Prime Minister of Serbia? [Dejan Šoškić] ($154K/24h)",
+      "url": "https://polymarket.com/event/next-prime-minister-of-serbia-20260629223938642",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 120.1,
+      "tracks": [
+        "movers",
+        "surge",
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": true,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "2757901",
+      "primary_label": "Dejan Šoškić",
+      "outcome_label": "Yes",
+      "price": 0.566,
+      "delta_1h": -0.005,
+      "delta_6h": 0.1155,
+      "delta_24h": -0.097,
+      "delta_7d": 0.181,
+      "top_outcomes": [
+        {
+          "label": "Dejan Šoškić",
+          "price": 0.566,
+          "delta_24h": -0.097,
+          "is_primary": true
+        },
+        {
+          "label": "Branko Milutinović",
+          "price": 0.1325,
+          "delta_24h": 0.1025,
+          "is_primary": false
+        },
+        {
+          "label": "Miloš Pavlović (former dean of FDU)",
+          "price": 0.065,
+          "delta_24h": null,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 154251.18,
+      "volume_1wk": 348480.14,
+      "spike_ratio": 3.1,
+      "liquidity": 681008.59,
+      "open_interest": 510244.36,
+      "comment_count": 310,
+      "created_at": "2026-07-01T15:53:13.54203Z",
+      "end_date": "2028-07-01T03:59:00Z",
+      "age_hours": 3586.0,
+      "tags": [
+        "Serbia",
+        "Politics",
+        "Elections",
+        "Main Election",
+        "Global Elections",
+        "Serbia Elections"
+      ],
+      "description_excerpt": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Serbia by June 30, 2028, 11:59 PM ET. To count for resolution, the individual must be elected by the National Assembly and be formally sworn-in, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who is not elected by the National Assembly will not count toward the resol…"
+    },
+    {
+      "guid": "live:1461523",
+      "event_id": "1461523",
+      "slug": "h200-average-rental-price-in-december-2026",
+      "title": "H200 average rental price in December 2026?",
+      "headline": "[급등 +7%p | 69%→76%] H200 average rental price in December 2026? [Above $6.00] ($206K/24h)",
+      "url": "https://polymarket.com/event/h200-average-rental-price-in-december-2026",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 112.9,
+      "tracks": [
+        "surge",
+        "new-hot",
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "7362307",
+      "primary_label": "Above $6.00",
+      "outcome_label": "Yes",
+      "price": 0.755,
+      "delta_1h": null,
+      "delta_6h": 0.07,
+      "delta_24h": 0.07,
       "delta_7d": null,
       "top_outcomes": [
         {
@@ -280,21 +470,21 @@
           "is_primary": false
         },
         {
-          "label": "Above $6.50",
-          "price": 0.545,
-          "delta_24h": 0.1,
+          "label": "Above $6.00",
+          "price": 0.755,
+          "delta_24h": 0.07,
           "is_primary": true
         }
       ],
-      "volume_24h": 110494.28,
-      "volume_1wk": 169298.67,
-      "spike_ratio": 4.57,
-      "liquidity": 267264.81,
-      "open_interest": 41412.75,
+      "volume_24h": 205870.99,
+      "volume_1wk": 275959.22,
+      "spike_ratio": 5.22,
+      "liquidity": 580772.79,
+      "open_interest": 48334.89,
       "comment_count": 0,
       "created_at": "2026-11-26T02:27:03.963165Z",
       "end_date": "2027-01-01T04:59:00Z",
-      "age_hours": 40.5,
+      "age_hours": 47.5,
       "tags": [
         "AI",
         "H200",
@@ -306,1086 +496,69 @@
       "description_excerpt": "This market will resolve to \"Yes\" if the average Ornn H200 index value in December 2026 is above the specified price. Otherwise, this market will resolve to \"No\". The average Ornn H200 index value in December 2026 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-H200 index dated within December 2026, as published by Ornn, rounded to the nearest cent. A daily settled value is considered fi…"
     },
     {
-      "guid": "live:1450711",
-      "event_id": "1450711",
-      "slug": "world-happiness-report-2027-last-country",
-      "title": "World Happiness Report 2027: last country",
-      "headline": "[급등 +22%p | 56%→78%] World Happiness Report 2027: last country [Afghanistan] ($34K/24h)",
-      "url": "https://polymarket.com/event/world-happiness-report-2027-last-country",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 128.0,
-      "tracks": [
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "7299949",
-      "primary_label": "Afghanistan",
-      "outcome_label": "Yes",
-      "price": 0.775,
-      "delta_1h": null,
-      "delta_6h": null,
-      "delta_24h": 0.22,
-      "delta_7d": null,
-      "top_outcomes": [
-        {
-          "label": "Afghanistan",
-          "price": 0.775,
-          "delta_24h": 0.22,
-          "is_primary": true
-        },
-        {
-          "label": "Sierra Leone",
-          "price": 0.1045,
-          "delta_24h": -0.166,
-          "is_primary": false
-        },
-        {
-          "label": "Zimbabwe",
-          "price": 0.02,
-          "delta_24h": -0.1185,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 34209.6,
-      "volume_1wk": 94954.08,
-      "spike_ratio": 2.52,
-      "liquidity": 69747.79,
-      "open_interest": 21214.04,
-      "comment_count": 14,
-      "created_at": "2026-11-24T02:20:37.109916Z",
-      "end_date": "2027-04-01T03:59:00Z",
-      "age_hours": 88.6,
-      "tags": [
-        "World",
-        "Global",
-        "Culture",
-        "rankings"
-      ],
-      "description_excerpt": "This market will resolve according to the country that finishes in last place in the World Happiness Report 2027 ranking of countries by life evaluations (in the World Happiness Report 2026, this ranking was published as \"Figure 2.1: Country rankings by life evaluations. Gallup World Poll (2023–2025)\"). The World Happiness Report 2027 is expected to be published in March 2027. Countries will be ranked according to th…"
-    },
-    {
-      "guid": "live:431465",
-      "event_id": "431465",
-      "slug": "next-prime-minister-of-new-zealand-174",
-      "title": "Next Prime Minister of New Zealand?",
-      "headline": "[급락 -12%p | 22%→10%] Next Prime Minister of New Zealand? [Chris Hipkins] ($56K/24h)",
-      "url": "https://polymarket.com/event/next-prime-minister-of-new-zealand-174",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 126.0,
-      "tracks": [
-        "movers",
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "2116541",
-      "primary_label": "Chris Hipkins",
-      "outcome_label": "Yes",
-      "price": 0.1,
-      "delta_1h": null,
-      "delta_6h": null,
-      "delta_24h": -0.125,
-      "delta_7d": -0.09,
-      "top_outcomes": [
-        {
-          "label": "Christopher Luxon",
-          "price": 0.805,
-          "delta_24h": 0.02,
-          "is_primary": false
-        },
-        {
-          "label": "Chris Hipkins",
-          "price": 0.1,
-          "delta_24h": -0.125,
-          "is_primary": true
-        },
-        {
-          "label": "Winston Peters",
-          "price": 0.0005,
-          "delta_24h": 0.0,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 55986.09,
-      "volume_1wk": 68464.01,
-      "spike_ratio": 5.72,
-      "liquidity": 177090.9,
-      "open_interest": 90295.44,
-      "comment_count": 22,
-      "created_at": "2026-04-29T15:54:04.123641Z",
-      "end_date": "2028-01-01T04:59:00Z",
-      "age_hours": 5091.0,
-      "tags": [
-        "Politics",
-        "Elections",
-        "Global Elections",
-        "NZ",
-        "Main Election",
-        "New Zealand Election"
-      ],
-      "description_excerpt": "A general election is scheduled to be held in New Zealand on November 7, 2026. This market will resolve to the next individual who officially assumes the office of Prime Minister of New Zealand following the 2026 General elections. To count for resolution, the individual must be officially appointed by the Governor-General as Prime Minister of New Zealand. Any interim or caretaker Prime Minister will not count toward…"
-    },
-    {
-      "guid": "live:1405129",
-      "event_id": "1405129",
-      "slug": "democratic-nomination-odds-leader-on-december-31",
-      "title": "Democratic nomination odds leader on December 31?",
-      "headline": "[급등 +12%p | 69%→81%] Democratic nomination odds leader on December 31? [Jon Ossoff] ($90K/24h)",
-      "url": "https://polymarket.com/event/democratic-nomination-odds-leader-on-december-31",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 107.7,
-      "tracks": [
-        "movers",
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "7104785",
-      "primary_label": "Jon Ossoff",
-      "outcome_label": "Yes",
-      "price": 0.81,
-      "delta_1h": 0.06,
-      "delta_6h": null,
-      "delta_24h": 0.12,
-      "delta_7d": -0.12,
-      "top_outcomes": [
-        {
-          "label": "Jon Ossoff",
-          "price": 0.81,
-          "delta_24h": 0.12,
-          "is_primary": true
-        },
-        {
-          "label": "Alexandria Ocasio-Cortez",
-          "price": 0.13,
-          "delta_24h": -0.06,
-          "is_primary": false
-        },
-        {
-          "label": "Gavin Newsom",
-          "price": 0.0135,
-          "delta_24h": -0.017,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 90461.45,
-      "volume_1wk": 151353.49,
-      "spike_ratio": 4.18,
-      "liquidity": 237031.03,
-      "open_interest": 26122.34,
-      "comment_count": 0,
-      "created_at": "2026-11-16T22:19:25.583105Z",
-      "end_date": "2026-12-31T17:00:00Z",
-      "age_hours": 260.6,
-      "tags": [
-        "Politics",
-        "Elections",
-        "Primaries",
-        "Derivatives",
-        "US Election",
-        "2028 Election"
-      ],
-      "description_excerpt": "This market will resolve according to the option with the highest hourly odds value in the \"2028 Democratic Nomination\" listing on PredictionMarketOdds.com for the \"Time Window (ET)\" ending at 12:00 PM ET on December 31, 2026. If that option is not a listed outcome of this market, this market will resolve to \"Other\". An hourly odds value is the value in the \"Odds of Happening\" column that PredictionMarketOdds.com pub…"
-    },
-    {
-      "guid": "live:1445750",
-      "event_id": "1445750",
-      "slug": "b200-average-rental-price-in-february-2027",
-      "title": "B200 average rental price in February 2027?",
-      "headline": "[급등 +8%p | 58%→66%] B200 average rental price in February 2027? [Above $8.50] ($252K/24h)",
-      "url": "https://polymarket.com/event/b200-average-rental-price-in-february-2027",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 93.2,
-      "tracks": [
-        "surge",
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "7277919",
-      "primary_label": "Above $8.50",
-      "outcome_label": "Yes",
-      "price": 0.665,
-      "delta_1h": null,
-      "delta_6h": null,
-      "delta_24h": 0.08,
-      "delta_7d": null,
-      "top_outcomes": [
-        {
-          "label": "Above $3.50",
-          "price": 0.9605,
-          "delta_24h": -0.0045,
-          "is_primary": false
-        },
-        {
-          "label": "Above $5.50",
-          "price": 0.925,
-          "delta_24h": 0.0,
-          "is_primary": false
-        },
-        {
-          "label": "Above $6.50",
-          "price": 0.865,
-          "delta_24h": 0.05,
-          "is_primary": false
-        },
-        {
-          "label": "Above $8.50",
-          "price": 0.665,
-          "delta_24h": 0.08,
-          "is_primary": true
-        }
-      ],
-      "volume_24h": 252249.75,
-      "volume_1wk": 407695.77,
-      "spike_ratio": 4.33,
-      "liquidity": 466414.44,
-      "open_interest": 75051.27,
-      "comment_count": 0,
-      "created_at": "2026-11-23T03:01:59.012846Z",
-      "end_date": "2027-03-01T04:59:00Z",
-      "age_hours": 111.9,
-      "tags": [
-        "AI",
-        "B200",
-        "Ornn",
-        "Tech",
-        "NVIDIA",
-        "Compute"
-      ],
-      "description_excerpt": "This market will resolve to \"Yes\" if the average Ornn B200 index value in February 2027 is above the specified price. Otherwise, this market will resolve to \"No\". The average Ornn B200 index value in February 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B200 index dated within February 2027, as published by Ornn, rounded to the nearest cent. A daily settled value is considered fi…"
-    },
-    {
-      "guid": "live:1445723",
-      "event_id": "1445723",
-      "slug": "b300-average-rental-price-in-march-2027",
-      "title": "B300 average rental price in March 2027?",
-      "headline": "[급락 -10%p | 28%→18%] B300 average rental price in March 2027? [Above $14.00] ($148K/24h)",
-      "url": "https://polymarket.com/event/b300-average-rental-price-in-march-2027",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 88.7,
-      "tracks": [
-        "surge",
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "7277723",
-      "primary_label": "Above $14.00",
-      "outcome_label": "Yes",
-      "price": 0.185,
-      "delta_1h": null,
-      "delta_6h": null,
-      "delta_24h": -0.1,
-      "delta_7d": null,
-      "top_outcomes": [
-        {
-          "label": "Above $4.00",
-          "price": 0.945,
-          "delta_24h": 0.0,
-          "is_primary": false
-        },
-        {
-          "label": "Above $8.00",
-          "price": 0.925,
-          "delta_24h": 0.06,
-          "is_primary": false
-        },
-        {
-          "label": "Above $6.00",
-          "price": 0.925,
-          "delta_24h": 0.02,
-          "is_primary": false
-        },
-        {
-          "label": "Above $14.00",
-          "price": 0.185,
-          "delta_24h": -0.1,
-          "is_primary": true
-        }
-      ],
-      "volume_24h": 147987.7,
-      "volume_1wk": 318989.8,
-      "spike_ratio": 3.25,
-      "liquidity": 473404.25,
-      "open_interest": 71057.99,
-      "comment_count": 0,
-      "created_at": "2026-11-23T03:00:11.404083Z",
-      "end_date": "2027-04-01T03:59:00Z",
-      "age_hours": 111.9,
-      "tags": [
-        "AI",
-        "B300",
-        "Ornn",
-        "Tech",
-        "NVIDIA",
-        "Compute"
-      ],
-      "description_excerpt": "This market will resolve to \"Yes\" if the average Ornn B300 index value in March 2027 is above the specified price. Otherwise, this market will resolve to \"No\". The average Ornn B300 index value in March 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B300 index dated within March 2027, as published by Ornn, rounded to the nearest cent. A daily settled value is considered finalized o…"
-    },
-    {
-      "guid": "live:1023113",
-      "event_id": "1023113",
-      "slug": "which-coalition-will-form-the-next-swedish-government",
-      "title": "Which coalition will form the next Swedish government?",
-      "headline": "[급등 +13%p | 65%→78%] Which coalition will form the next Swedish government? [M + KD + L + C] ($53K/24h)",
-      "url": "https://polymarket.com/event/which-coalition-will-form-the-next-swedish-government",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 85.7,
-      "tracks": [
-        "movers",
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "4554109",
-      "primary_label": "M + KD + L + C",
-      "outcome_label": "Yes",
-      "price": 0.775,
-      "delta_1h": 0.008,
-      "delta_6h": null,
-      "delta_24h": 0.129,
-      "delta_7d": 0.492,
-      "top_outcomes": [
-        {
-          "label": "M + KD + L + C",
-          "price": 0.775,
-          "delta_24h": 0.129,
-          "is_primary": true
-        },
-        {
-          "label": "S + MP + C",
-          "price": 0.0985,
-          "delta_24h": -0.017,
-          "is_primary": false
-        },
-        {
-          "label": "M + KD + L + SD",
-          "price": 0.05,
-          "delta_24h": -0.042,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 53170.25,
-      "volume_1wk": 166725.42,
-      "spike_ratio": 2.23,
-      "liquidity": 312984.6,
-      "open_interest": 35581.6,
-      "comment_count": 24,
-      "created_at": "2026-09-14T14:50:14.476195Z",
-      "end_date": "2027-08-01T03:59:00Z",
-      "age_hours": 1780.1,
-      "tags": [
-        "Sweden",
-        "Politics",
-        "Elections",
-        "World Elections",
-        "Global Elections",
-        "Sweden Elections"
-      ],
-      "description_excerpt": "Parliamentary elections were held in Sweden on September 13, 2026. This market will resolve to the first ruling coalition of parties that forms after the 2026 Swedish parliamentary election. A party will only be considered part of the ruling coalition if it provides at least one cabinet minister. Parties that merely support the government (e.g., through confidence-and-supply arrangements, parliamentary support agreem…"
-    },
-    {
-      "guid": "live:1373408",
-      "event_id": "1373408",
-      "slug": "another-nvidia-board-member-announced-resignation-or-removal-byptptpt",
-      "title": "Another NVIDIA board member announced resignation or removal by...?",
-      "headline": "[급락 -11%p | 27%→16%] Another NVIDIA board member announced resignation or removal by...? [December 31, 2026] ($61K/24h)",
-      "url": "https://polymarket.com/event/another-nvidia-board-member-announced-resignation-or-removal-byptptpt",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 84.8,
-      "tracks": [
-        "movers",
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "6993355",
-      "primary_label": "December 31, 2026",
-      "outcome_label": "Yes",
-      "price": 0.165,
-      "delta_1h": null,
-      "delta_6h": null,
-      "delta_24h": -0.11,
-      "delta_7d": -0.02,
-      "top_outcomes": [
-        {
-          "label": "December 31, 2026",
-          "price": 0.165,
-          "delta_24h": -0.11,
-          "is_primary": true
-        },
-        {
-          "label": "November 30, 2026",
-          "price": 0.0375,
-          "delta_24h": -0.045,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 60794.29,
-      "volume_1wk": 149302.71,
-      "spike_ratio": 2.85,
-      "liquidity": 56588.13,
-      "open_interest": 52020.2,
-      "comment_count": 2,
-      "created_at": "2026-11-12T19:14:14.938059Z",
-      "end_date": "2027-01-01T04:59:00Z",
-      "age_hours": 359.7,
-      "tags": [
-        "Tech",
-        "NVIDIA",
-        "resign",
-        "Finance",
-        "Big Tech",
-        "Business"
-      ],
-      "description_excerpt": "This market will resolve to “Yes” if the departure of any member of NVIDIA’s Board of Directors, other than Jensen Huang, through resignation or removal from the Board of Directors is officially announced between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\". For the purposes of this market, the specified person refers to any individual, other than Jensen Huang, who …"
-    },
-    {
-      "guid": "live:995361",
-      "event_id": "995361",
-      "slug": "which-millennium-prize-problem-will-ai-solve-next",
-      "title": "Which Millennium Prize Problem will AI solve next?",
-      "headline": "[급락 -15%p | 87%→72%] Which Millennium Prize Problem will AI solve next? [Riemann Hypothesis] ($63K/24h)",
-      "url": "https://polymarket.com/event/which-millennium-prize-problem-will-ai-solve-next",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 82.0,
-      "tracks": [
-        "movers",
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "4418520",
-      "primary_label": "Riemann Hypothesis",
-      "outcome_label": "Yes",
-      "price": 0.72,
-      "delta_1h": 0.015,
-      "delta_6h": null,
-      "delta_24h": -0.15,
-      "delta_7d": 0.02,
-      "top_outcomes": [
-        {
-          "label": "Riemann Hypothesis",
-          "price": 0.72,
-          "delta_24h": -0.15,
-          "is_primary": true
-        },
-        {
-          "label": "Yang-Mills",
-          "price": 0.0695,
-          "delta_24h": 0.039,
-          "is_primary": false
-        },
-        {
-          "label": "P versus NP",
-          "price": 0.0585,
-          "delta_24h": 0.004,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 63100.22,
-      "volume_1wk": 707935.42,
-      "spike_ratio": 0.62,
-      "liquidity": 150476.85,
-      "open_interest": 206311.34,
-      "comment_count": 12,
-      "created_at": "2026-09-09T19:43:31.011248Z",
-      "end_date": "2028-01-01T04:59:00Z",
-      "age_hours": 1895.2,
-      "tags": [
-        "AI",
-        "Math",
-        "Tech",
-        "Science",
-        "CMI",
-        "Millennium Prize"
-      ],
-      "description_excerpt": "This market will resolve according to the first qualifying Millennium Prize Problem for which an eligible AI lab announces a solution by December 31, 2027, 11:59 PM ET. If no eligible AI lab announces a solution to a qualifying problem by December 31, 2027, 11:59 PM ET, this market will resolve to \"No solution by Dec 31, 2027\". If solutions to two or more qualifying problems are announced on the same calendar day (ET…"
-    },
-    {
-      "guid": "live:197077",
-      "event_id": "197077",
-      "slug": "which-companies-will-the-us-take-a-stake-in",
-      "title": "Which companies will the US take a stake in?",
-      "headline": "[급락 -8%p | 36%→28%] Which companies will the US take a stake in? [Nvidia] ($27K/24h)",
-      "url": "https://polymarket.com/event/which-companies-will-the-us-take-a-stake-in",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 80.2,
-      "tracks": [
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "1323320",
-      "primary_label": "Nvidia",
-      "outcome_label": "Yes",
-      "price": 0.278,
-      "delta_1h": 0.0415,
-      "delta_6h": null,
-      "delta_24h": -0.0765,
-      "delta_7d": 0.237,
-      "top_outcomes": [
-        {
-          "label": "Nvidia",
-          "price": 0.278,
-          "delta_24h": -0.0765,
-          "is_primary": true
-        },
-        {
-          "label": "Unusual Machines",
-          "price": 0.16,
-          "delta_24h": 0.04,
-          "is_primary": false
-        },
-        {
-          "label": "IonQ",
-          "price": 0.0885,
-          "delta_24h": 0.0025,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 26583.74,
-      "volume_1wk": 46163.52,
-      "spike_ratio": 4.03,
-      "liquidity": 52033.06,
-      "open_interest": 56161.81,
-      "comment_count": 3,
-      "created_at": "2026-02-03T00:28:13.040866Z",
-      "end_date": "2027-01-01T04:59:00Z",
-      "age_hours": 7146.4,
-      "tags": [
-        "Politics",
-        "Tech",
-        "Economy",
-        "Trump",
-        "Big Tech"
-      ],
-      "description_excerpt": "This market will resolve to “Yes” if the U.S. federal government takes a stake in the listed company by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”. Takes a stake refers to the U.S. federal government acquiring direct equity ownership, voting shares, convertible rights treated as equity, or equivalent ownership interests in the listed company or of a legal vehicle that primarily owns t…"
-    },
-    {
-      "guid": "live:1445763",
-      "event_id": "1445763",
-      "slug": "h100-average-rental-price-in-june-2027",
-      "title": "H100 average rental price in June 2027?",
-      "headline": "[현재 32%] H100 average rental price in June 2027? [Above $3.40] ($31K/24h)",
-      "url": "https://polymarket.com/event/h100-average-rental-price-in-june-2027",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 79.0,
-      "tracks": [
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "7278035",
-      "primary_label": "Above $3.40",
-      "outcome_label": "Yes",
-      "price": 0.325,
-      "delta_1h": null,
-      "delta_6h": null,
-      "delta_24h": -0.02,
-      "delta_7d": null,
-      "top_outcomes": [
-        {
-          "label": "Above $1.40",
-          "price": 0.915,
-          "delta_24h": null,
-          "is_primary": false
-        },
-        {
-          "label": "Above $1.80",
-          "price": 0.835,
-          "delta_24h": null,
-          "is_primary": false
-        },
-        {
-          "label": "Above $2.00",
-          "price": 0.815,
-          "delta_24h": null,
-          "is_primary": false
-        },
-        {
-          "label": "Above $3.40",
-          "price": 0.325,
-          "delta_24h": -0.02,
-          "is_primary": true
-        }
-      ],
-      "volume_24h": 31207.57,
-      "volume_1wk": 36086.08,
-      "spike_ratio": 6.05,
-      "liquidity": 647561.23,
-      "open_interest": 3950.14,
-      "comment_count": 0,
-      "created_at": "2026-11-23T03:04:26.098425Z",
-      "end_date": "2027-07-01T03:59:00Z",
-      "age_hours": 111.8,
-      "tags": [
-        "AI",
-        "H100",
-        "Ornn",
-        "Tech",
-        "NVIDIA",
-        "Compute"
-      ],
-      "description_excerpt": "This market will resolve to \"Yes\" if the average Ornn H100 index value in June 2027 is above the specified price. Otherwise, this market will resolve to \"No\". The average Ornn H100 index value in June 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-H100 index dated within June 2027, as published by Ornn, rounded to the nearest cent. A daily settled value is considered finalized once…"
-    },
-    {
-      "guid": "live:848418",
-      "event_id": "848418",
-      "slug": "hsinchu-county-magistrate-election-winner-20260813135716300",
-      "title": "Hsinchu County Magistrate Election Winner",
-      "headline": "[현재 64%] Hsinchu County Magistrate Election Winner [Cheng Chao-fang] ($26K/24h)",
-      "url": "https://polymarket.com/event/hsinchu-county-magistrate-election-winner-20260813135716300",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 74.2,
-      "tracks": [
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "3581573",
-      "primary_label": "Cheng Chao-fang",
-      "outcome_label": "Yes",
-      "price": 0.64,
-      "delta_1h": -0.015,
-      "delta_6h": null,
-      "delta_24h": 0.025,
-      "delta_7d": -0.04,
-      "top_outcomes": [
-        {
-          "label": "Cheng Chao-fang",
-          "price": 0.64,
-          "delta_24h": 0.025,
-          "is_primary": true
-        },
-        {
-          "label": "Hsu Hsin-ying",
-          "price": 0.355,
-          "delta_24h": -0.025,
-          "is_primary": false
-        },
-        {
-          "label": "Lin Szu-ming",
-          "price": 0.0005,
-          "delta_24h": null,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 25636.14,
-      "volume_1wk": 33023.71,
-      "spike_ratio": 5.43,
-      "liquidity": 191705.34,
-      "open_interest": 38380.33,
-      "comment_count": 1,
-      "created_at": "2026-08-14T12:53:03.402322Z",
-      "end_date": "2026-11-29T04:59:00Z",
-      "age_hours": 2526.0,
-      "tags": [
-        "Taiwan",
-        "Politics",
-        "Elections",
-        "Main Election",
-        "Global Elections",
-        "Taiwan Elections"
-      ],
-      "description_excerpt": "Taiwanese local elections are scheduled to be held on November 28, 2026. This market will resolve according to the candidate who becomes the next Magistrate of Hsinchu County as a result of this election. Temporary, interim, or placeholder Magistrates appointed before the election will not be considered. If the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the m…"
-    },
-    {
-      "guid": "live:1455365",
-      "event_id": "1455365",
-      "slug": "open-source-model-ranked-1-on-arena-by",
-      "title": "Open-source model ranked #1 on Arena by...?",
-      "headline": "[급락 -11%p | 33%→22%] Open-source model ranked #1 on Arena by...? [December 31, 2027] ($41K/24h)",
-      "url": "https://polymarket.com/event/open-source-model-ranked-1-on-arena-by",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 64.6,
-      "tracks": [
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "7328320",
-      "primary_label": "December 31, 2027",
-      "outcome_label": "Yes",
-      "price": 0.225,
-      "delta_1h": -0.06,
-      "delta_6h": null,
-      "delta_24h": -0.105,
-      "delta_7d": null,
-      "top_outcomes": [
-        {
-          "label": "December 31, 2027",
-          "price": 0.225,
-          "delta_24h": -0.105,
-          "is_primary": true
-        },
-        {
-          "label": "June 30, 2027",
-          "price": 0.19,
-          "delta_24h": -0.035,
-          "is_primary": false
-        },
-        {
-          "label": "March 31, 2027",
-          "price": 0.115,
-          "delta_24h": 0.0,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 41397.53,
-      "volume_1wk": 191551.68,
-      "spike_ratio": 1.51,
-      "liquidity": 204919.79,
-      "open_interest": 50726.36,
-      "comment_count": 0,
-      "created_at": "2026-11-24T22:00:21.960898Z",
-      "end_date": "2028-01-01T04:59:00Z",
-      "age_hours": 68.9,
-      "tags": [
-        "AI",
-        "Tech",
-        "AI Rankings"
-      ],
-      "description_excerpt": "This market will resolve to “Yes” if an open-source model is ranked first on the arena.ai Text Arena (Overall) leaderboard at any point between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to “No”. An open-source model is any model listed on the Text Arena (Overall) leaderboard with the “License” filter set to “Open Source” and style control off (Adjustments: None), at http…"
-    },
-    {
-      "guid": "live:1367484",
-      "event_id": "1367484",
-      "slug": "2026-taipei-mayoral-election-margin-of-victory-20261103233704870",
-      "title": "2026 Taipei Mayoral Election: Margin of Victory",
-      "headline": "[자금급증 3.8x | 24%] 2026 Taipei Mayoral Election: Margin of Victory [Chiang Wan-an <4%] ($255K/24h)",
-      "url": "https://polymarket.com/event/2026-taipei-mayoral-election-margin-of-victory-20261103233704870",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 62.2,
-      "tracks": [
-        "surge",
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "6976261",
-      "primary_label": "Chiang Wan-an <4%",
-      "outcome_label": "Yes",
-      "price": 0.245,
-      "delta_1h": null,
-      "delta_6h": null,
-      "delta_24h": -0.035,
-      "delta_7d": -0.015,
-      "top_outcomes": [
-        {
-          "label": "Chiang Wan-an <4%",
-          "price": 0.245,
-          "delta_24h": -0.035,
-          "is_primary": true
-        },
-        {
-          "label": "Chiang Wan-an 4-8%",
-          "price": 0.205,
-          "delta_24h": 0.005,
-          "is_primary": false
-        },
-        {
-          "label": "Puma Shen <4%",
-          "price": 0.195,
-          "delta_24h": -0.02,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 254667.75,
-      "volume_1wk": 471944.33,
-      "spike_ratio": 3.78,
-      "liquidity": 592983.53,
-      "open_interest": 346813.69,
-      "comment_count": 9,
-      "created_at": "2026-11-11T23:19:19.443419Z",
-      "end_date": "2026-11-29T04:59:00Z",
-      "age_hours": 379.6,
-      "tags": [
-        "Taiwan",
-        "Politics",
-        "Elections",
-        "Global Elections",
-        "Taiwan Elections"
-      ],
-      "description_excerpt": "The 2026 Taipei mayoral election is scheduled to take place on November 28, 2026, to elect the next mayor of Taipei. This market will resolve according to the margin of victory between the top two candidates in the specified election. For the purpose of this market, the “margin of victory” is defined as the absolute difference between the percentages of valid votes received by the first-place and second-place candida…"
-    },
-    {
-      "guid": "live:1337182",
-      "event_id": "1337182",
-      "slug": "us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108",
-      "title": "US x Iran Effective Ceasefire begins by...? (2 week pause)",
-      "headline": "[급등 +10%p | 56%→66%] US x Iran Effective Ceasefire begins by...? (2 week pause) [November 22] ($74K/24h)",
-      "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 59.7,
-      "tracks": [
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "6831495",
-      "primary_label": "November 22",
-      "outcome_label": "Yes",
-      "price": 0.655,
-      "delta_1h": 0.01,
-      "delta_6h": null,
-      "delta_24h": 0.1,
-      "delta_7d": 0.35,
-      "top_outcomes": [
-        {
-          "label": "December 31",
-          "price": 0.855,
-          "delta_24h": -0.005,
-          "is_primary": false
-        },
-        {
-          "label": "November 30",
-          "price": 0.735,
-          "delta_24h": 0.01,
-          "is_primary": false
-        },
-        {
-          "label": "November 22",
-          "price": 0.655,
-          "delta_24h": 0.1,
-          "is_primary": true
-        }
-      ],
-      "volume_24h": 73900.91,
-      "volume_1wk": 477176.64,
-      "spike_ratio": 1.08,
-      "liquidity": 108857.32,
-      "open_interest": 358867.27,
-      "comment_count": 0,
-      "created_at": "2026-11-08T02:48:20.729442Z",
-      "end_date": "2026-12-31T20:29:00Z",
-      "age_hours": 472.1,
-      "tags": [
-        "Iran",
-        "Politics",
-        "ceasefire",
-        "Peace Deal",
-        "Geopolitics",
-        "U.S. x Iran"
-      ],
-      "description_excerpt": "This market will resolve to “Yes” if a continuous 14-day period during which the United States does not take a qualifying military action against Iran is completed, where the first day of that period is between market creation and the specified date (Iran Standard Time). Otherwise, this market will resolve to “No.” The first day of the 14-day period will be the calendar date (Iran Standard Time) after the most recent…"
-    },
-    {
-      "guid": "live:994486",
-      "event_id": "994486",
-      "slug": "how-many-more-millennium-prize-problems-will-ai-solve-in-2026",
-      "title": "How many more Millennium Prize Problems will AI solve in 2026?",
-      "headline": "[급락 -10%p | 62%→52%] How many more Millennium Prize Problems will AI solve in 2026? [1] ($35K/24h)",
-      "url": "https://polymarket.com/event/how-many-more-millennium-prize-problems-will-ai-solve-in-2026",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 57.7,
-      "tracks": [
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "4412322",
-      "primary_label": "1",
-      "outcome_label": "Yes",
-      "price": 0.525,
-      "delta_1h": -0.01,
-      "delta_6h": null,
-      "delta_24h": -0.105,
-      "delta_7d": -0.09,
-      "top_outcomes": [
-        {
-          "label": "1",
-          "price": 0.525,
-          "delta_24h": -0.105,
-          "is_primary": true
-        },
-        {
-          "label": "0",
-          "price": 0.28,
-          "delta_24h": 0.09,
-          "is_primary": false
-        },
-        {
-          "label": "2",
-          "price": 0.1475,
-          "delta_24h": 0.0245,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 34905.89,
-      "volume_1wk": 600839.91,
-      "spike_ratio": 0.41,
-      "liquidity": 107185.91,
-      "open_interest": 175331.65,
-      "comment_count": 0,
-      "created_at": "2026-09-09T16:05:19.70338Z",
-      "end_date": "2027-01-01T04:59:00Z",
-      "age_hours": 1898.8,
-      "tags": [
-        "AI",
-        "Math",
-        "Tech",
-        "Science",
-        "CMI",
-        "Millennium Prize"
-      ],
-      "description_excerpt": "This market will resolve according to the number of distinct qualifying Millennium Prize Problems for which an eligible AI lab announces a solution by December 31, 2026, 11:59 PM ET. Each qualifying problem is counted once, regardless of how many eligible AI labs announce a solution to it or how many announcements are made. The qualifying problems are, in alphabetical order, the Birch and Swinnerton-Dyer Conjecture, …"
-    },
-    {
       "guid": "live:1461200",
       "event_id": "1461200",
       "slug": "will-anthropic-ant-q4-revenue-be-above",
       "title": "Will Anthropic (ANT) Q4 revenue be above __?",
-      "headline": "[신규 30%] Will Anthropic (ANT) Q4 revenue be above __? [$22.5B] ($25K/24h)",
+      "headline": "[급락 -10%p | 26%→16%] Will Anthropic (ANT) Q4 revenue be above __? [$23B] ($70K/24h)",
       "url": "https://polymarket.com/event/will-anthropic-ant-q4-revenue-be-above",
       "is_update": false,
       "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 57.4,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 92.0,
       "tracks": [
-        "new-hot"
+        "movers",
+        "macro-tech"
       ],
       "is_urgent": false,
       "urgent_reasons": [],
       "is_flip": false,
       "is_focus": true,
       "is_multi_market": true,
-      "primary_market_id": "7360808",
-      "primary_label": "$22.5B",
+      "primary_market_id": "7360811",
+      "primary_label": "$23B",
       "outcome_label": "Yes",
-      "price": 0.295,
-      "delta_1h": -0.005,
-      "delta_6h": null,
-      "delta_24h": -0.04,
+      "price": 0.165,
+      "delta_1h": 0.08,
+      "delta_6h": -0.07,
+      "delta_24h": -0.1,
       "delta_7d": null,
       "top_outcomes": [
         {
           "label": "$20.5B",
-          "price": 0.695,
-          "delta_24h": 0.01,
-          "is_primary": false
-        },
-        {
-          "label": "$21B",
-          "price": 0.625,
-          "delta_24h": 0.02,
-          "is_primary": false
-        },
-        {
-          "label": "$21.5B",
-          "price": 0.495,
+          "price": 0.685,
           "delta_24h": 0.0,
           "is_primary": false
         },
         {
-          "label": "$22.5B",
-          "price": 0.295,
+          "label": "$21B",
+          "price": 0.585,
+          "delta_24h": -0.02,
+          "is_primary": false
+        },
+        {
+          "label": "$21.5B",
+          "price": 0.455,
           "delta_24h": -0.04,
+          "is_primary": false
+        },
+        {
+          "label": "$23B",
+          "price": 0.165,
+          "delta_24h": -0.1,
           "is_primary": true
         }
       ],
-      "volume_24h": 24797.76,
-      "volume_1wk": 77734.67,
-      "spike_ratio": 2.23,
-      "liquidity": 172935.64,
-      "open_interest": 40624.44,
+      "volume_24h": 70435.7,
+      "volume_1wk": 130061.58,
+      "spike_ratio": 3.79,
+      "liquidity": 56511.02,
+      "open_interest": 51705.5,
       "comment_count": 0,
       "created_at": "2026-11-26T00:47:11.104035Z",
       "end_date": "2027-02-26T23:00:00Z",
-      "age_hours": 42.1,
+      "age_hours": 49.2,
       "tags": [
         "AI",
         "KPIs",
@@ -1396,18 +569,85 @@
       "description_excerpt": "This market will resolve to “Yes” if Anthropic's revenue (total “Revenue” in its statements of operations; not “Run-Rate Revenue” or any other annualized figure) for the upcoming fourth fiscal quarter (Anthropic's fourth quarter of fiscal year 2026, the three months ended December 31, 2026), as reported in its official company earnings materials, is above the listed amount. Otherwise, this market will resolve to “No”…"
     },
     {
+      "guid": "live:653446",
+      "event_id": "653446",
+      "slug": "next-leader-out-of-power-before-2027-no-starmer-or-petro-20260630194619406",
+      "title": "Next leader out of power before 2027?",
+      "headline": "[급등 +14%p | 56%→70%] Next leader out of power before 2027? [Netanyahu - Israel PM] ($104K/24h)",
+      "url": "https://polymarket.com/event/next-leader-out-of-power-before-2027-no-starmer-or-petro-20260630194619406",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 90.7,
+      "tracks": [
+        "movers",
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "2750302",
+      "primary_label": "Netanyahu - Israel PM",
+      "outcome_label": "Yes",
+      "price": 0.705,
+      "delta_1h": null,
+      "delta_6h": -0.015,
+      "delta_24h": 0.145,
+      "delta_7d": 0.375,
+      "top_outcomes": [
+        {
+          "label": "Netanyahu - Israel PM",
+          "price": 0.705,
+          "delta_24h": 0.145,
+          "is_primary": true
+        },
+        {
+          "label": "None before 2027",
+          "price": 0.235,
+          "delta_24h": -0.14,
+          "is_primary": false
+        },
+        {
+          "label": "Sánchez - Spanish PM",
+          "price": 0.0215,
+          "delta_24h": 0.0075,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 104302.15,
+      "volume_1wk": 438987.36,
+      "spike_ratio": 1.66,
+      "liquidity": 913607.12,
+      "open_interest": 159560.26,
+      "comment_count": 0,
+      "created_at": "2026-07-01T02:15:01.973168Z",
+      "end_date": "2027-01-01T04:59:00Z",
+      "age_hours": 3599.7,
+      "tags": [
+        "Starmer",
+        "Politics",
+        "Geopolitics",
+        "UK Labour Leadership"
+      ],
+      "description_excerpt": "This market will resolve according to the first listed individual who ceases to occupy their listed office. An announcement of a resignation/removal, or a scheduled departure from office due to the outcome of an election, will not alone qualify. Only permanent removal from office will qualify for resolution. Temporary removals, such as impeachment suspensions (e.g., Yoon Suk Yeol's recent impeachment), temporary invo…"
+    },
+    {
       "guid": "live:995363",
       "event_id": "995363",
       "slug": "which-math-problems-will-ai-solve-in-2026",
       "title": "Which math problems will AI solve in 2026?",
-      "headline": "[급락 -9%p | 71%→62%] Which math problems will AI solve in 2026? [Riemann Hypothesis] ($159K/24h)",
+      "headline": "[급등 +9%p | 69%→78%] Which math problems will AI solve in 2026? [Riemann Hypothesis] ($153K/24h)",
       "url": "https://polymarket.com/event/which-math-problems-will-ai-solve-in-2026",
       "is_update": false,
       "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 56.8,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 90.4,
       "tracks": [
+        "movers",
         "macro-tech"
       ],
       "is_urgent": false,
@@ -1418,40 +658,40 @@
       "primary_market_id": "4418549",
       "primary_label": "Riemann Hypothesis",
       "outcome_label": "Yes",
-      "price": 0.625,
-      "delta_1h": -0.03,
-      "delta_6h": null,
-      "delta_24h": -0.09,
-      "delta_7d": -0.1,
+      "price": 0.78,
+      "delta_1h": -0.13,
+      "delta_6h": 0.155,
+      "delta_24h": 0.09,
+      "delta_7d": -0.085,
       "top_outcomes": [
         {
           "label": "Riemann Hypothesis",
-          "price": 0.625,
-          "delta_24h": -0.09,
+          "price": 0.78,
+          "delta_24h": 0.09,
           "is_primary": true
         },
         {
           "label": "Hadwiger-Nelson Problem",
-          "price": 0.16,
-          "delta_24h": 0.085,
+          "price": 0.175,
+          "delta_24h": -0.01,
           "is_primary": false
         },
         {
           "label": "Ramsey Number R(5,5)",
-          "price": 0.155,
-          "delta_24h": 0.01,
+          "price": 0.135,
+          "delta_24h": -0.01,
           "is_primary": false
         }
       ],
-      "volume_24h": 159221.41,
-      "volume_1wk": 1157761.36,
-      "spike_ratio": 0.96,
-      "liquidity": 162669.65,
-      "open_interest": 626713.97,
+      "volume_24h": 153075.29,
+      "volume_1wk": 1189302.26,
+      "spike_ratio": 0.9,
+      "liquidity": 172526.1,
+      "open_interest": 632153.38,
       "comment_count": 0,
       "created_at": "2026-09-09T19:44:33.481891Z",
       "end_date": "2027-01-01T04:59:00Z",
-      "age_hours": 1895.2,
+      "age_hours": 1902.2,
       "tags": [
         "AI",
         "Math",
@@ -1463,17 +703,156 @@
       "description_excerpt": "This market will resolve to \"Yes\" if an eligible AI lab announces a solution to the problem specified in the title by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\". A qualifying announcement must be made by an eligible AI lab or an official representative of the lab, and must express that the problem specified in the title has been solved; announcements of partial results or progress tow…"
     },
     {
-      "guid": "live:848370",
-      "event_id": "848370",
-      "slug": "taoyuan-mayor-election-winner-20260813125857300",
-      "title": "Taoyuan Mayor Election Winner",
-      "headline": "[자금급증 4.7x | 92%] Taoyuan Mayor Election Winner [Chang San-cheng] ($190K/24h)",
-      "url": "https://polymarket.com/event/taoyuan-mayor-election-winner-20260813125857300",
+      "guid": "live:197077",
+      "event_id": "197077",
+      "slug": "which-companies-will-the-us-take-a-stake-in",
+      "title": "Which companies will the US take a stake in?",
+      "headline": "[급락 -11%p | 35%→24%] Which companies will the US take a stake in? [Nvidia] ($26K/24h)",
+      "url": "https://polymarket.com/event/which-companies-will-the-us-take-a-stake-in",
       "is_update": false,
       "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 56.8,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 89.1,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "1323320",
+      "primary_label": "Nvidia",
+      "outcome_label": "Yes",
+      "price": 0.2405,
+      "delta_1h": -0.0145,
+      "delta_6h": -0.0375,
+      "delta_24h": -0.114,
+      "delta_7d": 0.2035,
+      "top_outcomes": [
+        {
+          "label": "Nvidia",
+          "price": 0.2405,
+          "delta_24h": -0.114,
+          "is_primary": true
+        },
+        {
+          "label": "Unusual Machines",
+          "price": 0.16,
+          "delta_24h": 0.04,
+          "is_primary": false
+        },
+        {
+          "label": "IonQ",
+          "price": 0.081,
+          "delta_24h": -0.005,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 25778.89,
+      "volume_1wk": 53112.04,
+      "spike_ratio": 3.4,
+      "liquidity": 62276.38,
+      "open_interest": 61599.96,
+      "comment_count": 3,
+      "created_at": "2026-02-03T00:28:13.040866Z",
+      "end_date": "2027-01-01T04:59:00Z",
+      "age_hours": 7153.5,
+      "tags": [
+        "Politics",
+        "Tech",
+        "Economy",
+        "Trump",
+        "Big Tech"
+      ],
+      "description_excerpt": "This market will resolve to “Yes” if the U.S. federal government takes a stake in the listed company by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”. Takes a stake refers to the U.S. federal government acquiring direct equity ownership, voting shares, convertible rights treated as equity, or equivalent ownership interests in the listed company or of a legal vehicle that primarily owns t…"
+    },
+    {
+      "guid": "live:1445743",
+      "event_id": "1445743",
+      "slug": "b300-average-rental-price-in-june-2027",
+      "title": "B300 average rental price in June 2027?",
+      "headline": "[현재 16%] B300 average rental price in June 2027? [Above $18.00] ($31K/24h)",
+      "url": "https://polymarket.com/event/b300-average-rental-price-in-june-2027",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 80.3,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "7277771",
+      "primary_label": "Above $18.00",
+      "outcome_label": "Yes",
+      "price": 0.165,
+      "delta_1h": -0.02,
+      "delta_6h": null,
+      "delta_24h": 0.03,
+      "delta_7d": null,
+      "top_outcomes": [
+        {
+          "label": "Above $4.00",
+          "price": 0.925,
+          "delta_24h": null,
+          "is_primary": false
+        },
+        {
+          "label": "Above $6.00",
+          "price": 0.855,
+          "delta_24h": null,
+          "is_primary": false
+        },
+        {
+          "label": "Above $7.00",
+          "price": 0.815,
+          "delta_24h": null,
+          "is_primary": false
+        },
+        {
+          "label": "Above $18.00",
+          "price": 0.165,
+          "delta_24h": 0.03,
+          "is_primary": true
+        }
+      ],
+      "volume_24h": 30791.69,
+      "volume_1wk": 37570.12,
+      "spike_ratio": 5.74,
+      "liquidity": 508344.64,
+      "open_interest": 10756.33,
+      "comment_count": 0,
+      "created_at": "2026-11-23T03:00:30.715785Z",
+      "end_date": "2027-07-01T03:59:00Z",
+      "age_hours": 118.9,
+      "tags": [
+        "AI",
+        "B300",
+        "Ornn",
+        "Tech",
+        "NVIDIA",
+        "Compute"
+      ],
+      "description_excerpt": "This market will resolve to \"Yes\" if the average Ornn B300 index value in June 2027 is above the specified price. Otherwise, this market will resolve to \"No\". The average Ornn B300 index value in June 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B300 index dated within June 2027, as published by Ornn, rounded to the nearest cent. A daily settled value is considered finalized once…"
+    },
+    {
+      "guid": "live:848407",
+      "event_id": "848407",
+      "slug": "taichung-mayor-election-winner-20260813125857400",
+      "title": "Taichung Mayor Election Winner",
+      "headline": "[급락 -7%p | 81%→74%] Taichung Mayor Election Winner [Johnny Chiang] ($118K/24h)",
+      "url": "https://polymarket.com/event/taichung-mayor-election-winner-20260813125857400",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 78.7,
       "tracks": [
         "surge",
         "macro-tech"
@@ -1483,26 +862,94 @@
       "is_flip": false,
       "is_focus": true,
       "is_multi_market": true,
-      "primary_market_id": "3581101",
-      "primary_label": "Chang San-cheng",
+      "primary_market_id": "3581388",
+      "primary_label": "Johnny Chiang",
       "outcome_label": "Yes",
-      "price": 0.915,
-      "delta_1h": null,
-      "delta_6h": null,
-      "delta_24h": -0.005,
-      "delta_7d": 0.01,
+      "price": 0.735,
+      "delta_1h": 0.005,
+      "delta_6h": -0.04,
+      "delta_24h": -0.07,
+      "delta_7d": -0.06,
       "top_outcomes": [
         {
-          "label": "Chang San-cheng",
-          "price": 0.915,
-          "delta_24h": -0.005,
+          "label": "Johnny Chiang",
+          "price": 0.735,
+          "delta_24h": -0.07,
           "is_primary": true
         },
         {
-          "label": "Huang Shih-chieh",
-          "price": 0.088,
-          "delta_24h": 0.0035,
+          "label": "Ho Hsin-chun",
+          "price": 0.2665,
+          "delta_24h": 0.066,
           "is_primary": false
+        },
+        {
+          "label": "Yang Chiung-ying",
+          "price": 0.0005,
+          "delta_24h": 0.0,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 117517.92,
+      "volume_1wk": 218382.2,
+      "spike_ratio": 3.77,
+      "liquidity": 241148.21,
+      "open_interest": 243509.95,
+      "comment_count": 1,
+      "created_at": "2026-08-14T12:50:05.909686Z",
+      "end_date": "2026-11-29T04:59:00Z",
+      "age_hours": 2533.1,
+      "tags": [
+        "Taiwan",
+        "Politics",
+        "Elections",
+        "Main Election",
+        "Global Elections",
+        "Taiwan Elections"
+      ],
+      "description_excerpt": "Taiwanese local elections are scheduled to be held on November 28, 2026. This market will resolve according to the candidate who becomes the next Mayor of Taichung as a result of this election. Temporary, interim, or placeholder Mayors appointed before the election will not be considered. If the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resol…"
+    },
+    {
+      "guid": "live:848370",
+      "event_id": "848370",
+      "slug": "taoyuan-mayor-election-winner-20260813125857300",
+      "title": "Taoyuan Mayor Election Winner",
+      "headline": "[자금급증 5.2x | 10%] Taoyuan Mayor Election Winner [Huang Shih-chieh] ($270K/24h)",
+      "url": "https://polymarket.com/event/taoyuan-mayor-election-winner-20260813125857300",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 72.3,
+      "tracks": [
+        "surge",
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "3581102",
+      "primary_label": "Huang Shih-chieh",
+      "outcome_label": "Yes",
+      "price": 0.1025,
+      "delta_1h": 0.007,
+      "delta_6h": 0.0145,
+      "delta_24h": 0.022,
+      "delta_7d": 0.017,
+      "top_outcomes": [
+        {
+          "label": "Chang San-cheng",
+          "price": 0.895,
+          "delta_24h": -0.02,
+          "is_primary": false
+        },
+        {
+          "label": "Huang Shih-chieh",
+          "price": 0.1025,
+          "delta_24h": 0.022,
+          "is_primary": true
         },
         {
           "label": "Perng Shaw-jiin",
@@ -1511,15 +958,15 @@
           "is_primary": false
         }
       ],
-      "volume_24h": 189608.61,
-      "volume_1wk": 283630.71,
-      "spike_ratio": 4.68,
-      "liquidity": 306501.49,
-      "open_interest": 297640.32,
+      "volume_24h": 269838.97,
+      "volume_1wk": 363720.13,
+      "spike_ratio": 5.19,
+      "liquidity": 317611.54,
+      "open_interest": 375851.36,
       "comment_count": 3,
       "created_at": "2026-08-14T12:37:11.792175Z",
       "end_date": "2026-11-29T04:59:00Z",
-      "age_hours": 2526.3,
+      "age_hours": 2533.3,
       "tags": [
         "Taiwan",
         "Politics",
@@ -1531,18 +978,19 @@
       "description_excerpt": "Taiwanese local elections are scheduled to be held on November 28, 2026. This market will resolve according to the candidate who becomes the next Mayor of Taoyuan as a result of this election. Temporary, interim, or placeholder Mayors appointed before the election will not be considered. If the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resolv…"
     },
     {
-      "guid": "live:75598",
-      "event_id": "75598",
-      "slug": "nyse-marketwide-circuit-breaker-before-2027",
-      "title": "NYSE marketwide circuit breaker by...?",
-      "headline": "[현재 2%] NYSE marketwide circuit breaker by...? [December 11] ($33K/24h)",
-      "url": "https://polymarket.com/event/nyse-marketwide-circuit-breaker-before-2027",
+      "guid": "live:994486",
+      "event_id": "994486",
+      "slug": "how-many-more-millennium-prize-problems-will-ai-solve-in-2026",
+      "title": "How many more Millennium Prize Problems will AI solve in 2026?",
+      "headline": "[급락 -5%p | 20%→15%] How many more Millennium Prize Problems will AI solve in 2026? [0] ($56K/24h)",
+      "url": "https://polymarket.com/event/how-many-more-millennium-prize-problems-will-ai-solve-in-2026",
       "is_update": false,
       "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 54.9,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 71.8,
       "tracks": [
+        "movers",
         "macro-tech"
       ],
       "is_urgent": false,
@@ -1550,64 +998,65 @@
       "is_flip": false,
       "is_focus": true,
       "is_multi_market": true,
-      "primary_market_id": "7347299",
-      "primary_label": "December 11",
+      "primary_market_id": "4412321",
+      "primary_label": "0",
       "outcome_label": "Yes",
-      "price": 0.0215,
-      "delta_1h": null,
-      "delta_6h": null,
-      "delta_24h": -0.0335,
-      "delta_7d": null,
+      "price": 0.15,
+      "delta_1h": 0.075,
+      "delta_6h": -0.13,
+      "delta_24h": -0.055,
+      "delta_7d": 0.01,
       "top_outcomes": [
         {
-          "label": "December 31",
-          "price": 0.0465,
-          "delta_24h": -0.0265,
+          "label": "1",
+          "price": 0.635,
+          "delta_24h": 0.01,
           "is_primary": false
         },
         {
-          "label": "December 18",
-          "price": 0.0405,
-          "delta_24h": -0.0195,
+          "label": "2",
+          "price": 0.177,
+          "delta_24h": 0.0605,
           "is_primary": false
         },
         {
-          "label": "December 11",
-          "price": 0.0215,
-          "delta_24h": -0.0335,
+          "label": "0",
+          "price": 0.15,
+          "delta_24h": -0.055,
           "is_primary": true
         }
       ],
-      "volume_24h": 33094.49,
-      "volume_1wk": 66568.64,
-      "spike_ratio": 3.48,
-      "liquidity": 123592.45,
-      "open_interest": 79153.5,
-      "comment_count": 7,
-      "created_at": "2025-11-07T20:22:27.837924Z",
+      "volume_24h": 56337.56,
+      "volume_1wk": 589876.25,
+      "spike_ratio": 0.67,
+      "liquidity": 101164.65,
+      "open_interest": 180665.42,
+      "comment_count": 0,
+      "created_at": "2026-09-09T16:05:19.70338Z",
       "end_date": "2027-01-01T04:59:00Z",
-      "age_hours": 9238.5,
+      "age_hours": 1905.8,
       "tags": [
-        "Finance",
-        "Business",
-        "Stocks",
-        "Economy",
-        "NYSE"
+        "AI",
+        "Math",
+        "Tech",
+        "Science",
+        "CMI",
+        "Millennium Prize"
       ],
-      "description_excerpt": "This market will resolve to \"Yes\" if a marketwide circuit breaker is triggered on the New York Stock Exchange (NYSE) at any time between November 7, 2025, and December 31, 2026. Otherwise, this market will resolve to “No”. A marketwide circuit breaker is defined as a trading halt that is initiated due to significant declines in the S&P 500 Index, specifically a Level 1, Level 2, or Level 3 halt as per NYSE rules. The…"
+      "description_excerpt": "This market will resolve according to the number of distinct qualifying Millennium Prize Problems for which an eligible AI lab announces a solution by December 31, 2026, 11:59 PM ET. Each qualifying problem is counted once, regardless of how many eligible AI labs announce a solution to it or how many announcements are made. The qualifying problems are, in alphabetical order, the Birch and Swinnerton-Dyer Conjecture, …"
     },
     {
-      "guid": "live:166435",
-      "event_id": "166435",
-      "slug": "next-prime-minister-of-sweden",
-      "title": "Next Prime Minister of Sweden",
-      "headline": "[급락 -6%p | 18%→12%] Next Prime Minister of Sweden [Magdalena Andersson] ($263K/24h)",
-      "url": "https://polymarket.com/event/next-prime-minister-of-sweden",
+      "guid": "live:1305076",
+      "event_id": "1305076",
+      "slug": "mayor-combo-taipei-and-new-taipei",
+      "title": "Mayor Combo: Taipei and New Taipei",
+      "headline": "[급락 -6%p | 34%→28%] Mayor Combo: Taipei and New Taipei [KMT Taipei, DPP New Taipei] ($42K/24h)",
+      "url": "https://polymarket.com/event/mayor-combo-taipei-and-new-taipei",
       "is_update": false,
       "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 51.7,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 71.1,
       "tracks": [
         "macro-tech"
       ],
@@ -1616,65 +1065,64 @@
       "is_flip": false,
       "is_focus": true,
       "is_multi_market": true,
-      "primary_market_id": "1193094",
-      "primary_label": "Magdalena Andersson",
+      "primary_market_id": "6617893",
+      "primary_label": "KMT Taipei, DPP New Taipei",
       "outcome_label": "Yes",
-      "price": 0.125,
-      "delta_1h": -0.01,
-      "delta_6h": null,
-      "delta_24h": -0.06,
-      "delta_7d": -0.41,
+      "price": 0.28,
+      "delta_1h": -0.005,
+      "delta_6h": -0.01,
+      "delta_24h": -0.065,
+      "delta_7d": -0.055,
       "top_outcomes": [
         {
-          "label": "Ulf Kristersson",
-          "price": 0.8365,
-          "delta_24h": 0.0505,
+          "label": "DPP sweep",
+          "price": 0.355,
+          "delta_24h": 0.05,
           "is_primary": false
         },
         {
-          "label": "Magdalena Andersson",
-          "price": 0.125,
-          "delta_24h": -0.06,
+          "label": "KMT sweep",
+          "price": 0.285,
+          "delta_24h": -0.01,
+          "is_primary": false
+        },
+        {
+          "label": "KMT Taipei, DPP New Taipei",
+          "price": 0.28,
+          "delta_24h": -0.065,
           "is_primary": true
-        },
-        {
-          "label": "Ebba Busch",
-          "price": 0.0095,
-          "delta_24h": 0.0005,
-          "is_primary": false
         }
       ],
-      "volume_24h": 262740.56,
-      "volume_1wk": 1039518.8,
-      "spike_ratio": 1.77,
-      "liquidity": 1380405.0,
-      "open_interest": 1126262.16,
-      "comment_count": 549,
-      "created_at": "2026-01-15T17:53:53.193997Z",
-      "end_date": "2027-07-01T03:59:00Z",
-      "age_hours": 7585.0,
+      "volume_24h": 42133.81,
+      "volume_1wk": 82191.96,
+      "spike_ratio": 3.59,
+      "liquidity": 244126.47,
+      "open_interest": 64794.2,
+      "comment_count": 0,
+      "created_at": "2026-11-03T02:25:59.660055Z",
+      "end_date": "2026-11-29T04:59:00Z",
+      "age_hours": 599.5,
       "tags": [
+        "Taiwan",
+        "Politics",
         "Elections",
-        "World",
-        "World Elections",
         "Global Elections",
-        "Sweden",
-        "Swedish"
+        "Taiwan Elections"
       ],
-      "description_excerpt": "Parliamentary elections are scheduled to be held in Sweden on September 13, 2026. This market will resolve to the next individual who is officially appointed and assumes office as Prime Minister of Sweden following the next parliamentary election. To count for resolution, the individual must officially assume office. Any interim or caretaker Prime Minister will not count toward the resolution of this market. If no su…"
+      "description_excerpt": "This market will resolve according to the outcome of the Taipei and New Taipei mayoral elections that are currently scheduled for November 28, 2026. A candidate will be considered to represent a party by their ballot-listed affiliation or if they are the nominee of that party. Candidates who run as independents will not be encompassed by the “KMT” or “DPP” options regardless of any affiliation they may have with the …"
     },
     {
-      "guid": "live:1412255",
-      "event_id": "1412255",
-      "slug": "section-232-rate-on-canadian-primary-aluminum",
-      "title": "Canadian unwrought aluminum duty rate on December 31, 2027?",
-      "headline": "[급등 +6%p | 22%→28%] Canadian unwrought aluminum duty rate on December 31, 2027? [>20-40%] ($45K/24h)",
-      "url": "https://polymarket.com/event/section-232-rate-on-canadian-primary-aluminum",
+      "guid": "live:848341",
+      "event_id": "848341",
+      "slug": "taipei-mayor-election-winner-20260813125857100",
+      "title": "Taipei Mayor Election Winner",
+      "headline": "[급락 -5%p | 61%→56%] Taipei Mayor Election Winner [Chiang Wan-an] ($1.6M/24h)",
+      "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100",
       "is_update": false,
       "prev_published_price": null,
-      "published_ts": 1795805667,
-      "published_at": "2026-11-27T18:54:27.616894+00:00",
-      "score": 51.4,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 67.8,
       "tracks": [
         "macro-tech"
       ],
@@ -1683,43 +1131,785 @@
       "is_flip": false,
       "is_focus": true,
       "is_multi_market": true,
-      "primary_market_id": "7126287",
-      "primary_label": ">20-40%",
+      "primary_market_id": "3580932",
+      "primary_label": "Chiang Wan-an",
       "outcome_label": "Yes",
-      "price": 0.275,
-      "delta_1h": null,
-      "delta_6h": null,
-      "delta_24h": 0.06,
-      "delta_7d": null,
+      "price": 0.56,
+      "delta_1h": 0.005,
+      "delta_6h": -0.025,
+      "delta_24h": -0.055,
+      "delta_7d": -0.095,
       "top_outcomes": [
         {
-          "label": ">40-50%",
-          "price": 0.39,
-          "delta_24h": -0.005,
-          "is_primary": false
-        },
-        {
-          "label": ">20-40%",
-          "price": 0.275,
-          "delta_24h": 0.06,
+          "label": "Chiang Wan-an",
+          "price": 0.56,
+          "delta_24h": -0.055,
           "is_primary": true
         },
         {
-          "label": "0%",
-          "price": 0.0945,
+          "label": "Puma Shen",
+          "price": 0.4405,
+          "delta_24h": 0.0465,
+          "is_primary": false
+        },
+        {
+          "label": "Kuo Hsi",
+          "price": 0.0005,
           "delta_24h": 0.0,
           "is_primary": false
         }
       ],
-      "volume_24h": 44701.7,
-      "volume_1wk": 147508.34,
-      "spike_ratio": 2.12,
-      "liquidity": 43152.25,
-      "open_interest": 10674.43,
+      "volume_24h": 1630551.84,
+      "volume_1wk": 3846389.31,
+      "spike_ratio": 2.97,
+      "liquidity": 968607.81,
+      "open_interest": 4472846.77,
+      "comment_count": 483,
+      "created_at": "2026-08-14T12:24:28.93129Z",
+      "end_date": "2026-11-29T04:59:00Z",
+      "age_hours": 2533.5,
+      "tags": [
+        "Taiwan",
+        "Politics",
+        "Elections",
+        "Main Election",
+        "Global Elections",
+        "Taiwan Elections"
+      ],
+      "description_excerpt": "Taiwanese local elections are scheduled to be held on November 28, 2026. This market will resolve according to the candidate who becomes the next Mayor of Taipei as a result of this election. Temporary, interim, or placeholder Mayors appointed before the election will not be considered. If the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resolve…"
+    },
+    {
+      "guid": "live:500753",
+      "event_id": "500753",
+      "slug": "will-anthropics-valuation-hit-by-december-31",
+      "title": "Will Anthropic’s valuation hit __ by December 31?",
+      "headline": "[급락 -11%p | 32%→21%] Will Anthropic’s valuation hit __ by December 31? [↓$800B] ($73K/24h)",
+      "url": "https://polymarket.com/event/will-anthropics-valuation-hit-by-december-31",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 65.7,
+      "tracks": [
+        "movers",
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "2299960",
+      "primary_label": "↓$800B",
+      "outcome_label": "Yes",
+      "price": 0.212,
+      "delta_1h": -0.0045,
+      "delta_6h": -0.006,
+      "delta_24h": -0.1145,
+      "delta_7d": -0.081,
+      "top_outcomes": [
+        {
+          "label": "↑$1.6T",
+          "price": 0.215,
+          "delta_24h": 0.05,
+          "is_primary": false
+        },
+        {
+          "label": "↓$800B",
+          "price": 0.212,
+          "delta_24h": -0.1145,
+          "is_primary": true
+        },
+        {
+          "label": "↑$1.75T",
+          "price": 0.145,
+          "delta_24h": 0.03,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 72818.16,
+      "volume_1wk": 655033.05,
+      "spike_ratio": 0.78,
+      "liquidity": 655754.41,
+      "open_interest": 1957598.65,
+      "comment_count": 0,
+      "created_at": "2026-05-19T04:16:45.70321Z",
+      "end_date": "2027-01-05T04:59:00Z",
+      "age_hours": 4629.7,
+      "tags": [
+        "Finance",
+        "Privates",
+        "llm",
+        "Anthropic",
+        "Dario Amodei",
+        "Claude"
+      ],
+      "description_excerpt": "This market will resolve to \"Yes\" if Anthropic's private market valuation, as measured by the NPM Price reported by Nasdaq Private Market, LLC (NPM) for any date between market creation and December 31, 2026, is equal to or beyond (equal to or above for ↑ HIGH valuations, equal to or below for ↓ LOW valuations) the listed amount. Otherwise, this market will resolve to \"No\". NPM Prices are published for trading days o…"
+    },
+    {
+      "guid": "live:1445766",
+      "event_id": "1445766",
+      "slug": "h100-average-rental-price-in-december-2028",
+      "title": "H100 average rental price in December 2028?",
+      "headline": "[급락 -5%p | 77%→72%] H100 average rental price in December 2028? [Above $1.00] ($51K/24h)",
+      "url": "https://polymarket.com/event/h100-average-rental-price-in-december-2028",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 65.1,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "7278075",
+      "primary_label": "Above $1.00",
+      "outcome_label": "Yes",
+      "price": 0.725,
+      "delta_1h": 0.03,
+      "delta_6h": 0.03,
+      "delta_24h": -0.05,
+      "delta_7d": null,
+      "top_outcomes": [
+        {
+          "label": "Above $0.25",
+          "price": 0.895,
+          "delta_24h": 0.03,
+          "is_primary": false
+        },
+        {
+          "label": "Above $0.50",
+          "price": 0.805,
+          "delta_24h": 0.0,
+          "is_primary": false
+        },
+        {
+          "label": "Above $1.00",
+          "price": 0.725,
+          "delta_24h": -0.05,
+          "is_primary": true
+        }
+      ],
+      "volume_24h": 50984.68,
+      "volume_1wk": 98269.9,
+      "spike_ratio": 3.63,
+      "liquidity": 237074.17,
+      "open_interest": 13534.07,
+      "comment_count": 0,
+      "created_at": "2026-11-23T03:05:15.407895Z",
+      "end_date": "2029-01-01T04:59:00Z",
+      "age_hours": 118.8,
+      "tags": [
+        "AI",
+        "H100",
+        "Ornn",
+        "Tech",
+        "NVIDIA",
+        "Compute"
+      ],
+      "description_excerpt": "This market will resolve to \"Yes\" if the average Ornn H100 index value in December 2028 is above the specified price. Otherwise, this market will resolve to \"No\". The average Ornn H100 index value in December 2028 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-H100 index dated within December 2028, as published by Ornn, rounded to the nearest cent. A daily settled value is considered fi…"
+    },
+    {
+      "guid": "live:1367484",
+      "event_id": "1367484",
+      "slug": "2026-taipei-mayoral-election-margin-of-victory-20261103233704870",
+      "title": "2026 Taipei Mayoral Election: Margin of Victory",
+      "headline": "[자금급증 3.4x | 3%] 2026 Taipei Mayoral Election: Margin of Victory [Chiang Wan-an 12%+] ($234K/24h)",
+      "url": "https://polymarket.com/event/2026-taipei-mayoral-election-margin-of-victory-20261103233704870",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 56.7,
+      "tracks": [
+        "surge",
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "6976235",
+      "primary_label": "Chiang Wan-an 12%+",
+      "outcome_label": "Yes",
+      "price": 0.027,
+      "delta_1h": -0.0035,
+      "delta_6h": -0.0335,
+      "delta_24h": -0.0315,
+      "delta_7d": -0.028,
+      "top_outcomes": [
+        {
+          "label": "Chiang Wan-an <4%",
+          "price": 0.245,
+          "delta_24h": 0.0,
+          "is_primary": false
+        },
+        {
+          "label": "Chiang Wan-an 4-8%",
+          "price": 0.21,
+          "delta_24h": 0.005,
+          "is_primary": false
+        },
+        {
+          "label": "Puma Shen <4%",
+          "price": 0.205,
+          "delta_24h": 0.01,
+          "is_primary": false
+        },
+        {
+          "label": "Chiang Wan-an 12%+",
+          "price": 0.027,
+          "delta_24h": -0.0315,
+          "is_primary": true
+        }
+      ],
+      "volume_24h": 234353.73,
+      "volume_1wk": 483246.81,
+      "spike_ratio": 3.39,
+      "liquidity": 473916.91,
+      "open_interest": 355370.21,
+      "comment_count": 9,
+      "created_at": "2026-11-11T23:19:19.443419Z",
+      "end_date": "2026-11-29T04:59:00Z",
+      "age_hours": 386.6,
+      "tags": [
+        "Taiwan",
+        "Politics",
+        "Elections",
+        "Global Elections",
+        "Taiwan Elections"
+      ],
+      "description_excerpt": "The 2026 Taipei mayoral election is scheduled to take place on November 28, 2026, to elect the next mayor of Taipei. This market will resolve according to the margin of victory between the top two candidates in the specified election. For the purpose of this market, the “margin of victory” is defined as the absolute difference between the percentages of valid votes received by the first-place and second-place candida…"
+    },
+    {
+      "guid": "live:1151056",
+      "event_id": "1151056",
+      "slug": "ljubljana-mayoral-election-winner-2026",
+      "title": "Ljubljana Mayoral Election Winner",
+      "headline": "[현재 37%] Ljubljana Mayoral Election Winner [Luka Mesec] ($26K/24h)",
+      "url": "https://polymarket.com/event/ljubljana-mayoral-election-winner-2026",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 56.2,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "5420004",
+      "primary_label": "Luka Mesec",
+      "outcome_label": "Yes",
+      "price": 0.37,
+      "delta_1h": null,
+      "delta_6h": 0.065,
+      "delta_24h": 0.045,
+      "delta_7d": 0.045,
+      "top_outcomes": [
+        {
+          "label": "Zoran Janković",
+          "price": 0.635,
+          "delta_24h": -0.04,
+          "is_primary": false
+        },
+        {
+          "label": "Luka Mesec",
+          "price": 0.37,
+          "delta_24h": 0.045,
+          "is_primary": true
+        }
+      ],
+      "volume_24h": 26479.4,
+      "volume_1wk": 75421.57,
+      "spike_ratio": 2.46,
+      "liquidity": 127705.4,
+      "open_interest": 188458.41,
+      "comment_count": 199,
+      "created_at": "2026-10-08T00:01:30.384864Z",
+      "end_date": "2026-11-16T04:59:00Z",
+      "age_hours": 1225.9,
+      "tags": [
+        "Politics",
+        "Slovenia",
+        "Elections",
+        "Main Election",
+        "World Elections",
+        "Global Elections"
+      ],
+      "description_excerpt": "The next Ljubljana mayoral election is scheduled to be held on November 15, 2026, to elect the mayor of the City Municipality of Ljubljana, Slovenia (župan Mestne občine Ljubljana). If no candidate wins a majority of valid votes in the first round, a runoff between the two leading candidates is scheduled for November 29, 2026. This market will resolve according to the candidate who becomes the next mayor of Ljubljana…"
+    },
+    {
+      "guid": "live:1445750",
+      "event_id": "1445750",
+      "slug": "b200-average-rental-price-in-february-2027",
+      "title": "B200 average rental price in February 2027?",
+      "headline": "[급등 +6%p | 20%→26%] B200 average rental price in February 2027? [Above $10.50] ($120K/24h)",
+      "url": "https://polymarket.com/event/b200-average-rental-price-in-february-2027",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 55.4,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "7277915",
+      "primary_label": "Above $10.50",
+      "outcome_label": "Yes",
+      "price": 0.265,
+      "delta_1h": null,
+      "delta_6h": 0.06,
+      "delta_24h": 0.06,
+      "delta_7d": null,
+      "top_outcomes": [
+        {
+          "label": "Above $3.50",
+          "price": 0.965,
+          "delta_24h": 0.0,
+          "is_primary": false
+        },
+        {
+          "label": "Above $5.50",
+          "price": 0.925,
+          "delta_24h": 0.0,
+          "is_primary": false
+        },
+        {
+          "label": "Above $6.50",
+          "price": 0.865,
+          "delta_24h": 0.0,
+          "is_primary": false
+        },
+        {
+          "label": "Above $10.50",
+          "price": 0.265,
+          "delta_24h": 0.06,
+          "is_primary": true
+        }
+      ],
+      "volume_24h": 119776.58,
+      "volume_1wk": 373859.53,
+      "spike_ratio": 2.24,
+      "liquidity": 465117.4,
+      "open_interest": 74227.79,
+      "comment_count": 0,
+      "created_at": "2026-11-23T03:01:59.012846Z",
+      "end_date": "2027-03-01T04:59:00Z",
+      "age_hours": 118.9,
+      "tags": [
+        "AI",
+        "B200",
+        "Ornn",
+        "Tech",
+        "NVIDIA",
+        "Compute"
+      ],
+      "description_excerpt": "This market will resolve to \"Yes\" if the average Ornn B200 index value in February 2027 is above the specified price. Otherwise, this market will resolve to \"No\". The average Ornn B200 index value in February 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B200 index dated within February 2027, as published by Ornn, rounded to the nearest cent. A daily settled value is considered fi…"
+    },
+    {
+      "guid": "live:1337182",
+      "event_id": "1337182",
+      "slug": "us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108",
+      "title": "US x Iran Effective Ceasefire begins by...? (2 week pause)",
+      "headline": "[급등 +10%p | 58%→68%] US x Iran Effective Ceasefire begins by...? (2 week pause) [November 22] ($54K/24h)",
+      "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 55.0,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "6831495",
+      "primary_label": "November 22",
+      "outcome_label": "Yes",
+      "price": 0.68,
+      "delta_1h": 0.025,
+      "delta_6h": 0.025,
+      "delta_24h": 0.095,
+      "delta_7d": 0.275,
+      "top_outcomes": [
+        {
+          "label": "December 31",
+          "price": 0.875,
+          "delta_24h": 0.045,
+          "is_primary": false
+        },
+        {
+          "label": "November 30",
+          "price": 0.745,
+          "delta_24h": 0.0,
+          "is_primary": false
+        },
+        {
+          "label": "November 22",
+          "price": 0.68,
+          "delta_24h": 0.095,
+          "is_primary": true
+        }
+      ],
+      "volume_24h": 54257.13,
+      "volume_1wk": 461300.91,
+      "spike_ratio": 0.82,
+      "liquidity": 118523.29,
+      "open_interest": 357546.37,
+      "comment_count": 0,
+      "created_at": "2026-11-08T02:48:20.729442Z",
+      "end_date": "2026-12-31T20:29:00Z",
+      "age_hours": 479.1,
+      "tags": [
+        "Iran",
+        "Politics",
+        "ceasefire",
+        "Peace Deal",
+        "Geopolitics",
+        "U.S. x Iran"
+      ],
+      "description_excerpt": "This market will resolve to “Yes” if a continuous 14-day period during which the United States does not take a qualifying military action against Iran is completed, where the first day of that period is between market creation and the specified date (Iran Standard Time). Otherwise, this market will resolve to “No.” The first day of the 14-day period will be the calendar date (Iran Standard Time) after the most recent…"
+    },
+    {
+      "guid": "live:1193553",
+      "event_id": "1193553",
+      "slug": "bank-of-england-decision-in-december-2026",
+      "title": "Bank of England decision in December?",
+      "headline": "[현재 20%] Bank of England decision in December? [No change] ($28K/24h)",
+      "url": "https://polymarket.com/event/bank-of-england-decision-in-december-2026",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 52.1,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "5727013",
+      "primary_label": "No change",
+      "outcome_label": "Yes",
+      "price": 0.205,
+      "delta_1h": null,
+      "delta_6h": 0.0,
+      "delta_24h": -0.02,
+      "delta_7d": -0.04,
+      "top_outcomes": [
+        {
+          "label": "25 bps increase",
+          "price": 0.775,
+          "delta_24h": 0.0,
+          "is_primary": false
+        },
+        {
+          "label": "No change",
+          "price": 0.205,
+          "delta_24h": -0.02,
+          "is_primary": true
+        },
+        {
+          "label": "25 bps decrease",
+          "price": 0.0015,
+          "delta_24h": 0.0,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 28129.33,
+      "volume_1wk": 52218.94,
+      "spike_ratio": 3.77,
+      "liquidity": 170822.81,
+      "open_interest": 62067.84,
+      "comment_count": 0,
+      "created_at": "2026-10-15T11:00:22.477059Z",
+      "end_date": "2026-12-17T23:59:00Z",
+      "age_hours": 1046.9,
+      "tags": [
+        "BOE",
+        "Economy",
+        "England",
+        "Recurring",
+        "Global Rates",
+        "interest rates"
+      ],
+      "description_excerpt": "This market will resolve according to the change in basis points in the Bank Rate resulting from the December 2026 meeting of the Bank of England’s Monetary Policy Committee, relative to the level it was prior to this meeting. The resolution source will be official information from the Bank of England, including the statement or release from its December 2026 Monetary Policy Committee meeting, scheduled for December …"
+    },
+    {
+      "guid": "live:848409",
+      "event_id": "848409",
+      "slug": "kaohsiung-mayor-election-winner-20260813125857600",
+      "title": "Kaohsiung Mayor Election Winner",
+      "headline": "[현재 22%] Kaohsiung Mayor Election Winner [Ko Chih-en] ($129K/24h)",
+      "url": "https://polymarket.com/event/kaohsiung-mayor-election-winner-20260813125857600",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 50.8,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "3581449",
+      "primary_label": "Ko Chih-en",
+      "outcome_label": "Yes",
+      "price": 0.2215,
+      "delta_1h": 0.004,
+      "delta_6h": 0.011,
+      "delta_24h": 0.0375,
+      "delta_7d": 0.0515,
+      "top_outcomes": [
+        {
+          "label": "Lai Jui-lung",
+          "price": 0.785,
+          "delta_24h": -0.02,
+          "is_primary": false
+        },
+        {
+          "label": "Ko Chih-en",
+          "price": 0.2215,
+          "delta_24h": 0.0375,
+          "is_primary": true
+        },
+        {
+          "label": "Lin Tai-hua",
+          "price": 0.0005,
+          "delta_24h": 0.0,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 129283.03,
+      "volume_1wk": 322511.09,
+      "spike_ratio": 2.81,
+      "liquidity": 475621.63,
+      "open_interest": 297093.64,
+      "comment_count": 5,
+      "created_at": "2026-08-14T12:51:19.650947Z",
+      "end_date": "2026-11-28T23:59:00Z",
+      "age_hours": 2533.1,
+      "tags": [
+        "Taiwan",
+        "Politics",
+        "Elections",
+        "Main Election",
+        "Global Elections",
+        "Taiwan Elections"
+      ],
+      "description_excerpt": "Taiwanese local elections are scheduled to be held on November 28, 2026. This market will resolve according to the candidate who becomes the next Mayor of Kaohsiung as a result of this election. Temporary, interim, or placeholder Mayors appointed before the election will not be considered. If the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will reso…"
+    }
+  ],
+  "published_items": [
+    {
+      "guid": "pm:872338:macro-tech:20261128",
+      "event_id": "872338",
+      "slug": "will-russia-capture-the-royal-cafe-alex-in-kostyantynivka-byptptpt",
+      "title": "Will Russia capture the Royal Café Alex in Kostyantynivka by...?",
+      "headline": "[급등 +96%p | 2%→98% · 판세반전] Will Russia capture the Royal Café Alex in Kostyantynivka by...? [November 30] ($45K/24h)",
+      "url": "https://polymarket.com/event/will-russia-capture-the-royal-cafe-alex-in-kostyantynivka-byptptpt",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 539.3,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": true,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "5234720",
+      "primary_label": "November 30",
+      "outcome_label": "Yes",
+      "price": 0.9835,
+      "delta_1h": null,
+      "delta_6h": 0.2375,
+      "delta_24h": 0.955,
+      "delta_7d": 0.946,
+      "top_outcomes": [
+        {
+          "label": "December 31",
+          "price": 0.994,
+          "delta_24h": 0.864,
+          "is_primary": false
+        },
+        {
+          "label": "March 31, 2027",
+          "price": 0.992,
+          "delta_24h": 0.472,
+          "is_primary": false
+        },
+        {
+          "label": "November 30",
+          "price": 0.9835,
+          "delta_24h": 0.955,
+          "is_primary": true
+        }
+      ],
+      "volume_24h": 44956.19,
+      "volume_1wk": 52374.92,
+      "spike_ratio": 6.01,
+      "liquidity": 78409.58,
+      "open_interest": 71493.79,
+      "comment_count": 0,
+      "created_at": "2026-08-18T19:45:34.15411Z",
+      "end_date": "2027-01-01T04:59:00Z",
+      "age_hours": 2430.2,
+      "tags": [
+        "Geopolitics",
+        "Ukraine Map"
+      ],
+      "description_excerpt": "This market will resolve to “Yes” if, according to the ISW map, Russia captures the building at 48.538085° N, 37.688345° E in Kostyantynivka, Donetsk Oblast, between market creation and the specified date, 11:59 PM ET. The building will be considered captured if any part of the buildings grey area is shaded under a below specified layer on the ISW map (https://storymaps.arcgis.com/stories/36a7f6a6f5a9448496de641cf64b…"
+    },
+    {
+      "guid": "pm:1382473:macro-tech:upd:2026112801",
+      "event_id": "1382473",
+      "slug": "what-technical-failure-caused-the-faas-nationwide-ground-stop",
+      "title": "What technical failure caused the FAA's nationwide ground stop?",
+      "headline": "[UPDATE · 급락 -37%p | 57%→20% · 판세반전] What technical failure caused the FAA's nationwide ground stop? [Software or configuration error] ($36K/24h)",
+      "url": "https://polymarket.com/event/what-technical-failure-caused-the-faas-nationwide-ground-stop",
+      "is_update": true,
+      "prev_published_price": 0.3055,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 204.2,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": true,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "7023983",
+      "primary_label": "Software or configuration error",
+      "outcome_label": "Yes",
+      "price": 0.1995,
+      "delta_1h": 0.013,
+      "delta_6h": -0.016,
+      "delta_24h": -0.371,
+      "delta_7d": -0.4855,
+      "top_outcomes": [
+        {
+          "label": "Software or configuration error",
+          "price": 0.1995,
+          "delta_24h": -0.371,
+          "is_primary": true
+        },
+        {
+          "label": "Cable cut or physical damage",
+          "price": 0.0115,
+          "delta_24h": -0.0925,
+          "is_primary": false
+        },
+        {
+          "label": "SMART AI system",
+          "price": 0.0115,
+          "delta_24h": -0.0025,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 36336.64,
+      "volume_1wk": 261219.43,
+      "spike_ratio": 0.97,
+      "liquidity": 66178.23,
+      "open_interest": 127628.13,
+      "comment_count": 49,
+      "created_at": "2026-11-13T22:27:34.417632Z",
+      "end_date": "2026-12-01T04:59:00Z",
+      "age_hours": 339.5,
+      "tags": [
+        "FAA",
+        "Tech",
+        "hack",
+        "outage",
+        "Flights",
+        "Politics"
+      ],
+      "description_excerpt": "This market will resolve according to the cause or causes to which the U.S. government officially attributes the FAA's nationwide ground stop on November 13, 2026, between market creation and November 30, 2026, 11:59 PM ET. Each market will resolve to \"Yes\" if the U.S. government officially attributes the ground stop to the listed cause within this timeframe. Otherwise, this market will resolve to \"No\". More than one…"
+    },
+    {
+      "guid": "pm:1412255:macro-tech:upd:2026112801",
+      "event_id": "1412255",
+      "slug": "section-232-rate-on-canadian-primary-aluminum",
+      "title": "Canadian unwrought aluminum duty rate on December 31, 2027?",
+      "headline": "[UPDATE · 급등 +13%p | 49%→62% · 판세반전] Canadian unwrought aluminum duty rate on December 31, 2027? [>40-50%] ($47K/24h)",
+      "url": "https://polymarket.com/event/section-232-rate-on-canadian-primary-aluminum",
+      "is_update": true,
+      "prev_published_price": 0.395,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 153.5,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": true,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "7126288",
+      "primary_label": ">40-50%",
+      "outcome_label": "Yes",
+      "price": 0.615,
+      "delta_1h": 0.02,
+      "delta_6h": 0.225,
+      "delta_24h": 0.13,
+      "delta_7d": 0.13,
+      "top_outcomes": [
+        {
+          "label": ">40-50%",
+          "price": 0.615,
+          "delta_24h": 0.13,
+          "is_primary": true
+        },
+        {
+          "label": ">20-40%",
+          "price": 0.22,
+          "delta_24h": 0.005,
+          "is_primary": false
+        },
+        {
+          "label": "Other",
+          "price": 0.075,
+          "delta_24h": -0.0115,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 47067.22,
+      "volume_1wk": 155893.16,
+      "spike_ratio": 2.11,
+      "liquidity": 38809.6,
+      "open_interest": 11026.0,
       "comment_count": 1,
       "created_at": "2026-11-17T21:33:40.10535Z",
       "end_date": "2027-12-31T05:01:00Z",
-      "age_hours": 237.3,
+      "age_hours": 244.4,
       "tags": [
         "Canada",
         "Economy",
@@ -1729,9 +1919,822 @@
         "US Canada Trade War"
       ],
       "description_excerpt": "This market will resolve according to the Section 232 duty rate applicable to Canadian unwrought aluminum as of 12:01 AM ET on December 31, 2027. “Canadian unwrought aluminum” refers to unwrought aluminum not alloyed (HTSUS subheading 7601.10), that is a product of Canada and for which Canada is both the country of smelt and the country of most recent cast. Only the rate applicable generally to Canadian unwrought alu…"
-    }
-  ],
-  "published_items": [
+    },
+    {
+      "guid": "pm:879909:macro-tech:20261128",
+      "event_id": "879909",
+      "slug": "victoria-parliamentary-election-3rd-place",
+      "title": "Victoria Parliamentary Election: 3rd Place",
+      "headline": "[급등 +15%p | 41%→56% · 판세반전] Victoria Parliamentary Election: 3rd Place [Greens] ($31K/24h)",
+      "url": "https://polymarket.com/event/victoria-parliamentary-election-3rd-place",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 147.6,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": true,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "3740666",
+      "primary_label": "Greens",
+      "outcome_label": "Yes",
+      "price": 0.558,
+      "delta_1h": -0.0655,
+      "delta_6h": -0.044,
+      "delta_24h": 0.1455,
+      "delta_7d": 0.248,
+      "top_outcomes": [
+        {
+          "label": "Greens",
+          "price": 0.558,
+          "delta_24h": 0.1455,
+          "is_primary": true
+        },
+        {
+          "label": "One Nation",
+          "price": 0.42,
+          "delta_24h": -0.025,
+          "is_primary": false
+        },
+        {
+          "label": "Labor",
+          "price": 0.0385,
+          "delta_24h": -0.0985,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 31293.93,
+      "volume_1wk": 44427.1,
+      "spike_ratio": 4.93,
+      "liquidity": 266616.93,
+      "open_interest": 27764.22,
+      "comment_count": 1,
+      "created_at": "2026-08-20T09:36:07.285144Z",
+      "end_date": "2026-11-29T04:59:00Z",
+      "age_hours": 2392.3,
+      "tags": [
+        "Politics",
+        "Australia",
+        "Elections",
+        "Global Elections",
+        "International Election Props",
+        "Victoria Election"
+      ],
+      "description_excerpt": "The 2026 Victorian state election is currently scheduled to be held on 28 November 2026 to elect members of the 61st Parliament of Victoria. This market will resolve to \"Yes\" according to which party or coalition wins the third-most seats in the Legislative Assembly (Victoria's lower house) as a result of the next Victorian state election. If the results of this election are not known definitively by March 31, 2027, …"
+    },
+    {
+      "guid": "pm:655483:movers:20261128",
+      "event_id": "655483",
+      "slug": "next-prime-minister-of-serbia-20260629223938642",
+      "title": "Next Prime Minister of Serbia?",
+      "headline": "[급락 -10%p | 67%→57% · 판세반전] Next Prime Minister of Serbia? [Dejan Šoškić] ($154K/24h)",
+      "url": "https://polymarket.com/event/next-prime-minister-of-serbia-20260629223938642",
+      "is_update": false,
+      "prev_published_price": 0.663,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 120.1,
+      "tracks": [
+        "movers",
+        "surge",
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": true,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "2757901",
+      "primary_label": "Dejan Šoškić",
+      "outcome_label": "Yes",
+      "price": 0.566,
+      "delta_1h": -0.005,
+      "delta_6h": 0.1155,
+      "delta_24h": -0.097,
+      "delta_7d": 0.181,
+      "top_outcomes": [
+        {
+          "label": "Dejan Šoškić",
+          "price": 0.566,
+          "delta_24h": -0.097,
+          "is_primary": true
+        },
+        {
+          "label": "Branko Milutinović",
+          "price": 0.1325,
+          "delta_24h": 0.1025,
+          "is_primary": false
+        },
+        {
+          "label": "Miloš Pavlović (former dean of FDU)",
+          "price": 0.065,
+          "delta_24h": null,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 154251.18,
+      "volume_1wk": 348480.14,
+      "spike_ratio": 3.1,
+      "liquidity": 681008.59,
+      "open_interest": 510244.36,
+      "comment_count": 310,
+      "created_at": "2026-07-01T15:53:13.54203Z",
+      "end_date": "2028-07-01T03:59:00Z",
+      "age_hours": 3586.0,
+      "tags": [
+        "Serbia",
+        "Politics",
+        "Elections",
+        "Main Election",
+        "Global Elections",
+        "Serbia Elections"
+      ],
+      "description_excerpt": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Serbia by June 30, 2028, 11:59 PM ET. To count for resolution, the individual must be elected by the National Assembly and be formally sworn-in, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who is not elected by the National Assembly will not count toward the resol…"
+    },
+    {
+      "guid": "pm:653446:movers:20261128",
+      "event_id": "653446",
+      "slug": "next-leader-out-of-power-before-2027-no-starmer-or-petro-20260630194619406",
+      "title": "Next leader out of power before 2027?",
+      "headline": "[급등 +14%p | 56%→70%] Next leader out of power before 2027? [Netanyahu - Israel PM] ($104K/24h)",
+      "url": "https://polymarket.com/event/next-leader-out-of-power-before-2027-no-starmer-or-petro-20260630194619406",
+      "is_update": false,
+      "prev_published_price": 0.56,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 90.7,
+      "tracks": [
+        "movers",
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "2750302",
+      "primary_label": "Netanyahu - Israel PM",
+      "outcome_label": "Yes",
+      "price": 0.705,
+      "delta_1h": null,
+      "delta_6h": -0.015,
+      "delta_24h": 0.145,
+      "delta_7d": 0.375,
+      "top_outcomes": [
+        {
+          "label": "Netanyahu - Israel PM",
+          "price": 0.705,
+          "delta_24h": 0.145,
+          "is_primary": true
+        },
+        {
+          "label": "None before 2027",
+          "price": 0.235,
+          "delta_24h": -0.14,
+          "is_primary": false
+        },
+        {
+          "label": "Sánchez - Spanish PM",
+          "price": 0.0215,
+          "delta_24h": 0.0075,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 104302.15,
+      "volume_1wk": 438987.36,
+      "spike_ratio": 1.66,
+      "liquidity": 913607.12,
+      "open_interest": 159560.26,
+      "comment_count": 0,
+      "created_at": "2026-07-01T02:15:01.973168Z",
+      "end_date": "2027-01-01T04:59:00Z",
+      "age_hours": 3599.7,
+      "tags": [
+        "Starmer",
+        "Politics",
+        "Geopolitics",
+        "UK Labour Leadership"
+      ],
+      "description_excerpt": "This market will resolve according to the first listed individual who ceases to occupy their listed office. An announcement of a resignation/removal, or a scheduled departure from office due to the outcome of an election, will not alone qualify. Only permanent removal from office will qualify for resolution. Temporary removals, such as impeachment suspensions (e.g., Yoon Suk Yeol's recent impeachment), temporary invo…"
+    },
+    {
+      "guid": "pm:995363:movers:upd:2026112801",
+      "event_id": "995363",
+      "slug": "which-math-problems-will-ai-solve-in-2026",
+      "title": "Which math problems will AI solve in 2026?",
+      "headline": "[UPDATE · 급등 +9%p | 69%→78%] Which math problems will AI solve in 2026? [Riemann Hypothesis] ($153K/24h)",
+      "url": "https://polymarket.com/event/which-math-problems-will-ai-solve-in-2026",
+      "is_update": true,
+      "prev_published_price": 0.615,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 90.4,
+      "tracks": [
+        "movers",
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "4418549",
+      "primary_label": "Riemann Hypothesis",
+      "outcome_label": "Yes",
+      "price": 0.78,
+      "delta_1h": -0.13,
+      "delta_6h": 0.155,
+      "delta_24h": 0.09,
+      "delta_7d": -0.085,
+      "top_outcomes": [
+        {
+          "label": "Riemann Hypothesis",
+          "price": 0.78,
+          "delta_24h": 0.09,
+          "is_primary": true
+        },
+        {
+          "label": "Hadwiger-Nelson Problem",
+          "price": 0.175,
+          "delta_24h": -0.01,
+          "is_primary": false
+        },
+        {
+          "label": "Ramsey Number R(5,5)",
+          "price": 0.135,
+          "delta_24h": -0.01,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 153075.29,
+      "volume_1wk": 1189302.26,
+      "spike_ratio": 0.9,
+      "liquidity": 172526.1,
+      "open_interest": 632153.38,
+      "comment_count": 0,
+      "created_at": "2026-09-09T19:44:33.481891Z",
+      "end_date": "2027-01-01T04:59:00Z",
+      "age_hours": 1902.2,
+      "tags": [
+        "AI",
+        "Math",
+        "Tech",
+        "Science",
+        "Millennium Prize",
+        "AI Achievements"
+      ],
+      "description_excerpt": "This market will resolve to \"Yes\" if an eligible AI lab announces a solution to the problem specified in the title by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\". A qualifying announcement must be made by an eligible AI lab or an official representative of the lab, and must express that the problem specified in the title has been solved; announcements of partial results or progress tow…"
+    },
+    {
+      "guid": "pm:1445743:macro-tech:20261128",
+      "event_id": "1445743",
+      "slug": "b300-average-rental-price-in-june-2027",
+      "title": "B300 average rental price in June 2027?",
+      "headline": "[현재 16%] B300 average rental price in June 2027? [Above $18.00] ($31K/24h)",
+      "url": "https://polymarket.com/event/b300-average-rental-price-in-june-2027",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 80.3,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "7277771",
+      "primary_label": "Above $18.00",
+      "outcome_label": "Yes",
+      "price": 0.165,
+      "delta_1h": -0.02,
+      "delta_6h": null,
+      "delta_24h": 0.03,
+      "delta_7d": null,
+      "top_outcomes": [
+        {
+          "label": "Above $4.00",
+          "price": 0.925,
+          "delta_24h": null,
+          "is_primary": false
+        },
+        {
+          "label": "Above $6.00",
+          "price": 0.855,
+          "delta_24h": null,
+          "is_primary": false
+        },
+        {
+          "label": "Above $7.00",
+          "price": 0.815,
+          "delta_24h": null,
+          "is_primary": false
+        },
+        {
+          "label": "Above $18.00",
+          "price": 0.165,
+          "delta_24h": 0.03,
+          "is_primary": true
+        }
+      ],
+      "volume_24h": 30791.69,
+      "volume_1wk": 37570.12,
+      "spike_ratio": 5.74,
+      "liquidity": 508344.64,
+      "open_interest": 10756.33,
+      "comment_count": 0,
+      "created_at": "2026-11-23T03:00:30.715785Z",
+      "end_date": "2027-07-01T03:59:00Z",
+      "age_hours": 118.9,
+      "tags": [
+        "AI",
+        "B300",
+        "Ornn",
+        "Tech",
+        "NVIDIA",
+        "Compute"
+      ],
+      "description_excerpt": "This market will resolve to \"Yes\" if the average Ornn B300 index value in June 2027 is above the specified price. Otherwise, this market will resolve to \"No\". The average Ornn B300 index value in June 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B300 index dated within June 2027, as published by Ornn, rounded to the nearest cent. A daily settled value is considered finalized once…"
+    },
+    {
+      "guid": "pm:848407:surge:20261128",
+      "event_id": "848407",
+      "slug": "taichung-mayor-election-winner-20260813125857400",
+      "title": "Taichung Mayor Election Winner",
+      "headline": "[급락 -7%p | 81%→74%] Taichung Mayor Election Winner [Johnny Chiang] ($118K/24h)",
+      "url": "https://polymarket.com/event/taichung-mayor-election-winner-20260813125857400",
+      "is_update": false,
+      "prev_published_price": 0.222,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 78.7,
+      "tracks": [
+        "surge",
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "3581388",
+      "primary_label": "Johnny Chiang",
+      "outcome_label": "Yes",
+      "price": 0.735,
+      "delta_1h": 0.005,
+      "delta_6h": -0.04,
+      "delta_24h": -0.07,
+      "delta_7d": -0.06,
+      "top_outcomes": [
+        {
+          "label": "Johnny Chiang",
+          "price": 0.735,
+          "delta_24h": -0.07,
+          "is_primary": true
+        },
+        {
+          "label": "Ho Hsin-chun",
+          "price": 0.2665,
+          "delta_24h": 0.066,
+          "is_primary": false
+        },
+        {
+          "label": "Yang Chiung-ying",
+          "price": 0.0005,
+          "delta_24h": 0.0,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 117517.92,
+      "volume_1wk": 218382.2,
+      "spike_ratio": 3.77,
+      "liquidity": 241148.21,
+      "open_interest": 243509.95,
+      "comment_count": 1,
+      "created_at": "2026-08-14T12:50:05.909686Z",
+      "end_date": "2026-11-29T04:59:00Z",
+      "age_hours": 2533.1,
+      "tags": [
+        "Taiwan",
+        "Politics",
+        "Elections",
+        "Main Election",
+        "Global Elections",
+        "Taiwan Elections"
+      ],
+      "description_excerpt": "Taiwanese local elections are scheduled to be held on November 28, 2026. This market will resolve according to the candidate who becomes the next Mayor of Taichung as a result of this election. Temporary, interim, or placeholder Mayors appointed before the election will not be considered. If the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resol…"
+    },
+    {
+      "guid": "pm:848370:surge:20261128",
+      "event_id": "848370",
+      "slug": "taoyuan-mayor-election-winner-20260813125857300",
+      "title": "Taoyuan Mayor Election Winner",
+      "headline": "[자금급증 5.2x | 10%] Taoyuan Mayor Election Winner [Huang Shih-chieh] ($270K/24h)",
+      "url": "https://polymarket.com/event/taoyuan-mayor-election-winner-20260813125857300",
+      "is_update": false,
+      "prev_published_price": 0.0705,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 72.3,
+      "tracks": [
+        "surge",
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "3581102",
+      "primary_label": "Huang Shih-chieh",
+      "outcome_label": "Yes",
+      "price": 0.1025,
+      "delta_1h": 0.007,
+      "delta_6h": 0.0145,
+      "delta_24h": 0.022,
+      "delta_7d": 0.017,
+      "top_outcomes": [
+        {
+          "label": "Chang San-cheng",
+          "price": 0.895,
+          "delta_24h": -0.02,
+          "is_primary": false
+        },
+        {
+          "label": "Huang Shih-chieh",
+          "price": 0.1025,
+          "delta_24h": 0.022,
+          "is_primary": true
+        },
+        {
+          "label": "Perng Shaw-jiin",
+          "price": 0.0005,
+          "delta_24h": 0.0,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 269838.97,
+      "volume_1wk": 363720.13,
+      "spike_ratio": 5.19,
+      "liquidity": 317611.54,
+      "open_interest": 375851.36,
+      "comment_count": 3,
+      "created_at": "2026-08-14T12:37:11.792175Z",
+      "end_date": "2026-11-29T04:59:00Z",
+      "age_hours": 2533.3,
+      "tags": [
+        "Taiwan",
+        "Politics",
+        "Elections",
+        "Main Election",
+        "Global Elections",
+        "Taiwan Elections"
+      ],
+      "description_excerpt": "Taiwanese local elections are scheduled to be held on November 28, 2026. This market will resolve according to the candidate who becomes the next Mayor of Taoyuan as a result of this election. Temporary, interim, or placeholder Mayors appointed before the election will not be considered. If the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resolv…"
+    },
+    {
+      "guid": "pm:994486:movers:upd:2026112801",
+      "event_id": "994486",
+      "slug": "how-many-more-millennium-prize-problems-will-ai-solve-in-2026",
+      "title": "How many more Millennium Prize Problems will AI solve in 2026?",
+      "headline": "[UPDATE · 급락 -5%p | 20%→15%] How many more Millennium Prize Problems will AI solve in 2026? [0] ($56K/24h)",
+      "url": "https://polymarket.com/event/how-many-more-millennium-prize-problems-will-ai-solve-in-2026",
+      "is_update": true,
+      "prev_published_price": 0.315,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 71.8,
+      "tracks": [
+        "movers",
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "4412321",
+      "primary_label": "0",
+      "outcome_label": "Yes",
+      "price": 0.15,
+      "delta_1h": 0.075,
+      "delta_6h": -0.13,
+      "delta_24h": -0.055,
+      "delta_7d": 0.01,
+      "top_outcomes": [
+        {
+          "label": "1",
+          "price": 0.635,
+          "delta_24h": 0.01,
+          "is_primary": false
+        },
+        {
+          "label": "2",
+          "price": 0.177,
+          "delta_24h": 0.0605,
+          "is_primary": false
+        },
+        {
+          "label": "0",
+          "price": 0.15,
+          "delta_24h": -0.055,
+          "is_primary": true
+        }
+      ],
+      "volume_24h": 56337.56,
+      "volume_1wk": 589876.25,
+      "spike_ratio": 0.67,
+      "liquidity": 101164.65,
+      "open_interest": 180665.42,
+      "comment_count": 0,
+      "created_at": "2026-09-09T16:05:19.70338Z",
+      "end_date": "2027-01-01T04:59:00Z",
+      "age_hours": 1905.8,
+      "tags": [
+        "AI",
+        "Math",
+        "Tech",
+        "Science",
+        "CMI",
+        "Millennium Prize"
+      ],
+      "description_excerpt": "This market will resolve according to the number of distinct qualifying Millennium Prize Problems for which an eligible AI lab announces a solution by December 31, 2026, 11:59 PM ET. Each qualifying problem is counted once, regardless of how many eligible AI labs announce a solution to it or how many announcements are made. The qualifying problems are, in alphabetical order, the Birch and Swinnerton-Dyer Conjecture, …"
+    },
+    {
+      "guid": "pm:1305076:macro-tech:20261128",
+      "event_id": "1305076",
+      "slug": "mayor-combo-taipei-and-new-taipei",
+      "title": "Mayor Combo: Taipei and New Taipei",
+      "headline": "[급락 -6%p | 34%→28%] Mayor Combo: Taipei and New Taipei [KMT Taipei, DPP New Taipei] ($42K/24h)",
+      "url": "https://polymarket.com/event/mayor-combo-taipei-and-new-taipei",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 71.1,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "6617893",
+      "primary_label": "KMT Taipei, DPP New Taipei",
+      "outcome_label": "Yes",
+      "price": 0.28,
+      "delta_1h": -0.005,
+      "delta_6h": -0.01,
+      "delta_24h": -0.065,
+      "delta_7d": -0.055,
+      "top_outcomes": [
+        {
+          "label": "DPP sweep",
+          "price": 0.355,
+          "delta_24h": 0.05,
+          "is_primary": false
+        },
+        {
+          "label": "KMT sweep",
+          "price": 0.285,
+          "delta_24h": -0.01,
+          "is_primary": false
+        },
+        {
+          "label": "KMT Taipei, DPP New Taipei",
+          "price": 0.28,
+          "delta_24h": -0.065,
+          "is_primary": true
+        }
+      ],
+      "volume_24h": 42133.81,
+      "volume_1wk": 82191.96,
+      "spike_ratio": 3.59,
+      "liquidity": 244126.47,
+      "open_interest": 64794.2,
+      "comment_count": 0,
+      "created_at": "2026-11-03T02:25:59.660055Z",
+      "end_date": "2026-11-29T04:59:00Z",
+      "age_hours": 599.5,
+      "tags": [
+        "Taiwan",
+        "Politics",
+        "Elections",
+        "Global Elections",
+        "Taiwan Elections"
+      ],
+      "description_excerpt": "This market will resolve according to the outcome of the Taipei and New Taipei mayoral elections that are currently scheduled for November 28, 2026. A candidate will be considered to represent a party by their ballot-listed affiliation or if they are the nominee of that party. Candidates who run as independents will not be encompassed by the “KMT” or “DPP” options regardless of any affiliation they may have with the …"
+    },
+    {
+      "guid": "pm:848341:macro-tech:20261128",
+      "event_id": "848341",
+      "slug": "taipei-mayor-election-winner-20260813125857100",
+      "title": "Taipei Mayor Election Winner",
+      "headline": "[급락 -5%p | 61%→56%] Taipei Mayor Election Winner [Chiang Wan-an] ($1.6M/24h)",
+      "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100",
+      "is_update": false,
+      "prev_published_price": 0.4295,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 67.8,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "3580932",
+      "primary_label": "Chiang Wan-an",
+      "outcome_label": "Yes",
+      "price": 0.56,
+      "delta_1h": 0.005,
+      "delta_6h": -0.025,
+      "delta_24h": -0.055,
+      "delta_7d": -0.095,
+      "top_outcomes": [
+        {
+          "label": "Chiang Wan-an",
+          "price": 0.56,
+          "delta_24h": -0.055,
+          "is_primary": true
+        },
+        {
+          "label": "Puma Shen",
+          "price": 0.4405,
+          "delta_24h": 0.0465,
+          "is_primary": false
+        },
+        {
+          "label": "Kuo Hsi",
+          "price": 0.0005,
+          "delta_24h": 0.0,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 1630551.84,
+      "volume_1wk": 3846389.31,
+      "spike_ratio": 2.97,
+      "liquidity": 968607.81,
+      "open_interest": 4472846.77,
+      "comment_count": 483,
+      "created_at": "2026-08-14T12:24:28.93129Z",
+      "end_date": "2026-11-29T04:59:00Z",
+      "age_hours": 2533.5,
+      "tags": [
+        "Taiwan",
+        "Politics",
+        "Elections",
+        "Main Election",
+        "Global Elections",
+        "Taiwan Elections"
+      ],
+      "description_excerpt": "Taiwanese local elections are scheduled to be held on November 28, 2026. This market will resolve according to the candidate who becomes the next Mayor of Taipei as a result of this election. Temporary, interim, or placeholder Mayors appointed before the election will not be considered. If the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resolve…"
+    },
+    {
+      "guid": "pm:500753:movers:20261128",
+      "event_id": "500753",
+      "slug": "will-anthropics-valuation-hit-by-december-31",
+      "title": "Will Anthropic’s valuation hit __ by December 31?",
+      "headline": "[급락 -11%p | 32%→21%] Will Anthropic’s valuation hit __ by December 31? [↓$800B] ($73K/24h)",
+      "url": "https://polymarket.com/event/will-anthropics-valuation-hit-by-december-31",
+      "is_update": false,
+      "prev_published_price": 0.159,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 65.7,
+      "tracks": [
+        "movers",
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "2299960",
+      "primary_label": "↓$800B",
+      "outcome_label": "Yes",
+      "price": 0.212,
+      "delta_1h": -0.0045,
+      "delta_6h": -0.006,
+      "delta_24h": -0.1145,
+      "delta_7d": -0.081,
+      "top_outcomes": [
+        {
+          "label": "↑$1.6T",
+          "price": 0.215,
+          "delta_24h": 0.05,
+          "is_primary": false
+        },
+        {
+          "label": "↓$800B",
+          "price": 0.212,
+          "delta_24h": -0.1145,
+          "is_primary": true
+        },
+        {
+          "label": "↑$1.75T",
+          "price": 0.145,
+          "delta_24h": 0.03,
+          "is_primary": false
+        }
+      ],
+      "volume_24h": 72818.16,
+      "volume_1wk": 655033.05,
+      "spike_ratio": 0.78,
+      "liquidity": 655754.41,
+      "open_interest": 1957598.65,
+      "comment_count": 0,
+      "created_at": "2026-05-19T04:16:45.70321Z",
+      "end_date": "2027-01-05T04:59:00Z",
+      "age_hours": 4629.7,
+      "tags": [
+        "Finance",
+        "Privates",
+        "llm",
+        "Anthropic",
+        "Dario Amodei",
+        "Claude"
+      ],
+      "description_excerpt": "This market will resolve to \"Yes\" if Anthropic's private market valuation, as measured by the NPM Price reported by Nasdaq Private Market, LLC (NPM) for any date between market creation and December 31, 2026, is equal to or beyond (equal to or above for ↑ HIGH valuations, equal to or below for ↓ LOW valuations) the listed amount. Otherwise, this market will resolve to \"No\". NPM Prices are published for trading days o…"
+    },
+    {
+      "guid": "pm:1445766:macro-tech:20261128",
+      "event_id": "1445766",
+      "slug": "h100-average-rental-price-in-december-2028",
+      "title": "H100 average rental price in December 2028?",
+      "headline": "[급락 -5%p | 77%→72%] H100 average rental price in December 2028? [Above $1.00] ($51K/24h)",
+      "url": "https://polymarket.com/event/h100-average-rental-price-in-december-2028",
+      "is_update": false,
+      "prev_published_price": null,
+      "published_ts": 1795830972,
+      "published_at": "2026-11-28T01:56:12.880259+00:00",
+      "score": 65.1,
+      "tracks": [
+        "macro-tech"
+      ],
+      "is_urgent": false,
+      "urgent_reasons": [],
+      "is_flip": false,
+      "is_focus": true,
+      "is_multi_market": true,
+      "primary_market_id": "7278075",
+      "primary_label": "Above $1.00",
+      "outcome_label": "Yes",
+      "price": 0.725,
+      "delta_1h": 0.03,
+      "delta_6h": 0.03,
+      "delta_24h": -0.05,
+      "delta_7d": null,
+      "top_outcomes": [
+        {
+          "label": "Above $0.25",
+          "price": 0.895,
+          "delta_24h": 0.03,
+          "is_primary": false
+        },
+        {
+          "label": "Above $0.50",
+          "price": 0.805,
+          "delta_24h": 0.0,
+          "is_primary": false
+        },
+        {
+          "label": "Above $1.00",
+          "price": 0.725,
+          "delta_24h": -0.05,
+          "is_primary": true
+        }
+      ],
+      "volume_24h": 50984.68,
+      "volume_1wk": 98269.9,
+      "spike_ratio": 3.63,
+      "liquidity": 237074.17,
+      "open_interest": 13534.07,
+      "comment_count": 0,
+      "created_at": "2026-11-23T03:05:15.407895Z",
+      "end_date": "2029-01-01T04:59:00Z",
+      "age_hours": 118.8,
+      "tags": [
+        "AI",
+        "H100",
+        "Ornn",
+        "Tech",
+        "NVIDIA",
+        "Compute"
+      ],
+      "description_excerpt": "This market will resolve to \"Yes\" if the average Ornn H100 index value in December 2028 is above the specified price. Otherwise, this market will resolve to \"No\". The average Ornn H100 index value in December 2028 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-H100 index dated within December 2028, as published by Ornn, rounded to the nearest cent. A daily settled value is considered fi…"
+    },
     {
       "guid": "pm:1407035:macro-tech:20261127",
       "event_id": "1407035",
@@ -4122,1031 +5125,6 @@
         "Compute"
       ],
       "description_excerpt": "This market will resolve to \"Yes\" if the average Ornn B200 index value in January 2027 is above the specified price. Otherwise, this market will resolve to \"No\". The average Ornn B200 index value in January 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B200 index dated within January 2027, as published by Ornn, rounded to the nearest cent. A daily settled value is considered final…"
-    },
-    {
-      "guid": "pm:1455773:new-hot:20261126",
-      "event_id": "1455773",
-      "slug": "fear-greed-index-on-november-27-2026",
-      "title": "Fear & Greed Index on November 27?",
-      "headline": "[급등 +18%p | 73%→91%] Fear & Greed Index on November 27? [0–24] ($13K/24h)",
-      "url": "https://polymarket.com/event/fear-greed-index-on-november-27-2026",
-      "is_update": false,
-      "prev_published_price": 0.735,
-      "published_ts": 1795736910,
-      "published_at": "2026-11-26T23:48:30.715462+00:00",
-      "score": 113.8,
-      "tracks": [
-        "new-hot"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "7330418",
-      "primary_label": "0–24",
-      "outcome_label": "Yes",
-      "price": 0.91,
-      "delta_1h": null,
-      "delta_6h": 0.005,
-      "delta_24h": 0.175,
-      "delta_7d": null,
-      "top_outcomes": [
-        {
-          "label": "0–24",
-          "price": 0.91,
-          "delta_24h": 0.175,
-          "is_primary": true
-        },
-        {
-          "label": "25–34",
-          "price": 0.09,
-          "delta_24h": -0.035,
-          "is_primary": false
-        },
-        {
-          "label": "45–55",
-          "price": 0.0035,
-          "delta_24h": -0.006,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 13310.11,
-      "volume_1wk": 39009.36,
-      "spike_ratio": 2.39,
-      "liquidity": 43206.68,
-      "open_interest": 8752.48,
-      "comment_count": 0,
-      "created_at": "2026-11-25T00:01:46.997552Z",
-      "end_date": "2026-11-28T04:59:00Z",
-      "age_hours": 47.8,
-      "tags": [
-        "Stocks",
-        "Economy",
-        "Finance",
-        "Rewards 50, 4.5, 20",
-        "Recurring"
-      ],
-      "description_excerpt": "This market will resolve according to the CNN Fear & Greed Index closing value for November 27, 2026. The closing value is the value shown for November 27, 2026 in the \"Timeline\" tab (the historical chart) of the Fear & Greed Index at https://www.cnn.com/markets/fear-and-greed at the time CNN first shows a value for the next trading day after November 27, 2026. Changes CNN makes to the value for November 27, 2026 aft…"
-    },
-    {
-      "guid": "pm:653446:movers:upd:2026112623",
-      "event_id": "653446",
-      "slug": "next-leader-out-of-power-before-2027-no-starmer-or-petro-20260630194619406",
-      "title": "Next leader out of power before 2027?",
-      "headline": "[UPDATE · 자금급증 3.2x | 56%] Next leader out of power before 2027? [Netanyahu - Israel PM] ($169K/24h)",
-      "url": "https://polymarket.com/event/next-leader-out-of-power-before-2027-no-starmer-or-petro-20260630194619406",
-      "is_update": true,
-      "prev_published_price": 0.695,
-      "published_ts": 1795736910,
-      "published_at": "2026-11-26T23:48:30.715462+00:00",
-      "score": 107.3,
-      "tracks": [
-        "movers",
-        "surge",
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "2750302",
-      "primary_label": "Netanyahu - Israel PM",
-      "outcome_label": "Yes",
-      "price": 0.56,
-      "delta_1h": -0.06,
-      "delta_6h": -0.135,
-      "delta_24h": -0.035,
-      "delta_7d": 0.255,
-      "top_outcomes": [
-        {
-          "label": "Netanyahu - Israel PM",
-          "price": 0.56,
-          "delta_24h": -0.035,
-          "is_primary": true
-        },
-        {
-          "label": "None before 2027",
-          "price": 0.375,
-          "delta_24h": 0.04,
-          "is_primary": false
-        },
-        {
-          "label": "Sánchez - Spanish PM",
-          "price": 0.014,
-          "delta_24h": -0.0035,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 169294.37,
-      "volume_1wk": 366979.37,
-      "spike_ratio": 3.23,
-      "liquidity": 855834.43,
-      "open_interest": 154555.65,
-      "comment_count": 0,
-      "created_at": "2026-07-01T02:15:01.973168Z",
-      "end_date": "2027-01-01T04:59:00Z",
-      "age_hours": 3573.6,
-      "tags": [
-        "Starmer",
-        "Politics",
-        "Geopolitics",
-        "UK Labour Leadership"
-      ],
-      "description_excerpt": "This market will resolve according to the first listed individual who ceases to occupy their listed office. An announcement of a resignation/removal, or a scheduled departure from office due to the outcome of an election, will not alone qualify. Only permanent removal from office will qualify for resolution. Temporary removals, such as impeachment suspensions (e.g., Yoon Suk Yeol's recent impeachment), temporary invo…"
-    },
-    {
-      "guid": "pm:1445723:movers:20261126",
-      "event_id": "1445723",
-      "slug": "b300-average-rental-price-in-march-2027",
-      "title": "B300 average rental price in March 2027?",
-      "headline": "[급락 -9%p | 29%→20%] B300 average rental price in March 2027? [Above $14.00] ($160K/24h)",
-      "url": "https://polymarket.com/event/b300-average-rental-price-in-march-2027",
-      "is_update": false,
-      "prev_published_price": 0.355,
-      "published_ts": 1795736910,
-      "published_at": "2026-11-26T23:48:30.715462+00:00",
-      "score": 104.0,
-      "tracks": [
-        "movers",
-        "surge",
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "7277723",
-      "primary_label": "Above $14.00",
-      "outcome_label": "Yes",
-      "price": 0.195,
-      "delta_1h": -0.08,
-      "delta_6h": -0.09,
-      "delta_24h": -0.09,
-      "delta_7d": null,
-      "top_outcomes": [
-        {
-          "label": "Above $4.00",
-          "price": 0.945,
-          "delta_24h": -0.01,
-          "is_primary": false
-        },
-        {
-          "label": "Above $8.00",
-          "price": 0.925,
-          "delta_24h": 0.06,
-          "is_primary": false
-        },
-        {
-          "label": "Above $6.00",
-          "price": 0.925,
-          "delta_24h": 0.02,
-          "is_primary": false
-        },
-        {
-          "label": "Above $14.00",
-          "price": 0.195,
-          "delta_24h": -0.09,
-          "is_primary": true
-        }
-      ],
-      "volume_24h": 159740.5,
-      "volume_1wk": 226703.28,
-      "spike_ratio": 4.93,
-      "liquidity": 321241.37,
-      "open_interest": 70779.79,
-      "comment_count": 0,
-      "created_at": "2026-11-23T03:00:11.404083Z",
-      "end_date": "2027-04-01T03:59:00Z",
-      "age_hours": 92.8,
-      "tags": [
-        "AI",
-        "B300",
-        "Ornn",
-        "Tech",
-        "NVIDIA",
-        "Compute"
-      ],
-      "description_excerpt": "This market will resolve to \"Yes\" if the average Ornn B300 index value in March 2027 is above the specified price. Otherwise, this market will resolve to \"No\". The average Ornn B300 index value in March 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B300 index dated within March 2027, as published by Ornn, rounded to the nearest cent. A daily settled value is considered finalized o…"
-    },
-    {
-      "guid": "pm:1405129:macro-tech:20261126",
-      "event_id": "1405129",
-      "slug": "democratic-nomination-odds-leader-on-december-31",
-      "title": "Democratic nomination odds leader on December 31?",
-      "headline": "[급등 +13%p | 65%→78%] Democratic nomination odds leader on December 31? [Jon Ossoff] ($46K/24h)",
-      "url": "https://polymarket.com/event/democratic-nomination-odds-leader-on-december-31",
-      "is_update": false,
-      "prev_published_price": 0.75,
-      "published_ts": 1795736910,
-      "published_at": "2026-11-26T23:48:30.715462+00:00",
-      "score": 96.8,
-      "tracks": [
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "7104785",
-      "primary_label": "Jon Ossoff",
-      "outcome_label": "Yes",
-      "price": 0.785,
-      "delta_1h": null,
-      "delta_6h": 0.095,
-      "delta_24h": 0.13,
-      "delta_7d": -0.145,
-      "top_outcomes": [
-        {
-          "label": "Jon Ossoff",
-          "price": 0.785,
-          "delta_24h": 0.13,
-          "is_primary": true
-        },
-        {
-          "label": "Alexandria Ocasio-Cortez",
-          "price": 0.185,
-          "delta_24h": 0.01,
-          "is_primary": false
-        },
-        {
-          "label": "Gavin Newsom",
-          "price": 0.017,
-          "delta_24h": -0.014,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 45735.78,
-      "volume_1wk": 100607.04,
-      "spike_ratio": 3.18,
-      "liquidity": 329774.94,
-      "open_interest": 37104.36,
-      "comment_count": 0,
-      "created_at": "2026-11-16T22:19:25.583105Z",
-      "end_date": "2026-12-31T17:00:00Z",
-      "age_hours": 241.5,
-      "tags": [
-        "Politics",
-        "Elections",
-        "Primaries",
-        "Derivatives",
-        "US Election",
-        "2028 Election"
-      ],
-      "description_excerpt": "This market will resolve according to the option with the highest hourly odds value in the \"2028 Democratic Nomination\" listing on PredictionMarketOdds.com for the \"Time Window (ET)\" ending at 12:00 PM ET on December 31, 2026. If that option is not a listed outcome of this market, this market will resolve to \"Other\". An hourly odds value is the value in the \"Odds of Happening\" column that PredictionMarketOdds.com pub…"
-    },
-    {
-      "guid": "pm:192787:movers:20261126",
-      "event_id": "192787",
-      "slug": "what-will-gold-gc-hit-by-end-of-december",
-      "title": "What will Gold (GC) hit__ by end of December?",
-      "headline": "[급락 -14%p | 84%→70%] What will Gold (GC) hit__ by end of December? [↓ $3,500] ($59K/24h)",
-      "url": "https://polymarket.com/event/what-will-gold-gc-hit-by-end-of-december",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795736910,
-      "published_at": "2026-11-26T23:48:30.715462+00:00",
-      "score": 91.2,
-      "tracks": [
-        "movers",
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "3222415",
-      "primary_label": "↓ $3,500",
-      "outcome_label": "Yes",
-      "price": 0.705,
-      "delta_1h": null,
-      "delta_6h": null,
-      "delta_24h": -0.14,
-      "delta_7d": 0.08,
-      "top_outcomes": [
-        {
-          "label": "↓ $3,500",
-          "price": 0.705,
-          "delta_24h": -0.14,
-          "is_primary": true
-        },
-        {
-          "label": "↓ $3,000",
-          "price": 0.071,
-          "delta_24h": -0.068,
-          "is_primary": false
-        },
-        {
-          "label": "↓ $2,500",
-          "price": 0.034,
-          "delta_24h": -0.012,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 59049.03,
-      "volume_1wk": 187739.52,
-      "spike_ratio": 2.2,
-      "liquidity": 725283.87,
-      "open_interest": 1165002.02,
-      "comment_count": 0,
-      "created_at": "2026-01-29T18:08:55.87872Z",
-      "end_date": "2027-01-01T04:59:00Z",
-      "age_hours": 7229.7,
-      "tags": [
-        "Gold",
-        "COMEX Gold Features",
-        "Hide From New",
-        "Commodities",
-        "Finance",
-        "Recurring"
-      ],
-      "description_excerpt": "This market will resolve to \"Yes\" if, on any trading day, the official CME settlement price for the Active Month (front month) of Gold (GC) futures is equal to or above the listed price by the final trading day of December 2026. Otherwise, the market will resolve to \"No\". For CME Gold (GC) futures contracts, the Active Month is the nearest of CME's designated delivery-cycle months (February, April, June, August, Octo…"
-    },
-    {
-      "guid": "pm:1455365:movers:20261126",
-      "event_id": "1455365",
-      "slug": "open-source-model-ranked-1-on-arena-by",
-      "title": "Open-source model ranked #1 on Arena by...?",
-      "headline": "[급락 -12%p | 26%→14%] Open-source model ranked #1 on Arena by...? [June 30, 2027] ($67K/24h)",
-      "url": "https://polymarket.com/event/open-source-model-ranked-1-on-arena-by",
-      "is_update": false,
-      "prev_published_price": 0.375,
-      "published_ts": 1795736910,
-      "published_at": "2026-11-26T23:48:30.715462+00:00",
-      "score": 90.7,
-      "tracks": [
-        "movers",
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "7328316",
-      "primary_label": "June 30, 2027",
-      "outcome_label": "Yes",
-      "price": 0.135,
-      "delta_1h": 0.005,
-      "delta_6h": -0.09,
-      "delta_24h": -0.115,
-      "delta_7d": null,
-      "top_outcomes": [
-        {
-          "label": "December 31, 2027",
-          "price": 0.315,
-          "delta_24h": -0.06,
-          "is_primary": false
-        },
-        {
-          "label": "June 30, 2027",
-          "price": 0.135,
-          "delta_24h": -0.115,
-          "is_primary": true
-        },
-        {
-          "label": "March 31, 2027",
-          "price": 0.115,
-          "delta_24h": -0.01,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 66880.51,
-      "volume_1wk": 150870.17,
-      "spike_ratio": 3.1,
-      "liquidity": 170233.91,
-      "open_interest": 28704.69,
-      "comment_count": 0,
-      "created_at": "2026-11-24T22:00:21.960898Z",
-      "end_date": "2028-01-01T04:59:00Z",
-      "age_hours": 49.8,
-      "tags": [
-        "AI",
-        "Tech",
-        "AI Rankings"
-      ],
-      "description_excerpt": "This market will resolve to “Yes” if an open-source model is ranked first on the arena.ai Text Arena (Overall) leaderboard at any point between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to “No”. An open-source model is any model listed on the Text Arena (Overall) leaderboard with the “License” filter set to “Open Source” and style control off (Adjustments: None), at http…"
-    },
-    {
-      "guid": "pm:1450578:macro-tech:20261126",
-      "event_id": "1450578",
-      "slug": "which-ai-labs-will-be-acquired-before-2028",
-      "title": "Which AI labs will be acquired before 2028?",
-      "headline": "[급락 -12%p | 24%→12%] Which AI labs will be acquired before 2028? [Safe Superintelligence] ($28K/24h)",
-      "url": "https://polymarket.com/event/which-ai-labs-will-be-acquired-before-2028",
-      "is_update": false,
-      "prev_published_price": 0.235,
-      "published_ts": 1795736910,
-      "published_at": "2026-11-26T23:48:30.715462+00:00",
-      "score": 87.8,
-      "tracks": [
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "7299068",
-      "primary_label": "Safe Superintelligence",
-      "outcome_label": "Yes",
-      "price": 0.115,
-      "delta_1h": null,
-      "delta_6h": -0.05,
-      "delta_24h": -0.12,
-      "delta_7d": null,
-      "top_outcomes": [
-        {
-          "label": "Inception Labs",
-          "price": 0.56,
-          "delta_24h": 0.025,
-          "is_primary": false
-        },
-        {
-          "label": "Reflection AI",
-          "price": 0.325,
-          "delta_24h": 0.0,
-          "is_primary": false
-        },
-        {
-          "label": "Physical Intelligence",
-          "price": 0.26,
-          "delta_24h": -0.005,
-          "is_primary": false
-        },
-        {
-          "label": "Safe Superintelligence",
-          "price": 0.115,
-          "delta_24h": -0.12,
-          "is_primary": true
-        }
-      ],
-      "volume_24h": 27707.12,
-      "volume_1wk": 63783.32,
-      "spike_ratio": 3.04,
-      "liquidity": 46676.57,
-      "open_interest": 13250.16,
-      "comment_count": 0,
-      "created_at": "2026-11-24T01:43:17.564789Z",
-      "end_date": "2028-01-01T04:59:00Z",
-      "age_hours": 70.1,
-      "tags": [
-        "AI",
-        "Tech",
-        "Finance",
-        "Big Tech",
-        "Business",
-        "Acquisitions"
-      ],
-      "description_excerpt": "This market will resolve to \"Yes\" if, between market creation and December 31, 2027, 11:59 PM ET, the listed company and/or an acquiring entity officially announce that they have entered into a definitive agreement for that entity to acquire the listed company. Otherwise, this market will resolve to \"No\". The announcement must be made by the listed company, the acquiring entity, or both, for example through a press r…"
-    },
-    {
-      "guid": "pm:1445762:surge:20261126",
-      "event_id": "1445762",
-      "slug": "h100-average-rental-price-in-march-2027",
-      "title": "H100 average rental price in March 2027?",
-      "headline": "[급등 +7%p | 31%→38%] H100 average rental price in March 2027? [Above $3.20] ($166K/24h)",
-      "url": "https://polymarket.com/event/h100-average-rental-price-in-march-2027",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795736910,
-      "published_at": "2026-11-26T23:48:30.715462+00:00",
-      "score": 87.5,
-      "tracks": [
-        "surge",
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "7278025",
-      "primary_label": "Above $3.20",
-      "outcome_label": "Yes",
-      "price": 0.385,
-      "delta_1h": null,
-      "delta_6h": 0.01,
-      "delta_24h": 0.07,
-      "delta_7d": null,
-      "top_outcomes": [
-        {
-          "label": "Above $1.40",
-          "price": 0.955,
-          "delta_24h": 0.0,
-          "is_primary": false
-        },
-        {
-          "label": "Above $1.60",
-          "price": 0.925,
-          "delta_24h": 0.04,
-          "is_primary": false
-        },
-        {
-          "label": "Above $2.00",
-          "price": 0.845,
-          "delta_24h": 0.0,
-          "is_primary": false
-        },
-        {
-          "label": "Above $3.20",
-          "price": 0.385,
-          "delta_24h": 0.07,
-          "is_primary": true
-        }
-      ],
-      "volume_24h": 165772.67,
-      "volume_1wk": 262820.12,
-      "spike_ratio": 4.42,
-      "liquidity": 277168.44,
-      "open_interest": 43099.33,
-      "comment_count": 0,
-      "created_at": "2026-11-23T03:04:10.026215Z",
-      "end_date": "2027-04-01T03:59:00Z",
-      "age_hours": 92.7,
-      "tags": [
-        "AI",
-        "H100",
-        "Ornn",
-        "Tech",
-        "NVIDIA",
-        "Compute"
-      ],
-      "description_excerpt": "This market will resolve to \"Yes\" if the average Ornn H100 index value in March 2027 is above the specified price. Otherwise, this market will resolve to \"No\". The average Ornn H100 index value in March 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-H100 index dated within March 2027, as published by Ornn, rounded to the nearest cent. A daily settled value is considered finalized o…"
-    },
-    {
-      "guid": "pm:648983:macro-tech:20261126",
-      "event_id": "648983",
-      "slug": "next-serbia-presidential-election-winner-20260629192336823",
-      "title": "Next Serbia Presidential Election Winner",
-      "headline": "[급등 +8%p | 86%→94%] Next Serbia Presidential Election Winner [Radomir Saičić] ($69K/24h)",
-      "url": "https://polymarket.com/event/next-serbia-presidential-election-winner-20260629192336823",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795736910,
-      "published_at": "2026-11-26T23:48:30.715462+00:00",
-      "score": 84.3,
-      "tracks": [
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "2735522",
-      "primary_label": "Radomir Saičić",
-      "outcome_label": "Yes",
-      "price": 0.935,
-      "delta_1h": 0.01,
-      "delta_6h": 0.005,
-      "delta_24h": 0.085,
-      "delta_7d": 0.23,
-      "top_outcomes": [
-        {
-          "label": "Radomir Saičić",
-          "price": 0.935,
-          "delta_24h": 0.085,
-          "is_primary": true
-        },
-        {
-          "label": "Vladan Đokić",
-          "price": 0.0175,
-          "delta_24h": -0.0415,
-          "is_primary": false
-        },
-        {
-          "label": "Miloš Parandilović",
-          "price": 0.0125,
-          "delta_24h": 0.0095,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 68736.39,
-      "volume_1wk": 127766.36,
-      "spike_ratio": 3.77,
-      "liquidity": 680899.27,
-      "open_interest": 123306.84,
-      "comment_count": 21,
-      "created_at": "2026-06-29T20:53:18.647684Z",
-      "end_date": "2027-05-02T03:59:00Z",
-      "age_hours": 3602.9,
-      "tags": [
-        "Serbia",
-        "Politics",
-        "Elections",
-        "Main Election",
-        "Global Elections",
-        "Serbia Elections"
-      ],
-      "description_excerpt": "The next Serbian presidential election is currently expected to be held by May 1, 2027. This market pertains to the outcome of the next Serbian presidential election, regardless of whether it follows the scheduled end of the current term or is held earlier. This market will resolve according to the listed candidate that wins the next Serbian presidential election. This market includes any potential second round. If t…"
-    },
-    {
-      "guid": "pm:1373540:movers:20261126",
-      "event_id": "1373540",
-      "slug": "jensen-huang-publicly-testifies-before-congress-byptptpt",
-      "title": "Jensen Huang publicly testifies before Congress by...?",
-      "headline": "[급등 +8%p | 86%→94%] Jensen Huang publicly testifies before Congress by...? [December 7, 2026] ($109K/24h)",
-      "url": "https://polymarket.com/event/jensen-huang-publicly-testifies-before-congress-byptptpt",
-      "is_update": false,
-      "prev_published_price": 0.87,
-      "published_ts": 1795736910,
-      "published_at": "2026-11-26T23:48:30.715462+00:00",
-      "score": 76.2,
-      "tracks": [
-        "movers",
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "7323653",
-      "primary_label": "December 7, 2026",
-      "outcome_label": "Yes",
-      "price": 0.94,
-      "delta_1h": null,
-      "delta_6h": 0.075,
-      "delta_24h": 0.085,
-      "delta_7d": null,
-      "top_outcomes": [
-        {
-          "label": "June 30, 2027",
-          "price": 0.9685,
-          "delta_24h": 0.005,
-          "is_primary": false
-        },
-        {
-          "label": "December 31, 2026",
-          "price": 0.955,
-          "delta_24h": 0.04,
-          "is_primary": false
-        },
-        {
-          "label": "March 31, 2027",
-          "price": 0.955,
-          "delta_24h": 0.01,
-          "is_primary": false
-        },
-        {
-          "label": "December 7, 2026",
-          "price": 0.94,
-          "delta_24h": 0.085,
-          "is_primary": true
-        }
-      ],
-      "volume_24h": 109122.17,
-      "volume_1wk": 258836.19,
-      "spike_ratio": 2.95,
-      "liquidity": 143681.89,
-      "open_interest": 146779.79,
-      "comment_count": 13,
-      "created_at": "2026-11-12T19:34:21.086122Z",
-      "end_date": "2027-07-01T03:59:00Z",
-      "age_hours": 340.2,
-      "tags": [
-        "NVIDIA",
-        "hearing",
-        "Politics",
-        "Jensen Huang",
-        "NVIDIA Earnings"
-      ],
-      "description_excerpt": "This market will resolve to \"Yes\" if Jensen Huang provides public testimony before either chamber of the United States Congress (House of Representatives or Senate), or any of their official committees or subcommittees, between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\". “Public testimony” refers to any testimony that is publicly accessible live (in-person or remo…"
-    },
-    {
-      "guid": "pm:1458422:new-hot:20261126",
-      "event_id": "1458422",
-      "slug": "who-will-trump-speak-to-by-december-31-2026",
-      "title": "Who will Trump speak to by December 31?",
-      "headline": "[급락 -49%p | 51%→2%] Who will Trump speak to by December 31? [Masoud Pezeshkian] ($23K/24h)",
-      "url": "https://polymarket.com/event/who-will-trump-speak-to-by-december-31-2026",
-      "is_update": false,
-      "prev_published_price": null,
-      "published_ts": 1795705598,
-      "published_at": "2026-11-26T15:06:38.724111+00:00",
-      "score": 297.9,
-      "tracks": [
-        "new-hot"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "7344195",
-      "primary_label": "Masoud Pezeshkian",
-      "outcome_label": "Yes",
-      "price": 0.0215,
-      "delta_1h": -0.002,
-      "delta_6h": null,
-      "delta_24h": -0.4885,
-      "delta_7d": null,
-      "top_outcomes": [
-        {
-          "label": "Xi Jinping",
-          "price": 0.9705,
-          "delta_24h": 0.0905,
-          "is_primary": false
-        },
-        {
-          "label": "Mark Carney",
-          "price": 0.945,
-          "delta_24h": 0.41,
-          "is_primary": false
-        },
-        {
-          "label": "Mohammed bin Salman",
-          "price": 0.91,
-          "delta_24h": 0.16,
-          "is_primary": false
-        },
-        {
-          "label": "Masoud Pezeshkian",
-          "price": 0.0215,
-          "delta_24h": -0.4885,
-          "is_primary": true
-        }
-      ],
-      "volume_24h": 22772.87,
-      "volume_1wk": 23192.21,
-      "spike_ratio": 6.87,
-      "liquidity": 163469.72,
-      "open_interest": 11858.02,
-      "comment_count": 0,
-      "created_at": "2026-11-25T13:18:35.910371Z",
-      "end_date": "2027-01-01T04:59:00Z",
-      "age_hours": 25.8,
-      "tags": [
-        "Trump",
-        "Politics",
-        "Geopolitics"
-      ],
-      "description_excerpt": "This market will resolve to \"Yes\" if the listed individual speaks with Donald Trump between market creation and December 31, 2026, 11:59 PM ET. Otherwise, it will resolve to \"No\". Speaking is defined as any verbal interaction between the listed individual and Donald Trump, occurring either in person or through verbal communication by phone or video call. The resolution source will be credible media reporting. However…"
-    },
-    {
-      "guid": "pm:1450805:macro-tech:upd:2026112615",
-      "event_id": "1450805",
-      "slug": "what-will-jensen-huang-say-during-his-gtc-washington-dc-keynote",
-      "title": "What will Jensen Huang say during his GTC Washington, D.C. keynote?",
-      "headline": "[UPDATE · 급락 -34%p | 66%→32% · 판세반전] What will Jensen Huang say during his GTC Washington, D.C. keynote? [SI / Super Intelligence] ($44K/24h)",
-      "url": "https://polymarket.com/event/what-will-jensen-huang-say-during-his-gtc-washington-dc-keynote",
-      "is_update": true,
-      "prev_published_price": 0.44,
-      "published_ts": 1795705598,
-      "published_at": "2026-11-26T15:06:38.724111+00:00",
-      "score": 227.7,
-      "tracks": [
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": true,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "7300521",
-      "primary_label": "SI / Super Intelligence",
-      "outcome_label": "Yes",
-      "price": 0.32,
-      "delta_1h": 0.02,
-      "delta_6h": null,
-      "delta_24h": -0.34,
-      "delta_7d": null,
-      "top_outcomes": [
-        {
-          "label": "Vera Rubin",
-          "price": 0.325,
-          "delta_24h": -0.4,
-          "is_primary": false
-        },
-        {
-          "label": "SI / Super Intelligence",
-          "price": 0.32,
-          "delta_24h": -0.34,
-          "is_primary": true
-        },
-        {
-          "label": "Blackwell",
-          "price": 0.285,
-          "delta_24h": -0.4,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 44245.54,
-      "volume_1wk": 79549.54,
-      "spike_ratio": 3.89,
-      "liquidity": 21788.32,
-      "open_interest": 28292.94,
-      "comment_count": 5,
-      "created_at": "2026-11-24T02:56:04.795104Z",
-      "end_date": "2026-12-02T04:59:00Z",
-      "age_hours": 60.2,
-      "tags": [
-        "Tech",
-        "Culture",
-        "Big Tech",
-        "Mentions"
-      ],
-      "description_excerpt": "Jensen Huang is scheduled to deliver the keynote at NVIDIA GTC Washington, D.C. on December 1, 2026, at 2:00 PM ET (see: https://www.nvidia.com/gtc/dc). This market will resolve to \"Yes\" if Jensen Huang says the listed term during the specified appearance. Otherwise, the market will resolve to \"No\". This market is explicitly about Jensen Huang's keynote at NVIDIA GTC Washington, D.C. The keynote may be given on any d…"
-    },
-    {
-      "guid": "pm:653446:movers:upd:2026112615",
-      "event_id": "653446",
-      "slug": "next-leader-out-of-power-before-2027-no-starmer-or-petro-20260630194619406",
-      "title": "Next leader out of power before 2027?",
-      "headline": "[UPDATE · 급등 +30%p | 40%→70% · 판세반전] Next leader out of power before 2027? [Netanyahu - Israel PM] ($94K/24h)",
-      "url": "https://polymarket.com/event/next-leader-out-of-power-before-2027-no-starmer-or-petro-20260630194619406",
-      "is_update": true,
-      "prev_published_price": 0.465,
-      "published_ts": 1795705598,
-      "published_at": "2026-11-26T15:06:38.724111+00:00",
-      "score": 206.3,
-      "tracks": [
-        "movers",
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": true,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "2750302",
-      "primary_label": "Netanyahu - Israel PM",
-      "outcome_label": "Yes",
-      "price": 0.695,
-      "delta_1h": 0.065,
-      "delta_6h": null,
-      "delta_24h": 0.305,
-      "delta_7d": 0.36,
-      "top_outcomes": [
-        {
-          "label": "Netanyahu - Israel PM",
-          "price": 0.695,
-          "delta_24h": 0.305,
-          "is_primary": true
-        },
-        {
-          "label": "None before 2027",
-          "price": 0.255,
-          "delta_24h": -0.2,
-          "is_primary": false
-        },
-        {
-          "label": "Sánchez - Spanish PM",
-          "price": 0.013,
-          "delta_24h": -0.008,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 94314.98,
-      "volume_1wk": 250822.47,
-      "spike_ratio": 2.63,
-      "liquidity": 835429.3,
-      "open_interest": 156676.2,
-      "comment_count": 0,
-      "created_at": "2026-07-01T02:15:01.973168Z",
-      "end_date": "2027-01-01T04:59:00Z",
-      "age_hours": 3564.9,
-      "tags": [
-        "Starmer",
-        "Politics",
-        "Geopolitics",
-        "UK Labour Leadership"
-      ],
-      "description_excerpt": "This market will resolve according to the first listed individual who ceases to occupy their listed office. An announcement of a resignation/removal, or a scheduled departure from office due to the outcome of an election, will not alone qualify. Only permanent removal from office will qualify for resolution. Temporary removals, such as impeachment suspensions (e.g., Yoon Suk Yeol's recent impeachment), temporary invo…"
-    },
-    {
-      "guid": "pm:34051:movers:20261126",
-      "event_id": "34051",
-      "slug": "netanyahu-out-before-2027",
-      "title": "Netanyahu out by...?",
-      "headline": "[급등 +19%p | 59%→78%] Netanyahu out by...? [March 31, 2027] ($62K/24h)",
-      "url": "https://polymarket.com/event/netanyahu-out-before-2027",
-      "is_update": false,
-      "prev_published_price": 0.525,
-      "published_ts": 1795705598,
-      "published_at": "2026-11-26T15:06:38.724111+00:00",
-      "score": 109.9,
-      "tracks": [
-        "movers",
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "6254929",
-      "primary_label": "March 31, 2027",
-      "outcome_label": "Yes",
-      "price": 0.785,
-      "delta_1h": 0.015,
-      "delta_6h": null,
-      "delta_24h": 0.19,
-      "delta_7d": 0.16,
-      "top_outcomes": [
-        {
-          "label": "June 30, 2027",
-          "price": 0.835,
-          "delta_24h": 0.16,
-          "is_primary": false
-        },
-        {
-          "label": "March 31, 2027",
-          "price": 0.785,
-          "delta_24h": 0.19,
-          "is_primary": true
-        },
-        {
-          "label": "December 31",
-          "price": 0.715,
-          "delta_24h": 0.19,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 62058.81,
-      "volume_1wk": 250429.84,
-      "spike_ratio": 1.73,
-      "liquidity": 146612.89,
-      "open_interest": 426976.62,
-      "comment_count": 29,
-      "created_at": "2025-07-24T23:11:19.184091Z",
-      "end_date": "2027-01-01T04:59:00Z",
-      "age_hours": 11751.9,
-      "tags": [
-        "Geopolitics",
-        "World",
-        "Middle East",
-        "Israel",
-        "Politics",
-        "Earn 3.25%"
-      ],
-      "description_excerpt": "This market will resolve to \"Yes\" if Benjamin Netanyahu announces that he will resign as Prime Minister of Israel, or otherwise steps down from/is removed from this position by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\". Note that an announcement of Benjamin Netanyahu's resignation or removal before the resolution date will suffice to resolve this market to \"Yes\" regardless of if/when…"
-    },
-    {
-      "guid": "pm:85299:movers:20261126",
-      "event_id": "85299",
-      "slug": "ai-bubble-burst-by",
-      "title": "AI bubble burst by...?",
-      "headline": "[급락 -16%p | 50%→34%] AI bubble burst by...? [June 30, 2027] ($58K/24h)",
-      "url": "https://polymarket.com/event/ai-bubble-burst-by",
-      "is_update": false,
-      "prev_published_price": 0.425,
-      "published_ts": 1795705598,
-      "published_at": "2026-11-26T15:06:38.724111+00:00",
-      "score": 88.5,
-      "tracks": [
-        "movers",
-        "macro-tech"
-      ],
-      "is_urgent": false,
-      "urgent_reasons": [],
-      "is_flip": false,
-      "is_focus": true,
-      "is_multi_market": true,
-      "primary_market_id": "4838928",
-      "primary_label": "June 30, 2027",
-      "outcome_label": "Yes",
-      "price": 0.34,
-      "delta_1h": -0.015,
-      "delta_6h": null,
-      "delta_24h": -0.165,
-      "delta_7d": 0.145,
-      "top_outcomes": [
-        {
-          "label": "June 30, 2027",
-          "price": 0.34,
-          "delta_24h": -0.165,
-          "is_primary": true
-        },
-        {
-          "label": "December 31, 2026",
-          "price": 0.14,
-          "delta_24h": -0.1385,
-          "is_primary": false
-        }
-      ],
-      "volume_24h": 57607.76,
-      "volume_1wk": 648731.61,
-      "spike_ratio": 0.62,
-      "liquidity": 49798.2,
-      "open_interest": 369514.95,
-      "comment_count": 166,
-      "created_at": "2025-11-19T14:24:47.154407Z",
-      "end_date": "2027-07-01T03:59:00Z",
-      "age_hours": 8928.7,
-      "tags": [
-        "Business",
-        "Tech",
-        "Finance",
-        "Big Tech",
-        "AI Bubble"
-      ],
-      "description_excerpt": "This market will resolve to \"Yes\" if the AI industry experiences an industry downturn by the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\". For the purposes of this market, the AI industry will be considered to have experienced an industry downturn once at least three of the following events have occurred within 90 days of this market's specified timeframe: - NVIDIA Corporation (NVDA) closi…"
     }
   ]
 }
